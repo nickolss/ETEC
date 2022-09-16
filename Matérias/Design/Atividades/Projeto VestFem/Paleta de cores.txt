@@ -1,0 +1,9 @@
+#EC52F8 (rosa)
+
+#935BF0 (lilas)
+
+#5848D9 (azul escuro)
+
+#526CF8 (azul claro)
+
+#DB3A34 (vermelho)
