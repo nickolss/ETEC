@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendários</title>
+</head>
+<body>
+    <h1>Calendário</h1>
+    <p>Digite um número de 1 à 12</p> <input type="number" name="txtmes" id="txtmes"> <input type="button" value="Verificar" onclick="verificar()">
+
+    <div id="result">
+
+    </div>
+
+    <script>
+        function verificar(){
+            var mes = Number(document.querySelector('input#txtmes').value)
+            var result = document.querySelector('div#result')
+
+            switch (mes){
+                case 1:
+                    result.innerHTML = 'Janeiro'
+                    break
+                case 2:
+                    result.innerHTML = 'Fevereiro'
+                    break
+                case 3:
+                    result.innerHTML = 'Março'
+                    break
+                case 4:
+                    result.innerHTML = 'Abril'
+                    break
+                case 5:
+                    result.innerHTML = 'Maio'
+                    break
+                case 6:
+                    result.innerHTML = 'Junho'
+                    break
+                case 7:
+                    result.innerHTML = 'Julho'
+                    break
+                case 8:
+                    result.innerHTML = 'Agosto'
+                    break
+                case 9:
+                    result.innerHTML = 'Setembro'
+                    break
+                case 10:
+                    result.innerHTML = 'Outubro'
+                    break
+                case 11: 
+                    result.innerHTML = 'Novembro'
+                    break
+                case 12:
+                    result.innerHTML = 'Dezembro'
+                    break
+                default:
+                    result.innerHTML = 'Mês Inexistente'
+                    break
+            }
+        }
+    </script>
+    
+</body>
+</html>

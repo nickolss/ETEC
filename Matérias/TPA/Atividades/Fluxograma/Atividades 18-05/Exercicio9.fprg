@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-18 02:51:21 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6NDg6MjAgIjsyODAy"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6NTE6MjEgIjsxOzI5MDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, altura, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a altura do tri&#226;ngulo:&quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;Digite a base do tri&#226;ngulo:&quot;" newline="True"/>
+            <input variable="base"/>
+            <assign variable="area" expression="(base*altura)/2"/>
+            <output expression="&quot;A &#225;rea &#233; de &quot; &amp;area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

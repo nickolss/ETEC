@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnos de Serviço</title>
+</head>
+<body>
+    <h1>Duração dos turnos</h1>
+    Horário de entrada <input type="number" name="txthora" id="txthora"> <br> <br>
+    <input type="button" value="Ver Horário" onclick="horario()">
+    <div id="resp">
+
+    </div>
+
+    <script>
+        function horario(){
+            var hora = Number(document.querySelector('input#txthora').value)
+            var resp = document.getElementById('resp')
+
+            if (hora>=5 && hora<=12.59){
+                resp.innerHTML = 'Turno da Manhã'
+            }else if(hora>=13 && hora<=20.59){
+                resp.innerHTML = 'Turno da Tarde'
+            }else if(hora>=21 || hora<=4.59){
+                resp.innerHTML = 'Turno da Noite'
+            }
+        }
+    </script>
+</body>
+</html>

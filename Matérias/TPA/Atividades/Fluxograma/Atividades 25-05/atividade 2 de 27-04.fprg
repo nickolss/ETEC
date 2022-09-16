@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-25 02:22:10 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6MTg6MTEgIjsyNzk3"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6MjI6MTAgIjsxOzI4OTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="alt, peso, imc" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite sua altura: &quot;" newline="True"/>
+            <input variable="alt"/>
+            <output expression="&quot;Digite seu peso: &quot;" newline="True"/>
+            <input variable="peso"/>
+            <assign variable="imc" expression="peso/(alt^2)"/>
+            <output expression="&quot;Seu IMC &#233; &quot; &amp;imc" newline="True"/>
+            <if expression="imc&lt;18">
+                <then>
+                    <output expression="&quot;Magreza&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="imc&gt;=18 &amp;&amp; imc&lt;=24.9">
+                        <then>
+                            <output expression="&quot;Saud&#225;vel&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="imc&gt;=25 &amp;&amp; imc&lt;=29.9">
+                                <then>
+                                    <output expression="&quot;Sobrepeso&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="imc&gt;=30">
+                                        <then>
+                                            <output expression="&quot;Obesidade&quot;" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

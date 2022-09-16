@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordem Crescente</title>
+</head>
+<body>
+    <h1>Ordem Crescente dos Números</h1>
+    <p>Digite o primeiro número: <input type="number" name="txtn1" id="txtn1"></p>
+    <p>Digite o segundo número: <input type="number" name="txtn2" id="txtn2"></p>
+    <p>Digite o terceiro número: <input type="number" name="txtn3" id="txtn3"></p>
+    <input type="button" value="Ordenar" onclick="ordenar()">
+
+    <div id="resp"></div>
+
+    <script>
+        function ordenar(){
+            var txtn1 = document.getElementById('txtn1')
+            var txtn2 = document.getElementById('txtn2')
+            var txtn3 = document.getElementById('txtn3')
+
+
+            var n1 = Number(txtn1.value)
+            var n2 = Number(txtn2.value)
+            var n3 = Number(txtn3.value)
+
+            var resp = document.getElementById('resp')
+
+            if (n1<n2 && n1<n3){
+                if(n2<n3){
+                    resp.innerHTML = `A ordem é ${n1} ${n2} e ${n3}`
+                }else if(n3<n2){
+                    resp.innerHTML = `A ordem é ${n1} ${n3} e ${n2}`
+                }
+            }else if(n2<n1 && n2<n3){
+                    if(n1<n3){
+                        rep.innerHTML = `A ordem é ${n2} ${n1} e ${n3}`
+                    }else if(n3<n1){
+                        resp.innerHTML = `A ordem é ${n2} ${n3} e ${n1}`
+                    }
+            }else if(n3<n1 && n3<n2){
+                    if(n1<n2){
+                        resp.innerHTML = `A ordem é ${n3} ${n1} e ${n2}`
+                    }else if(n2<n1){
+                        resp.innerHTML = `A ordem é ${n3} ${n2} e ${n1}`
+                    }
+                }
+            
+        }
+    </script>
+    
+</body>
+</html>

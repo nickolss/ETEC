@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+</head>
+<body>
+    <h1>Convertendo Temperaturas</h1>
+    <p>Digite a temperatura em celsius: <input type="number" name="txtcel" id="txtcel"></p>
+    <input type="button" value="Calcular em Kevin" onclick="calcular()">
+    <div id="resp">
+
+    </div>
+
+    <script>
+        function calcular(){
+            var txtcel = document.getElementById('txtcel')
+            var cel = Number(txtcel.value)
+            var Kevin = cel+273.15
+            var resp = document.getElementById('resp')
+
+            resp.innerHTML = `O valor em Kevin é ${Kevin.toFixed(2)}`
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datas</title>
+</head>
+<body>
+    <h1>Ordenando Datas</h1>
+    
+    Dia1: <input type="number" name="txtdia1" id="txtdia1">
+    Mês1: <input type="number" name="txtmes1" id="txtmes1">
+    Ano1: <input type="number" name="txtano1" id="txtano1"> <br> <br>
+
+    Dia2: <input type="number" name="txtdia2" id="txtdia2">
+    Mês2: <input type="number" name="txtmes2" id="txtmes2">
+    Ano2: <input type="number" name="txtano2" id="txtano2"> <br><br>
+
+    <input type="button" value="Checar" onclick="checar()">
+
+    <div id="result">
+    </div>
+
+    <script>
+        function checar(){
+           //datas txt 1
+            var dia1 = Number(document.querySelector('input#txtdia1').value)
+            var mes1 = Number(document.querySelector('input#txtmes1').value)
+            var ano1 = Number(document.querySelector('input#txtano1').value)
+            
+            var dia2 = Number(document.querySelector('input#txtdia2').value)
+            var mes2 = Number(document.querySelector('input#txtmes2').value)
+            var ano2 = Number(document.querySelector('input#txtano2').value)
+
+            
+            var result = document.querySelector('div#result')
+            
+
+            if (ano1 < ano2){
+                result.innerHTML = `A ordem das datas é: ${dia1}/ ${mes1}/${ano1} e a segunda data é ${dia2}/${mes2}/${ano2}`
+            }else if (ano2<ano1){
+                result.innerHTML = `A ordem das datas é: ${dia2}/${mes2}/${ano2} e a segunda data é ${dia1}/${mes1}/${ano1}`
+            }else if (ano1 == ano2){
+                if(mes1<mes2){
+                    result.innerHTML = `A ordem das datas é: ${dia1}/${mes1}/${ano1} e a segunda data é ${dia2}/${mes2}/${ano2}`
+                }else if(mes2<mes1){
+                    result.innerHTML = `A ordem das datas é: ${dia2}/${mes2}/${ano2} e a segunda data é ${dia1}/${mes1}/${ano1}`
+                }else if(mes1 == mes2){
+                    if(dia1<dia2){
+                        result.innerHTML = `A ordem das datas é: ${dia1}/${mes1}/${ano1} e a segunda data é ${dia2}/${mes2}/${ano2}`
+                    }else if(dia2<dia1){
+                        result.innerHTML = `A ordem das datas é: ${dia2}/${mes2}/${ano2} e a segunda data é ${dia1}/${mes1}/${ano1}`
+                    } else if(dia1 == dia2){
+                        result.innerHTML = 'As datas são identicas'
+                    }
+                }
+            }
+        
+        }
+
+
+    </script>
+</body>
+</html>

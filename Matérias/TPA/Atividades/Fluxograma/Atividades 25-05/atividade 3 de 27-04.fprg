@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-25 02:29:14 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6MjI6MTEgIjsyNzky"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6Mjk6MTQgIjsxOzI5MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lanche" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escolha seu lanche&quot;" newline="True"/>
+            <output expression="&quot;1. BigMac&quot;" newline="True"/>
+            <output expression="&quot;2. Quarteir&#227;o&quot;" newline="True"/>
+            <output expression="&quot;3. MacChiken&quot;" newline="True"/>
+            <output expression="&quot;4. Cheddar MacMelt&quot;" newline="True"/>
+            <output expression="&quot;5. MacMax&quot;" newline="True"/>
+            <input variable="lanche"/>
+            <if expression="lanche=1">
+                <then>
+                    <output expression="&quot;Voc&#234; escolheu BigMac&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="lanche=2">
+                        <then>
+                            <output expression="&quot;Voc&#234; escolheu Quarteir&#227;o&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="lanche=3">
+                                <then>
+                                    <output expression="&quot;Voc&#234; escolheu MacChiken&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="lanche=4">
+                                        <then>
+                                            <output expression="&quot;Voc&#234; escolheu Cheddar MacMalt&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="lanche=5">
+                                                <then>
+                                                    <output expression="&quot;Voc&#234; escolheu MacMax&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

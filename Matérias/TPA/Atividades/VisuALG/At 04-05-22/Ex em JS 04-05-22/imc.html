@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de IMC</title>
+</head>
+<body>
+    <h1>Cálculo de IMC</h1>
+    Peso<input type="number" name="txtpeso" id="txtpeso">
+    Altura<input type="number" name="txtalt" id="txtalt"> <br> <br>
+    <input type="button" value="Calcular" onclick="calcular()"> <br>
+    <div id="result">
+
+    </div>
+
+    <script>
+        function calcular(){
+            var peso = Number(document.querySelector('input#txtpeso').value)
+            var alt = Number(document.querySelector('input#txtalt').value)
+            var imc = Number(peso/(alt*alt))
+
+            var result = document.querySelector('div#result')
+
+            if (imc<18){
+                result.innerHTML = 'Magreza'
+            }else if(imc>=18 && imc<24.9){
+                result.innerHTML = 'Saudável'
+            }else if(imc>=30){
+                result.innerHTML = 'Obesidade'
+            }
+        }
+    </script>
+</body>
+</html>

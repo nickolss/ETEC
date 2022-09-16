@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Micro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-08 10:19:35 "/>
+        <attribute name="created" value="TWljcm87TklDS09MQVM7MjAyMi0wNi0wODsiMTA6MTA6MjYgIjsyMjg3"/>
+        <attribute name="edited" value="TWljcm87TklDS09MQVM7MjAyMi0wNi0wODsiMTA6MTk6MzUgIjsxOzI0MDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mes, dep, juros, depfinal" type="Integer" array="False" size=""/>
+            <assign variable="mes" expression="1"/>
+            <assign variable="juros" expression="(500*1)/100"/>
+            <assign variable="dep" expression="500"/>
+            <do expression="mes&lt;4">
+                <assign variable="depfinal" expression="dep+(mes*juros)"/>
+                <assign variable="mes" expression="mes+1"/>
+            </do>
+            <output expression="&quot;O valor no final de tr&#234;s meses &#233; de &quot; &amp;depfinal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

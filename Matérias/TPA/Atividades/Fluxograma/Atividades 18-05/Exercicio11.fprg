@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-20 09:30:09 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6NTU6NTkgIjsyODEy"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDM6MTg6NTUgIjsyOzI5MTc="/>
+        <attribute name="edited" value="TWljcm87TklDS09MQVM7MjAyMi0wNS0yMDsiMDk6MzA6MDkgIjsxOzIzOTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mili, deci, metros, centi" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um valor em cent&#237;metros:&quot;" newline="True"/>
+            <input variable="centi"/>
+            <assign variable="metros" expression="centi/100"/>
+            <assign variable="deci" expression="centi/10"/>
+            <assign variable="mili" expression="centi*10"/>
+            <output expression="&quot;O n&#250;mero de cent&#237;metros em metros &#233; &quot; &amp;metros&amp; &quot; e em dec&#237;metros &#233; &quot; &amp;deci&amp; &quot; e por fim em mil&#237;metros &#233; &quot; &amp;mili" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

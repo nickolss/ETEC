@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Perímetro</title>
+</head>
+<body>
+    <p>Digite o lado do quadrado: <input type="number" name="txtpe" id="txtpe"></p>
+    <p><input type="button" value="Calcular" onclick="calcular()"></p>    
+
+    <div id="resp">
+
+    </div>
+    <script>
+        function calcular(){
+            var txtpe = document.querySelector('input#txtpe')
+            var lado = Number(txtpe.value)
+            var perimetro = lado*4
+            
+            var resp = document.querySelector('div#resp')
+
+            resp.innerHTML = `O valor do perímetro é ${perimetro}`
+            
+        }
+    </script>
+</body>
+</html>

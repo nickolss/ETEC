@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-20 09:20:59 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6MTg6NTcgIjsyODA5"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6Mzg6MjQgIjsxOzI5MTM="/>
+        <attribute name="edited" value="TWljcm87TklDS09MQVM7MjAyMi0wNS0yMDsiMDk6MjA6NTkgIjsyOzI0MDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salliquido, dependente, salbruto, valordependente" type="Integer" array="False" size=""/>
+            <declare name="valorhora, horatrabalhada" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor de sua hora trabalhada:&quot;" newline="True"/>
+            <input variable="valorhora"/>
+            <output expression="&quot;Digite a quantidade de horas trabalhadas:&quot;" newline="True"/>
+            <input variable="horatrabalhada"/>
+            <output expression="&quot;Digite a quantidade de dependentes:&quot;" newline="True"/>
+            <input variable="dependente"/>
+            <assign variable="valordependente" expression="dependente*300"/>
+            <assign variable="salbruto" expression="(valorhora*horatrabalhada)+valordependente"/>
+            <output expression="&quot;Seu sal&#225;rio bruto &#233; de &quot; &amp;salbruto&amp; &quot;e liquido &#233; de&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

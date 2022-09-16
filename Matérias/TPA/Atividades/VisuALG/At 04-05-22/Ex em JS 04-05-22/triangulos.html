@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triângulos</title>
+</head>
+<body>
+    <h1>Identificador de Triângulos</h1>
+    Primeiro valor  <input type="number" name="txtA" id="txtA"> <br>
+    Segundo valor <input type="number" name="txtB" id="txtB"> <br>
+    Terceiro valor <input type="number" name="txtC" id="txtC"> <br> <br>
+    <input type="button" value="Identificar Triângulo" onclick="calcular()">
+
+    <div id="resp">
+         
+    </div>
+    
+    <script>
+        function calcular(){
+            var A = Number(document.querySelector('input#txtA').value)
+            var B = Number(document.querySelector('input#txtB').value)
+            var C = Number(document.querySelector('input#txtC').value)
+
+            var resp = document.querySelector('div#resp')
+
+            if (A<(B+C) || B<(A+C) || C<(A+B)){
+                if(A==B && B==C && C==A){
+                    resp.innerHTML = 'É um triângulo Equilátero'
+                }else if(A!=B && B!=C && C!=A){
+                    resp.innerHTML = 'É um triângulo Escaleno'
+                }else if(A==B && A!=C || A==C && A!=B || C==B && C!=A){
+                    resp.innerHTML = 'É um triângulo Isósceles'
+                }
+
+            }else{
+                resp.innerHTML = 'Não é um triângulo'
+            }
+        }
+    </script>
+    
+</body>
+</html>

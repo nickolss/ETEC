@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+<body>
+    <h1>IMC ideal</h1>
+    <p>Digite sua altura: <input type="number" name="txtalt" id="txtalt"></p>
+    <p>Digite seu sexo: <input type="radio" name="tsexo" id="tmas">Masculino
+    <input type="radio" name="tsexo" id="tfem">Feminino</p>
+    <input type="button" value="Calcular IMC" onclick="calcular()">
+    <div id="resp">
+
+    </div>
+
+    <script>
+        function calcular(){
+            var txtalt = document.getElementById('txtalt')
+            var altura = Number(txtalt.value)
+            var tsexo = document.getElementsByName('tsexo')
+            var resp = document.getElementById('resp')
+
+            if (tsexo[0].checked){
+                var imc = (72.7*altura)-58
+                resp.innerHTML = `Seu peso ideal é de ${imc.toFixed(2)}`
+            }else if(tsexo[1].checked){
+                var imc = (62.1*altura)-44.7
+                resp.innerHTML = `Seu peso ideal é de ${imc.toFixed(2)}`
+            }
+            
+        }
+    </script>
+    
+</body>
+</html>

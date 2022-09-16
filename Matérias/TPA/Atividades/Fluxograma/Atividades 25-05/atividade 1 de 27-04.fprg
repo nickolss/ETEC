@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-25 02:18:10 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6MTI6MjcgIjsyNzk4"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6MTg6MTAgIjsxOzI5MDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="horaen" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite seu hor&#225;rio de entrada: &quot;" newline="True"/>
+            <input variable="horaen"/>
+            <if expression="horaen&gt;=5 &amp;&amp; horaen&lt;=12.59">
+                <then>
+                    <output expression="&quot;Seu turno &#233; o da manh&#227;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="horaen&gt;=13 &amp;&amp; horaen&lt;=20.59">
+                        <then>
+                            <output expression="&quot;Seu turno &#233; o da tarde&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="horaen&gt;=21 or horaen&lt;=4.59">
+                                <then>
+                                    <output expression="&quot;Seu turno &#233; o da noite&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

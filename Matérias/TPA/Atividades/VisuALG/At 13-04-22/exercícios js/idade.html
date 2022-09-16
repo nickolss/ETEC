@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+</head>
+<body>
+    <h1>Calcular Maioridade</h1>
+    <p>Digite seu ano de nascimento: <input type="number" name="txtanonasc" id="txtanonasc"></p>
+    <input type="button" value="Calcular" onclick="calcular()">
+    <div id="resp">
+
+    </div>
+
+    <script>
+        function calcular(){
+            var txtanonasc = document.getElementById('txtanonasc')
+            var anonasc = Number(txtanonasc.value)
+            var data = new Date()
+            var anoat = data.getFullYear()
+            var idade = anoat-anonasc
+            var resp = document.querySelector('div#resp')
+
+            resp.innerHTML = anoat
+
+            if (idade>=18){
+                resp.innerHTML = `Você é maior de idade e tem ${idade}`
+            }else{
+                resp.innerHTML = `Você é menor de idade e tem ${idade}`
+            }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-20 09:18:13 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6NDI6MDMgIjsyNzk3"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6NDU6MDAgIjsxOzI5MDU="/>
+        <attribute name="edited" value="TWljcm87TklDS09MQVM7MjAyMi0wNS0yMDsiMDk6MTg6MTMgIjsyOzI0MDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anonasc, anoat, idadeat, idade2050" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o seu ano de nascimento:&quot;" newline="True"/>
+            <input variable="anonasc"/>
+            <output expression="&quot;Digite o ano atual:&quot;" newline="True"/>
+            <input variable="anoat"/>
+            <assign variable="idade2050" expression="2050-anonasc"/>
+            <assign variable="idadeat" expression="anoat-anonasc"/>
+            <output expression="&quot;Sua idade atual &#233; de &quot; &amp;idadeat&amp; &quot; anos e em 2050 &quot; &amp;idade2050&amp; &quot; anos&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

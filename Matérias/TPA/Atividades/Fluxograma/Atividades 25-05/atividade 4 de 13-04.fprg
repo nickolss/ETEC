@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-25 02:12:14 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6MTA6MjMgIjsyNzky"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6MTI6MTQgIjsxOzI5MDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anonasc, idade, anoat" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o ano atual: &quot;" newline="True"/>
+            <input variable="anoat"/>
+            <output expression="&quot;Digite o seu ano de nascimento: &quot;" newline="True"/>
+            <input variable="anonasc"/>
+            <assign variable="idade" expression="anoat-anonasc"/>
+            <if expression="idade&gt;=18">
+                <then>
+                    <output expression="&quot;Atingiu a maioridade&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#227;o atingiu a maioridade&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

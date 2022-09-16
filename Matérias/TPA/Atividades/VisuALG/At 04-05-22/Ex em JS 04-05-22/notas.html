@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body>
+    <h1>Cálculo de Notas Finais</h1>
+    Primeira nota  <input type="number" name="txtn1" id="txtn1"> <br>
+    Segunda nota <input type="number" name="txtn2" id="txtn2"> <br>
+    Terceira nota <input type="number" name="txtn3" id="txtn3"> <br>
+    Quarta nota <input type="number" name="txtn4" id="txtn4"> <br> <br>
+
+    <input type="button" value="Calcular Média" onclick="calcular()">
+
+    <div id="resp">
+
+    </div>
+    <script>
+        function calcular(){
+            var n1 = Number(document.querySelector('input#txtn1').value)
+            var n2 = Number(document.querySelector('input#txtn2').value)
+            var n3 = Number(document.querySelector('input#txtn3').value)
+            var n4 = Number(document.querySelector('input#txtn4').value)
+            var media = Number((n1+n2+n3+n4)/4)
+
+            var resp = document.querySelector('div#resp')
+
+            if (media>=9){
+                resp.innerHTML = `NOTA A COM MÉDIA ${media}`
+            }else if(media>=7){
+                resp.innerHTML = `NOTA B COM MÉDIA ${media}`
+            }else if(media>=5){
+                resp.innerHTML = `NOTA C COM MÉDIA ${media}`
+            }else if(media>=2.5){
+                resp.innerHTML = `NOTA D COM MÉDIA ${media}`
+            }else if(media<2.5){
+                resp.innerHTML = `NOTA E COM MÉDIA ${media}`
+            }
+        }
+    </script>
+     
+</body>
+</html>

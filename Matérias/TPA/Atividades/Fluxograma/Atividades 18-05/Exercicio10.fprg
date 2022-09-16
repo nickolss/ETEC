@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-22 12:26:13 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6NTE6MjMgIjsyNzk5"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6NTU6NTcgIjsxOzI5MTg="/>
+        <attribute name="edited" value="TWljcm87TklDS09MQVM7MjAyMi0wNS0yMjsiMTI6MjY6MTMgIjszOzIzOTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="not1, not2, not3, not4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite seu nome:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite sua primeira nota:&quot;" newline="True"/>
+            <input variable="not1"/>
+            <output expression="&quot;Digite sua segunda nota:&quot;" newline="True"/>
+            <input variable="not2"/>
+            <output expression="&quot;Digite sua terceira nota:&quot;" newline="True"/>
+            <input variable="not3"/>
+            <output expression="&quot;Digite sua quarta nota:&quot;" newline="True"/>
+            <input variable="not4"/>
+            <assign variable="media" expression="(not1+not2+not3+not4)/4"/>
+            <output expression="nome&amp; &quot; a m&#233;dia de seu boletim &#233; de &quot; &amp;media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

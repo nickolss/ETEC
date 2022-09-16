@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-18 02:48:19 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6NDU6MDIgIjsyNzk5"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6NDg6MTkgIjsxOzI5MTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, n, result" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor de X:&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Digite o valor de N:&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="result" expression="(x*n)^2"/>
+            <output expression="&quot;O resultado da opera&#231;&#227;o &#233; &quot; &amp;result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

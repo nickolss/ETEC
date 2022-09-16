@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-25 03:00:44 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6NDk6MzAgIjsyODAy"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDM6MDA6NDQgIjsxOzI5MDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dia1, dia2, mes1, mes2, ano1, ano2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro dia: &quot;" newline="True"/>
+            <input variable="dia1"/>
+            <output expression="&quot;Digite o primeiro m&#234;s: &quot;" newline="True"/>
+            <input variable="mes1"/>
+            <output expression="&quot;Digite o primeiro ano: &quot;" newline="True"/>
+            <input variable="ano1"/>
+            <output expression="&quot;Digite o segundo dia: &quot;" newline="True"/>
+            <input variable="dia2"/>
+            <output expression="&quot;Digite o segundo m&#234;s: &quot;" newline="True"/>
+            <input variable="mes2"/>
+            <output expression="&quot;Digite o segundo ano: &quot;" newline="True"/>
+            <input variable="ano2"/>
+            <if expression="ano1&lt;ano2">
+                <then>
+                    <output expression="&quot;A ordem das datas &#233;&quot;" newline="True"/>
+                    <output expression="&quot;Primeiro &quot; &amp;dia1&amp; &quot;/ &quot;&amp;mes1&amp; &quot;/&quot; &amp;ano1" newline="True"/>
+                    <output expression="&quot;Segundo &quot; &amp;dia2&amp; &quot;/ &quot;&amp;mes2&amp; &quot;/&quot; &amp;ano2" newline="True"/>
+                </then>
+                <else>
+                    <if expression="ano2&lt;ano1">
+                        <then>
+                            <output expression="&quot;A ordem das datas &#233;&quot;" newline="True"/>
+                            <output expression="&quot;Primeiro &quot; &amp;dia2&amp; &quot;/ &quot;&amp;mes2&amp; &quot;/&quot; &amp;ano2" newline="True"/>
+                            <output expression="&quot;Segundo &quot; &amp;dia1&amp; &quot;/ &quot;&amp;mes1&amp; &quot;/&quot; &amp;ano1" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="ano1=ano2">
+                                <then>
+                                    <if expression="mes1&lt;mes2">
+                                        <then>
+                                            <output expression="&quot;A ordem das datas &#233;&quot;" newline="True"/>
+                                            <output expression="&quot;Primeiro &quot; &amp;dia1&amp; &quot;/ &quot;&amp;mes1&amp; &quot;/&quot; &amp;ano1" newline="True"/>
+                                            <output expression="&quot;Segundo &quot; &amp;dia2&amp; &quot;/ &quot;&amp;mes2&amp; &quot;/&quot; &amp;ano2" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="mes2&lt;mes1">
+                                                <then>
+                                                    <output expression="&quot;A ordem das datas &#233;&quot;" newline="True"/>
+                                                    <output expression="&quot;Primeiro &quot; &amp;dia2&amp; &quot;/ &quot;&amp;mes2&amp; &quot;/&quot; &amp;ano2" newline="True"/>
+                                                    <output expression="&quot;Segundo &quot; &amp;dia1&amp; &quot;/ &quot;&amp;mes1&amp; &quot;/&quot; &amp;ano1" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="mes1=mes2">
+                                                        <then>
+                                                            <if expression="dia1&lt;dia2">
+                                                                <then>
+                                                                    <output expression="&quot;A ordem das datas &#233;&quot;" newline="True"/>
+                                                                    <output expression="&quot;Primeiro &quot; &amp;dia1&amp; &quot;/ &quot;&amp;mes1&amp; &quot;/&quot; &amp;ano1" newline="True"/>
+                                                                    <output expression="&quot;Segundo &quot; &amp;dia2&amp; &quot;/ &quot;&amp;mes2&amp; &quot;/&quot; &amp;ano2" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="dia2&lt;dia1">
+                                                                        <then>
+                                                                            <output expression="&quot;A ordem das datas &#233;&quot;" newline="True"/>
+                                                                            <output expression="&quot;Primeiro &quot; &amp;dia2&amp; &quot;/ &quot;&amp;mes2&amp; &quot;/&quot; &amp;ano2" newline="True"/>
+                                                                            <output expression="&quot;Segundo &quot; &amp;dia1&amp; &quot;/ &quot;&amp;mes1&amp; &quot;/&quot; &amp;ano1" newline="True"/>
+                                                                        </then>
+                                                                        <else>
+                                                                            <if expression="dia1=dia2">
+                                                                                <then>
+                                                                                    <output expression="&quot;As datas s&#227;o iguais&quot;" newline="True"/>
+                                                                                </then>
+                                                                                <else/>
+                                                                            </if>
+                                                                        </else>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </then>
+                                                        <else/>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

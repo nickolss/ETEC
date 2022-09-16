@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonalds</title>
+</head>
+<body> 
+    <h1>Pedidos</h1>
+
+    <h2>Lanches</h2>
+    <p>1- BigMac</p>
+    <p>2- Quarteirão</p>
+    <p>3- McChicken</p>
+    <p>4- Cheddar Mcmelt</p>
+    <p>5- McMax</p>
+
+    Digite um número de 1 à 5 <input type="number" name="txtped" id="txtped"> <br> <br>
+    <input type="button" value="Calcular Preço" onclick="calcular()">
+
+    <div id="result">
+
+    </div>
+
+    <script>
+        function calcular(){
+            var ped = Number(document.querySelector('input#txtped').value)
+            var result = document.querySelector('div#result')
+
+            switch (ped){
+                case 1:
+                    result.innerHTML = 'Seu lanche é um BigMac'
+                    break
+
+                case 2: 
+                    result.innerHTML = 'Seu lanche é um Quarteirão'
+                    break
+
+                case 3: 
+                    result.innerHTML = 'Seu lanche é um MacChicken'
+                    break
+
+                case 4: 
+                    result.innerHTML = 'Seu lanche é um Cheddar MacMelt'
+                    break
+
+                case 5: 
+                    result.innerHTML = 'Seu lanche é um MacMax'
+                    break
+                
+                default:
+                    result.innerHTML = 'Código Inválido'
+                    break
+            }
+        }
+    </script>
+</body>
+</html>

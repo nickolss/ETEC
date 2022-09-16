@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de tintas</title>
+</head>
+<body>
+    <script>
+        var alt=Number(window.prompt('Digite a altura da parede'))
+        var larg=Number(window.prompt('Digite a largura da parede'))
+        var area_parede=alt*larg
+        var area_lata=5*3
+        var quant_lata=area_parede/area_lata
+        document.writeln(`A quantidade de latas é de ${quant_lata.toFixed(2)}`)
+        var preco=quant_lata*100
+        document.writeln(`O preço total fica em ${preco.toFixed(2)}`)
+    </script>
+</body>
+</html>

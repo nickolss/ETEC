@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-25 02:08:23 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6MDQ6NTIgIjsyNzk3"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6MDg6MjMgIjsxOzI5MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="multa, quantpeixe, quantmais" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite a quantidade de peixes pegos: &quot;" newline="True"/>
+            <input variable="quantpeixe"/>
+            <if expression="quantpeixe&lt;=50">
+                <then>
+                    <output expression="&quot;Valor da multa: R$00,00&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="quantmais" expression="(quantpeixe-50)"/>
+            <assign variable="multa" expression="quantmais*4"/>
+            <output expression="&quot;A sua multa &#233; de: R$&quot; &amp;multa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

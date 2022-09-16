@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Micro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-08 09:21:50 "/>
+        <attribute name="created" value="TWljcm87TklDS09MQVM7MjAyMi0wNi0wODsiMDk6MTQ6NDUgIjsyMzAw"/>
+        <attribute name="edited" value="TWljcm87TklDS09MQVM7MjAyMi0wNi0wODsiMDk6MjE6NTAgIjsxOzI0MDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anoat, anonasc, idade, idade2050" type="Integer" array="False" size=""/>
+            <assign variable="anoat" expression="2022"/>
+            <declare name="resp" type="String" array="False" size=""/>
+            <do expression="resp=&quot;S&quot;">
+                <output expression="&quot;Digite o ano que voc&#234; nasceu: &quot;" newline="True"/>
+                <input variable="anonasc"/>
+                <assign variable="idade" expression="anoat-anonasc"/>
+                <assign variable="idade2050" expression="2050-anonasc"/>
+                <output expression="&quot;Sua idade atual &#233; &quot; &amp;idade" newline="True"/>
+                <output expression="&quot;Sua idade em 2050 ser&#225; de &quot; &amp;idade2050" newline="True"/>
+                <output expression="&quot;Deseja calcular novamente? [S/N]&quot;" newline="True"/>
+                <input variable="resp"/>
+            </do>
+            <output expression="&quot;OBS: LA&#199;O DE REPETI&#199;&#195;O FA&#199;A USANDO PARAMETRO VERDADEIRO&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

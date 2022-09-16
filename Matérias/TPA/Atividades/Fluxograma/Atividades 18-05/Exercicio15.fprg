@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Micro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-20 09:09:03 "/>
+        <attribute name="created" value="TWljcm87TklDS09MQVM7MjAyMi0wNS0yMDsiMDk6MDA6NDQgIjsyMjg3"/>
+        <attribute name="edited" value="TWljcm87TklDS09MQVM7MjAyMi0wNS0yMDsiMDk6MDk6MDMgIjsxOzIzOTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="raio, altura, areacir, areaparede, areaexterna" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o raio da lata:&quot;" newline="True"/>
+            <input variable="raio"/>
+            <output expression="&quot;Digite a altura da lata:&quot;" newline="True"/>
+            <input variable="altura"/>
+            <assign variable="areacir" expression="3.14*raio^2"/>
+            <assign variable="areaparede" expression="3.14*2*raio*altura"/>
+            <assign variable="areaexterna" expression="(areacir*2)+areaparede"/>
+            <output expression="&quot;A &#225;rea dessa lata &#233; de &quot; &amp;areaexterna" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

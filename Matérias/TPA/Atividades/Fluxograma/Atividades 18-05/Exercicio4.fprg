@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-20 09:10:24 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6MDQ6MTkgIjsyODAy"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMjE7MjAyMi0wNS0xODsiMDI6MTg6NTYgIjsxOzI5MTY="/>
+        <attribute name="edited" value="TWljcm87TklDS09MQVM7MjAyMi0wNS0yMDsiMDk6MTA6MjQgIjsxOzIzOTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="depoinicio, depofinal" type="Integer" array="False" size=""/>
+            <assign variable="depoinicio" expression="500"/>
+            <assign variable="depofinal" expression="depoinicio+(0.01*500*3)"/>
+            <output expression="&quot;o valor final do dep&#243;sito depoius de tr&#234;s meses &#233; &quot; &amp; depofinal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-25 02:44:12 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6Mzg6NDcgIjsyODA4"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6NDQ6MTIgIjsxOzI5MDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4, med" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite a primeira nota:&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite a segunda nota:&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Digite a terceira nota:&quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Digite a quarta nota:&quot;" newline="True"/>
+            <input variable="n4"/>
+            <assign variable="med" expression="(n1+n2+n3+n4)/4"/>
+            <if expression="med&gt;=9">
+                <then>
+                    <output expression="&quot;Aluno APROVADO com nota A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="med&gt;=7 &amp;&amp; med&lt;9">
+                        <then>
+                            <output expression="&quot;Aluno APROVADO com nota B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="med&gt;=5 &amp;&amp; med&lt;7">
+                                <then>
+                                    <output expression="&quot;Aluno APROVADO com nota C&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="med&gt;=2.5 &amp;&amp; med&lt;5">
+                <then>
+                    <output expression="&quot;Aluno REPROVADO com nota D&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="med&lt;2.5">
+                        <then>
+                            <output expression="&quot;Aluno REPROVADO com nota E&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

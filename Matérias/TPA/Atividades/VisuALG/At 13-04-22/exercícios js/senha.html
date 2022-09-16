@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senha</title>
+</head>
+<body>
+    <h1>Teste de Senha</h1>
+    <p>Digite a senha: <input type="number" name="txtsenha" id="txtsenha"></p>
+    <input type="button" value="Conferir" onclick="validar()">
+    <div id="resp"></div>
+
+    <script>
+        function validar(){
+            var txtsenha = document.getElementById('txtsenha')
+            var senha = Number(txtsenha.value)
+            var resp = document.getElementById('resp')
+
+            if (senha!=1234){
+                resp.innerHTML = 'Senha incorreta'
+            }else{
+                resp.innerHTML = 'Bem vindo, usuário'
+            }
+        }
+    </script>
+</body>
+</html>

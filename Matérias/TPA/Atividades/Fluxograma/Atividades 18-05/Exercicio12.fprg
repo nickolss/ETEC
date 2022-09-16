@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Micro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-18 08:57:39 "/>
+        <attribute name="created" value="TWljcm87TklDS09MQVM7MjAyMi0wNS0xODsiMDg6NTM6NTIgIjsyMzAw"/>
+        <attribute name="edited" value="TWljcm87TklDS09MQVM7MjAyMi0wNS0xODsiMDg6NTc6MzkgIjsxOzI0MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="seg, h, min" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor em segundos:&quot;" newline="True"/>
+            <input variable="seg"/>
+            <assign variable="h" expression="seg/3600"/>
+            <assign variable="min" expression="seg/60"/>
+            <output expression="&quot;A quantidade de segundos em horas &#233; de &quot; &amp;h&amp; &quot; e em minutos &#233; de &quot; &amp;min" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Micro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-24 09:58:22 "/>
+        <attribute name="created" value="TWljcm87TklDS09MQVM7MjAyMi0wNS0xODsiMDg6NTc6NDEgIjsyMzAy"/>
+        <attribute name="edited" value="TWljcm87TklDS09MQVM7MjAyMi0wNS0yNDsiMDk6NTg6MjIgIjszOzI0MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, delta, x1, x2" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o A da fun&#231;&#227;o:&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Digite o B da fun&#231;&#227;o:&quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;Digite o C da fun&#231;&#227;o:&quot;" newline="True"/>
+            <input variable="C"/>
+            <assign variable="delta" expression="(B^2)-(4*A*C)"/>
+            <if expression="delta&lt;0">
+                <then>
+                    <output expression="&quot;N&#227;o existe ra&#237;z&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="x1" expression="(-(B)+sqr(delta))/2*A"/>
+            <assign variable="x2" expression="(-(B)-sqr(delta))/2*A"/>
+            <output expression="&quot;A primeira ra&#237;z &#233; &quot; &amp;x1&amp; &quot; e a segunda &quot; &amp;x2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

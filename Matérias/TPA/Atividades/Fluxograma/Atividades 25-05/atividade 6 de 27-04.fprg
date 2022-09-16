@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-25 02:49:29 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6NDQ6MjcgIjsyODAz"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6NDk6MjkgIjsxOzI5MTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite a idade do nadador: &quot;" newline="True"/>
+            <input variable="idade"/>
+            <if expression="idade&gt;=18">
+                <then>
+                    <output expression="&quot;Senior&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="idade&gt;=14 &amp;&amp; idade&lt;=17">
+                        <then>
+                            <output expression="&quot;Juvenil B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="idade&gt;=11 &amp;&amp; idade&lt;=13">
+                                <then>
+                                    <output expression="&quot;Juvenil A&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="idade&gt;=8 &amp;&amp; idade&lt;=10">
+                                        <then>
+                                            <output expression="&quot;Infantil B&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="idade&gt;=5 &amp;&amp; idade&lt;=7">
+                                                <then>
+                                                    <output expression="&quot;Infantil A&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="idade&lt;5">
+                                                        <then>
+                                                            <output expression="&quot;Idade insuficiente&quot;" newline="True"/>
+                                                        </then>
+                                                        <else/>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

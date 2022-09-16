@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-15 01:19:35 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0wMzsyMDIyLTA2LTE1OyIwMToxMTozMyAiOzIwMDM="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0wMzsyMDIyLTA2LTE1OyIwMToxOTozNSAiOzE7MjEyMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tipcalc" type="String" array="False" size=""/>
+            <declare name="n1, n2, result" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite o segundo n&#250;mero: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Opera&#231;&#245;es dispon&#237;veis&quot;" newline="True"/>
+            <output expression="&quot;Adi&#231;&#227;o +&quot;" newline="True"/>
+            <output expression="&quot;Subtra&#231;&#227;o - &quot;" newline="True"/>
+            <output expression="&quot;Multiplica&#231;&#227;o *&quot;" newline="True"/>
+            <output expression="&quot;Divis&#227;o /&quot;" newline="True"/>
+            <output expression="&quot;Digite o s&#237;mbolo da opera&#231;&#227;o desejada: &quot;" newline="True"/>
+            <input variable="tipcalc"/>
+            <if expression="tipcalc=&quot;+&quot;">
+                <then>
+                    <assign variable="result" expression="n1+n2"/>
+                </then>
+                <else>
+                    <if expression="tipcalc=&quot;-&quot;">
+                        <then>
+                            <assign variable="result" expression="n1-n2"/>
+                        </then>
+                        <else>
+                            <if expression="tipcalc=&quot;*&quot;">
+                                <then>
+                                    <assign variable="result" expression="n1*n2"/>
+                                </then>
+                                <else>
+                                    <if expression="tipcalc=&quot;/&quot;">
+                                        <then>
+                                            <assign variable="result" expression="n1/n2"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;O resultado da sua opera&#231;&#227;o &#233; &quot; &amp;result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peixes</title>
+</head>
+<body>
+    <h1>Calcular Multa de Pesca</h1>
+    <p>Quilos pescados: <input type="number" name="txtquilo" id="txtquilo"></p>
+    <input type="button" value="Calcular Multa" onclick="calcular()">
+    <div id="resp"></div>
+
+    <script>
+        function calcular(){
+            var txtquilo = document.getElementById('txtquilo')
+            var quiloP = Number(txtquilo.value)
+            var resp = document.getElementById('resp')
+            
+            if (quiloP>50){
+                var quiloMult = quiloP-50
+                var Multa = quiloMult*4
+                resp.innerHTML = `O valor da multa é de ${Multa}`
+            }else if(quiloP<=50){
+                resp.innerHTML = 'Você não excedeu a quantidade de quilos.'
+            }
+        }
+    </script>
+</body>
+</html>

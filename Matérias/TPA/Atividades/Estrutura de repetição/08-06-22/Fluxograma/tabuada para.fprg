@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-08 03:19:24 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0wMjsyMDIyLTA2LTA4OyIwMzoxNzoyNCAiOzIwMTI="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0wMjsyMDIyLTA2LTA4OyIwMzoxOToyNCAiOzE7MjEyMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cont, num, resp" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe um n&#250;mero para o c&#225;lculo da tabuada: &quot;" newline="True"/>
+            <input variable="num"/>
+            <for variable="cont" start="0" end="10" direction="inc" step="1">
+                <assign variable="resp" expression="cont*num"/>
+                <output expression="cont&amp; &quot;*&quot; &amp;num&amp; &quot;=&quot; &amp;resp" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

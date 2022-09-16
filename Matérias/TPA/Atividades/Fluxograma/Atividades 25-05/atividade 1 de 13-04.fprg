@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-25 02:04:51 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDE6MTY6NTAgIjsyNzk3"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6MDQ6NTEgIjszOzI5MDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sexo" type="String" array="False" size=""/>
+            <declare name="pesoid, altura" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite seu sexo: &quot;" newline="True"/>
+            <output expression="&quot;M para masculino&quot;" newline="True"/>
+            <output expression="&quot;F para Feminino&quot;" newline="True"/>
+            <input variable="sexo"/>
+            <output expression="&quot;Digite sua altura: &quot;" newline="True"/>
+            <input variable="altura"/>
+            <if expression="sexo=&quot;F&quot;">
+                <then>
+                    <assign variable="pesoid" expression="(62.1*altura)-44.7"/>
+                </then>
+                <else>
+                    <assign variable="pesoid" expression="(72.7*altura)-58"/>
+                </else>
+            </if>
+            <output expression="&quot;O seu peso ideal &#233; de &quot; &amp;pesoid" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

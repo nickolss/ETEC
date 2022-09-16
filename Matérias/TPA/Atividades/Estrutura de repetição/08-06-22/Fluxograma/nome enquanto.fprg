@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-08 03:23:20 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0wMjsyMDIyLTA2LTA4OyIwMzoxOTozMiAiOzIwMTM="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0wMjsyMDIyLTA2LTA4OyIwMzoyMzoyMCAiOzE7MjExMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="resp, nome" type="String" array="False" size=""/>
+            <output expression="&quot;Deseja realizar o programa? [S/N]&quot;" newline="True"/>
+            <input variable="resp"/>
+            <while expression="resp=&quot;S&quot;">
+                <output expression="&quot;Informe o nome: &quot;" newline="True"/>
+                <input variable="nome"/>
+                <output expression="&quot;Informe a idade: &quot;" newline="True"/>
+                <input variable="idade"/>
+                <output expression="nome&amp; &quot; tem &quot; &amp;idade&amp; &quot; anos.&quot;" newline="True"/>
+                <output expression="&quot;Deseja continuar? [S/N]&quot;" newline="True"/>
+                <input variable="resp"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

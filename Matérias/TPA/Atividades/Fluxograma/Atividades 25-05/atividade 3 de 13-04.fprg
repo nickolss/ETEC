@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-25 02:10:17 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6MDg6MjggIjsyODA0"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDM7MjAyMi0wNS0yNTsiMDI6MTA6MTcgIjsxOzI5MDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="senha, senhaval" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite a senha: &quot;" newline="True"/>
+            <input variable="senha"/>
+            <assign variable="senhaval" expression="1234"/>
+            <if expression="senha=senhaval">
+                <then>
+                    <output expression="&quot;Senha correta&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Senha incorreta. Tente novamente.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
