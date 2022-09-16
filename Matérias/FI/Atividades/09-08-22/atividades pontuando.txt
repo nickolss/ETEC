@@ -1,0 +1,27 @@
+1- Um sistema operacional é um software que permite a interconexão do usuário a máquina, do hardware e software. Os exemplos mais famosos são Windows e MacOs, mas também existe o Linux, Solaris e outros.
+
+2- Máquina virtual, ou máquina virtualizada, é basicamente a criação de um computador dentro de outro. Sua principal vantagem é a segurança, pois a máquina virtual não afeta a máquina real como em casdo a máquina virtualizada sofra um malware a máquina original não sofre consequencias.
+
+3- Os Sistemas Operacionais são divididos em quantidade de bits, dividido entre 32, 64 bits e misto. 
+
+4- Porque sistemas monoprogramáveis conseguem executar apenas uma tarefa por vez e consequentemente precisam substituir uma tarefa por outra. 
+
+5- Sistemas Monoprogramáveis podem executar apenas uma tarefa por vez enquanto multiprogramaiveis mais de uma tarefa.
+
+6- A principal vantagem é a produtividade de executar mais de uma tarefa por vez.
+
+7- Sistemas monousuário, como dito em seu nome, suporta apenas um usuário o manuseando enquanto os multiusuários podem suportar mais de um usuário usando conexão de rede e consequentemente são multitarefas.
+
+8- Sim, pois suas capacidades de execução de tarefas permanecem com a função de multitarefa mesmo com um usuario unico.
+
+9- Eram os sistemas em lote que foram considerados os primeiros Sistemas Operacionais, esses sistemas Batch eram multiprogramáiveis através de cartões perfurados e armazenamento em discos ou fitas. Esses sistemas possuiam processos que eram chamados na época de "Jobs".
+
+10- Basicamente ele divide o tempo do processador em intervalos entre as tarefas, chamados time slice, e caso a tarefa não seja executada ele interrompe a tarefa e fica aguardando até uma outro time slice continuar sua execução. Sua principal vantagem é a distribuição igual entre o processador. 
+
+11- No sistema de tempo real, o processo utiliza do processador durante o tempo necessário até sua conclusão enquanto nos de tempo compartilhado os processos são executados enquanto tem um time slice até ser substituído por outro programa. Sistemas de tempo real são normalmente empregados em tecnologias que precisam de um processo muito preciso como na área da saúde e de tempo compartilhado são usados para tarefas com mais de um cálculo ao mesmo como em atividades com vários usuários.
+
+12- Sâo sistemas com mais de uma unidade de processamento e suas vantagens incluem maior velocidade de processamento e a capacidade de executar várois programas ao mesmo tempo
+
+13- Os sistemas fortemente acoplados compartilham de uma mesma memória enquanto os multiprocessadores, ou chamados de fracamente acoplados, utilizam de mais de uma unidade de memória para a distribuição.
+
+14- Basicamente ela pega alguns componentes do hardware para simular outro computador, com todas as suas funções, em software. Consequentemente é a criação de um computador dentro de outro. 
