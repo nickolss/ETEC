@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+
+}
+
+body{
+    background-color: #013E6B;
+    background-image: url(../img/logo\ show\ do\ milhao.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed    ;
+}
+

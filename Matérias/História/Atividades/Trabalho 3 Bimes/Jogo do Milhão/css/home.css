@@ -1,0 +1,43 @@
+@font-face {
+    font-family: '8bit';
+    src: url(../fonts/V5Xtende.ttf);
+}
+
+:root{
+    --fontebase: '8bit'; 
+}
+
+
+*{
+    margin: 0px;
+
+}
+
+body{
+    background-color: #013E6B;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-family: var(--fontebase);
+}
+
+img{
+    margin: auto;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+input{
+    border: 8px solid #ff0000;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ffff00;
+    font-family: var(--fontebase);
+}
+
+
+
