@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(178, 178, 226, 0.767);
+    font: normal 1.2em Arial;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+}
+
+section{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
+}
+
+#tabe{
+    width: 150px;
+}
+
+footer{
+    text-align: center; 
+    color: #fff;
+    font-style: italic;
+}

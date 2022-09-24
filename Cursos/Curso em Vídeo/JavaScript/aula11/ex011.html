@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Nacionalidade</title>
+	</head>
+	<body>
+		<h1>Nacionalidades</h1>
+		Digite seu país natal: <input type="text" name="txtnacio" id="txtnacio" />
+		<input type="button" value="Verificar Nacionalidade" id="btn" />
+		<div id="resp"></div>
+
+		<script>
+			var btn = document.getElementById("btn");
+			btn.addEventListener("click", verificar);
+
+			function verificar() {
+				var txtnacio = document.getElementById("txtnacio");
+				var nacio = String(txtnacio.value);
+				var resp = document.getElementById("resp");
+
+				resp.innerHTML = `Nascendo no/na ${nacio} você é: `;
+
+				if (nacio == "Brasil" || nacio == "brasil") {
+					resp.innerHTML += "Brasileiro/a";
+				} else {
+					resp.innerHTML += "Estrangeiro";
+				}
+			}
+		</script>
+	</body>
+</html>
