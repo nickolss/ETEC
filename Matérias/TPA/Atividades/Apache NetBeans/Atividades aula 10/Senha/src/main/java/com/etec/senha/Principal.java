@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author nicks
  */
-public class Senha {
+public class Principal {
     public static Scanner teclado = new Scanner(System.in);
     
     public static String senha;

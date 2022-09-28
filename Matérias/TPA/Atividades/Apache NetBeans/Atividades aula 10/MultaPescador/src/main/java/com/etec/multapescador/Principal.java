@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author nicks
  */
-public class MultaPescador {
+public class Principal {
     public static Scanner teclado = new Scanner(System.in);
     
     public static float pesomais, quilos, mult;
