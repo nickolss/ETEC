@@ -1,4 +1,0 @@
-#000000 - Preto
-#1A2329- Chumbo
-#E73232 - Vermelho
-#7C92A1 - Cinza
