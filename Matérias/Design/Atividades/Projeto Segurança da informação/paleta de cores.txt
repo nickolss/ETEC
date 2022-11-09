@@ -1,4 +1,4 @@
-#807ADA - Roxo
-#7A92F0 - azul escurinho
-#BA75E6 - violeta
-#46418C - azul escuro
+#7D75E6
+#827AF0
+#8079D9
+#46418C
