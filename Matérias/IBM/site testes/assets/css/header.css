@@ -2,16 +2,16 @@
 	background-color: hsla(195, 98%, 19%, 0.600);
 	box-shadow: 0px 5px 5px 0px #888;
 	text-align: center;
-	margin-right: 0.1px;
+	margin-right: 0px;
+	
 }
-#correcao{
-		margin-right: 0.1px;
-}
-.borda{
-	border: 1px solid red;
-}
+
+
 .redes_header{
 	margin-top: 24px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .nav_header{
@@ -20,6 +20,7 @@
 
 .login_header{
 	margin-top: 14px;
+	
 	
 }
 .menu{
@@ -33,26 +34,39 @@
 	margin: 0px 20px 0px 0px;
 	}
 
-
+.alinhar{
+	text-align: center;
+}
 a{
 	text-decoration: none;
+	color: white;
 	font-size: 1.1em;
-	color: white;
-	
 }
-a:hover{
-	color: white;
-	font-weight: lighter;
-	transition: 0.5s;
-	padding: 8px;
-	border: 2px solid white;
-	border-radius: 13px;
-}
-a.link:hover{
-	border: none;
-}
+a:hover.red{
+			font-size: 1.3em;
+			color: white;
+			
+		    transition: all 0.3s ease;
+		    cursor: pointer;
+		}
+.redes_header a{
+			display: block;
+	}
 
+.redes_header a:hover{
+			transform: scale(1.1);
+		    transition: all 0.3s ease;
+		    cursor: pointer;
+		}
+.login_header a{
+			display: block;
+	}
 
+.login_header a:hover{
+			transform: scale(1.1);
+		    transition: all 0.3s ease;
+		    cursor: pointer;
+		}
 
 body{
 	font-size: 1em;
@@ -72,6 +86,9 @@ body{
 
 		display: block;
 	}
+	li.l{
+        text-align: center;
+    }
 
 }
 /*Fim header*/
