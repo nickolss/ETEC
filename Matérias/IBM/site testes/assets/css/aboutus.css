@@ -1,3 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@font-face{
+    font-family: 'Fast-hand';
+    src: url('../fonte/fast-hand.otf');
+}
+
+body{
+    font-family: Inter, sans-serif;
+}
+
+main{
+    width: 90vw;
+    margin: auto;
+}
+
 h1,h2{
     text-transform: uppercase;
+    color: #DF7369;
+    text-shadow: 1.5px 1.5px 1.5px #002532;
+}
+
+h3{
+    color: #003445;
+    font-size: 1.2rem;
+}
+
+.divisao{
+    width: 30vw;
+    margin: auto;
+}
+
+.about__titulo-princ{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 30px;
+}
+
+.about__titulo{
+    font-size: 2rem;
+    margin: 50px;
+}
+
+.about__historia{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.about__conteudo{
+    margin-bottom: 5%;
+}
+
+.about__caracteristicas-principal{
+    margin: auto;
+    width: 65vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}   
+
+.about__selecoes{
+    margin-bottom: 10%;
+}
+
+.about__subtitulo{
+    font-size: 1rem;
+    color: #002532;
+    text-shadow: none;
+}
+
+.about__caracteristicas-secundarias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.about__carac-cards{
+    margin: auto;
+    text-align: center;
+}
+
+.about__conteudo-card{
+    text-align: left;
+}
+
+
+.about__visao{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about__visao-card{
+    margin: 5% 0;
+    background-color: #D9D9D9;
+    margin: 0 10px;
+    height: 150px;
+}
+
+.about__visao-card > h3{
+    text-align: left;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.about__visao-card > p{
+    padding: 10px;
+}
+
+.about__comofazemos-titulo{
+    text-align: center;
+    font-size: 2rem;
+    padding: 25px 0;
+}
+
+.about__comofazemos-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comofazemos-img__item{
+    padding: 20px;
+    text-align: center;
 }
