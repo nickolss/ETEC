@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Coluna Login */
+
+.conteudo-login__botao-login, .conteudo-login__opcoes-login{
+    color: #fff;
+    border-radius: 15px;
+    height: 50px;
+    margin: 5px 10px;
+    font-weight: 700;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Inter' , sans-serif;
+    margin: 10% auto;
+}
+
+.conteudo-login__login{
+
+}
+
+.conteudo-login__titulo{
+    font-size: 2rem;  
+    color: #003445;  
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.conteudo-login__button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.separador{
+    grid-column: 2 span;
+    text-align: center;
+}
+
+.conteudo-login__opcoes-login{
+    background-color: #014961;
+    border: 1px solid #014961;
+}
+
+
+
+.conteudo-login__formulario{
+    
+}
+
+.conteudo-login__email{
+    padding: 10px 0;
+    display: block;
+}
+
+.conteudo-login__email > input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.conteudo-login__password{
+    padding: 10px 0;
+    display: block;
+}
+
+.conteudo-login__password > input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.conteudo-login__mais-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0; 
+}
+
+.conteudo-login__botao-princ{
+
+}
+
+.conteudo-login__botao-login{
+    background-color: #DF7369;
+    border: 1px solid #DF7369;
+    margin: 15px 0 25px 0;
+}
+
+.conteudo-login__cadastrar{
+
+}
+
+
+.conteudo-login__cadastrar > p > a{
+    color: #000;
+    font-weight: bold;
+}
+
+/* Coluna Imagem*/
+
+
+.conteudo-login__imagem{
+
+}
