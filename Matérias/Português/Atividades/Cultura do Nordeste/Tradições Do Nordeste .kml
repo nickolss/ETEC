@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1X3R0w-g81-8bm28sYiDxVhbA80zBZjek">
+	<name>Tradições Do Nordeste</name>
+	<gx:CascadingStyle kml:id="__managed_style_15020E7B98261CF03131">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/simple_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_033F4F818C261CF03131">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_15020E7B98261CF03131</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0819E3AA00261CF03132</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_21A20ED476261CF0312F">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff007cf5</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_181FAC41F7261CF0312F">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff007cf5</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0ADDD63EB9261CF0312F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_181FAC41F7261CF0312F</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_21A20ED476261CF0312F</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_02B329F823261CF0312B">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_19C6425DDC261CF03127">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_04B2132F2B261CF03127">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_19C6425DDC261CF03127</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_056B63AEBC261CF03128</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0DBD7A4774261CF0311D">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=7b1fa2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0634F83114261CF0312A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_11A4A47E5E261CF0312A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_02B329F823261CF0312B</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_16BAC6D69E261CF0311C">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=7b1fa2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_01818B63BE261CF03119">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_105712DF99261CF03119</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_22BD88F7A3261CF03119</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_22BD88F7A3261CF03119">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff5053ef</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0EBA67F4D6261CF03105">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/slide_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<bgColor>ff4f4737</bgColor>
+				<displayMode>fullscreen</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0049AB9E07261CF03116">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2006&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_056B63AEBC261CF03128">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_105712DF99261CF03119">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff5053ef</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1FA9DF6F36261CF03111">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd27619</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0D5846555A261CF03115">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1CA9CA3C31261CF03115</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0049AB9E07261CF03116</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_056DFBFDE0261CF03111">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1FA9DF6F36261CF03111</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0097C7F4DE261CF03112</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0819E3AA00261CF03132">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/simple_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_18C9579EA2261CF0310E">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff9f3f30</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_058EB726BD261CF030FD">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0D87D6EB0C261CF03107">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2163&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_240B527E65261CF0310E">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff9f3f30</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1CA9CA3C31261CF03115">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2006&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_02815BA550261CF030FC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_17A731FB81261CF030FC</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_058EB726BD261CF030FD</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_06071E4213261CF03106">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_16261460E3261CF03106</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0D87D6EB0C261CF03107</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_11A4A47E5E261CF0312A">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_13808BED9D261CF03104">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/slide_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<bgColor>ff4f4737</bgColor>
+				<displayMode>fullscreen</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_09192FA663261CF03104">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_13808BED9D261CF03104</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0EBA67F4D6261CF03105</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_16261460E3261CF03106">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2163&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0D7A640276261CF0311C">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_16BAC6D69E261CF0311C</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0DBD7A4774261CF0311D</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0097C7F4DE261CF03112">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd27619</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_17A731FB81261CF030FC">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_09D570E931261CF0310E">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_18C9579EA2261CF0310E</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_240B527E65261CF0310E</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="00328E7F62261859F463">
+		<name>Bahia faz divisa com oito estados</name>
+		<description><![CDATA[<div>Geograficamente a Bahia faz fronteira com 8 estados, sendo eles<br></div><div>Piauí, Alagoas, Sergipe, Pernambuco, Tocantins, Goiás, Minas Gerais e Espírito Santo</div>]]></description>
+		<LookAt>
+			<longitude>-39.19284246884845</longitude>
+			<latitude>-13.06863005398945</latitude>
+			<altitude>234.6390222357428</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>502248.0551252514</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_02815BA550261CF030FC</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5a0ordzhkK3R2V3RKajB3M1ZWU2xzdmJibHRnUFRHTVNiZFZCVGJvVStrdVBZVGpNbmhiRjB0aERHSUt3aXVqQkxSTkJvSEVmbTMyVU9id3JVcWZEK3FqblJHbDB0K29mRTN6OTdhSUlKcTRNOFpXamlMbEZYTHF3V1JrRHJQa2svZU45dzVCbWVSakV3cVZ3N1dUK1JKM2NTYnpOaXJwQXhGK2FSdGJMWHQwaVJuR05VRXFadnFuVnB6emxMZEV0ODFSVUoyK2xtTlA5anZzQlNSM3cyQjI0REJxUlUyQVFsRS8rZmI2SDd3bHVzc0xRPT0">
+				<gx:ImageUrl>https://doc-00-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/gbcuqbt975lvfl79uu9lm80mi8/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9kHhoXez4AuHHqyo9TxTiGSvRv5JuCVfAHSPZ34zyGxEhDxnTswX0OwvvDRsEijYY4iFUnDVDESFXESsrLxhdNfbW9lFr4LlBddoyEv5_g05manLeYYhQ82iwz08JnuANl8ujm0IwZMDNFTJgvDtuxvOFCRN6PIpK9fHEzroXGy45QANVdXV0khl9OSTAo9g80?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>-38.50880130251438,-12.98371307217664,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08952D1F252615E6C3D4">
+		<name>Tradições do Nordeste.</name>
+		<description><![CDATA[<div><br></div><div><br></div><div><br></div><div><b><i>Os nordestinos possuem uma cultura muito variada com influência de povos </i></b><br></div><div><b><i>indígenas africanos e europeus foi a primeira região colonizada pelos</i></b><br></div><div><b><i>portugueses no Brasil. A cultura nordestina é considerada rica, tendo muita</i></b><br></div><div><b><i>história folclórica na literatura brasileira, além das populares,</i></b><br></div><div><b><i>comidas para os mais variados gostosos, sendo conhecido até mundialmente,</i></b><br></div><div><b><i>costume de todos os tipos</i></b><br></div>]]></description>
+		<LookAt>
+			<longitude>-40.37043819152167</longitude>
+			<latitude>-10.67295908665687</latitude>
+			<altitude>677.1875759731178</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>5219055.31179607</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_09192FA663261CF03104</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bjl6UnpIMWFjQVl3QU9ieFhYY2FzVFJxRldmcXBvTzBxMWdqem5BbXNpOW40NkhNVHVDRi9zVk5wdWs1ZGw3ekhtM2ovUjdJd1JRRzVVTkpZU3AzUVBDUVd6RytnR0pWQlpBcUt0YWl3VzYxanFWUmxOekZ5SlMxS0dZM3h0d0M2NG5IdUg3RnVWMDd2UjBXVFR2UkxRdzFDUjJ2K1hYWlViMlNsQjgrejlMaVhMaE5wRnl4ak8rZllva3FqdWsya0NySkxVWWxPTXNHc2tOVGwxK3VoMmROaGNHSjgyWWJTandkRFRCRlNlREhIRTlRPT0">
+				<gx:ImageUrl>https://doc-0c-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/blltqhatnv6nfecvinpu5pcfbg/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9kFHdiJpo_9qGNvAWvucHJO2-tco52WCY-lXV4ICArElB4kuQI72X8Q5wspzjHa7EwiC9liSh--CaLBroHUFKVYwfZV7uq4shd9syveZ8jNbJZ1IdV0wxiYKFIzZKx5Oa5S02RCeOBgh64VKB56V7ne-LxhuERjgIvuYTRU9By-eByk3ip8pt9MXEokoR34sS0?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+	</Placemark>
+	<Placemark id="0277E5C3C92615ED4DE1">
+		<name>A Romaria de Finados de Juazeiro do Norte</name>
+		<description><![CDATA[<div><b><i>Diversos eventos religiosos fazem parte das manifestações culturais nordestinas. </i></b><i></i><br></div><div><i></i><br></div><div><b><i>Dentre as festas cristãs muito populares no Nordeste, a Romaria de Finados de Juazeiro do Norte, no Ceará,</i></b><i></i><br></div><div><b><i>reúne milhares de pessoas. O evento homenageia Padre Cícero, que é considerado um santo popular, sendo carinhosamente</i></b><i></i><br></div><div><b><i>chamado de Padim Ciço.</i></b><i></i><br></div><div><b><i></i></b><br></div>]]></description>
+		<LookAt>
+			<longitude>-39.32093266687815</longitude>
+			<latitude>-7.202206422271619</latitude>
+			<altitude>388.0343882794753</altitude>
+			<heading>0.465385473228172</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>246.8926788537283</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_06071E4213261CF03106</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bk9COWUwZ21KRVBBWXRCYzl6QjR2N0pNQXFyNWtMSldiY2tORGpMUk45TnNIdWVwR21UVXRNZHJiMlRrYys5cE5qOEpaK1JkNWlJZ1AvMFRFOTFqd0lVMWd0U2ppVGIrMWUyY1JLQU14cW52NUhoZW82M2xZOTlCWC9xWTZqWDFBRUErNjZKNXVsQjZzYWtXdVc3Ti92VVRzcWdxaFBnS05pMm1YN1VnVmxzN0FuUVJaSDBNMUR5N2x3TG5pNWlaUlpmS3BGYlhuT2tsM005aklQVVczQnEweXk3NDBRdVp1Sis4Vlc3akJXdHJJMFFRPT0">
+				<gx:ImageUrl>https://doc-00-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/4sjpt1ntqap0391a7kbgvoimdo/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9l-PlSzlLb4WacsqVKGL9b3W4ksvNkr4468Sv5GhRjqnNjJsoDn88_TwcWrivhrSKIHd5XI2_JZAdiTHZhlPO_pAcKsq68DwLEDvTS_u_plhVflJmArQ9YYblxkzy_lKCUP4HORMAeotavjxJ1tj3oA3C4beTbhYOk9BeU998HRDx1zO2mX-AuUTu-8wcxr7Kk?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>-39.14728598172709,-7.657782610007565,389.8081178038959</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09209E36352615EEEA25">
+		<name>Festa de Nossa Senhora do Carmo, padroeira do Recife</name>
+		<description><![CDATA[<div><b><i>A Festa de Nossa Senhora do Carmo, padroeira do Recife, é outra manifestação que atrai milhares de fiéis todos os anos, </i></b><i></i><br></div><div><b><i>nas missas rezadas nas proximidades do dia da santa, bem como na tradicional procissão em sua devoção.</i></b><br></div>]]></description>
+		<LookAt>
+			<longitude>-34.87980120000002</longitude>
+			<latitude>-8.065947</latitude>
+			<altitude>12.55780056395248</altitude>
+			<heading>-127.2991365063502</heading>
+			<tilt>45</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1044.849554978597</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_06071E4213261CF03106</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bmJZKzIrSlNMZGEzR2lWMTJyQ2c1TjlPM3UwZlI0SkNVZ1lhN1hhZ3Mwcy81YkxnMVBub0x2RVZtekR4SFZacGhldldLdjBVQWxrMzdKZWNKSXlIdUZFRStOQVpIL2luVytKcGsvVHNZL0t1U2FJVmRXK3dGcXpVZDQ5SDVPRTV6SlUyYVNRa2x3V3ZoU09UNFdFMGUwZTBSRFZpVys4WWVweDh2MnlMTEEwVmhVWHNlV3hmT3BoZ0FETG9Oc05aWGtub1paWTBvS1VtRFRFN3JkNFR4TG1xOW9NcTBRV3paZTdadHY2YWdFU1hJUm9nPT0">
+				<gx:ImageUrl>https://doc-0g-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/r34r7prc84ktqkgb875arju9tc/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9najI-PjqfivzR2vtaLa2OC-1b_6ebeGeONwlHAIT0UuxMkluHeL8M4URKnlpGzv9QwXILy--4MYwrLEJSm8HJpok6vgTD55KSPoYxlcu4nMBgYTWb57uCJgoqRov-Ac8ptyXxPThn-WGgb9JP_lS_PlH_GZktJSrYBBa6g_4KIRBMkKP9Ww7BhzgPfizytBuM?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>-34.88002095670115,-8.066161686305197,23.50061080003753</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03C4321FAD2615F11473">
+		<name>Religiões Afro-Brasileiras Candomblé.</name>
+		<description><![CDATA[<div>Entre os cultos africanos trazidos pelos escravos, e enraizados na cultura do Nordeste, destacam-se o candomblé e a <br></div><div>umbanda. Seus rituais, hierarquias e cerimônias reverenciam suas divindades.<br></div><div>Ainda escravos, os negros baianos eram proibidos de cultuar seus deuses, no entanto, podiam realizar manifestações<br></div><div>culturais como o canto e a dança africanas. Para os senhores, tais manifestações<br></div><div>não passavam de diversão e nostalgia. Para a igreja católica, exposição de<br></div><div>primitivismo inofensivo.<br></div>]]></description>
+		<LookAt>
+			<longitude>-38.50808159999999</longitude>
+			<latitude>-12.9237266</latitude>
+			<altitude>24.06156201996572</altitude>
+			<heading>90.51629421217777</heading>
+			<tilt>45</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1026.651461705857</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_06071E4213261CF03106</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bnIzQklPOElneUFLUzJLazIrSWdhMXpud0F0NDB3c0RZcDY1U2U0U1lLczV3K2VnL2E2ZjU5WS9QSVdpV3pBeHA0VEtsQXRuYlNXeE1ZbkJBMHBhSzVuNFBTZCtIcDlVcG1RMldvUk0xVldUM1ZGNXcwZTdBZXZDZ0UyQjg1b2M1RGFZVk9CVXNDZjluYWVTaUttZVh5d3Erc1Vhb0RIM3ZHT2pxQ1VNY1lzNE42OGtpUnc1bmZFYmIxelkvek5lNzVvS2NSQkl4U3RqbXRmVStxTExKRitIbzRwTVFSRFJHWXlEays5SStUeWpQUXJBPT0">
+				<gx:ImageUrl>https://doc-0s-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/qc60p914cgmi3d3dccnhchck9s/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9nMrAIRen9UjyrlH-1jMENxo3lDXk-fAJqj83ksC0sj_cZdWnVpseVTxG6zRzSlL0_Sh5aSD96em9JLV5n3a9d8AWawOlscFJoU9Yv-04MPWLR5xSm59oGxrvrdUxWXs5k4pCvvNK_AcwSxPY3zTdDOL9fCsaaWgkGYqlUgoqFvdSOt68s-NBIgpaykz84N00M?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>-38.50819007364679,-12.92377627968367,24.93833594602239</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CFFB35DB12615F566AF">
+		<name>Reisado</name>
+		<description><![CDATA[<div><b><i><br></i></b></div><div><b><i>É uma manifestação cultural introduzida no Brasil colonial, trazida pelos </i></b><b><i><br></i></b></div><div><b><i>colonizadores portugueses.</i></b><b><i><br></i></b></div><div><b><i>O Reisado é uma festa católica que celebra a visita dos Reis Magos ao menino</i></b><b><i><br></i></b></div><div><b><i>Jesus sendo o palco princial a praça publica ou a rua. A partir do dia 24 de dezembro, saem os vários Reisados, cada bairro com o seu,</i></b><b><i><br></i></b></div><div><b><i>cantando e dançando. Essa festa faz parte da</i></b><b><i><br></i></b></div><div><b><i>cultura do nordeste, sendo festejada em alguns estados, entre eles Alagoas e Piauí.</i></b><br></div>]]></description>
+		<LookAt>
+			<longitude>-38.28986124535063</longitude>
+			<latitude>-6.057336691309821</latitude>
+			<altitude>476.6722174570152</altitude>
+			<heading>86.03918192031888</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1485792.244501859</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_02815BA550261CF030FC</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bUVhalJkSEtmN1drOXc2bDRzMFNDT25uQzlGbUY3V0VaVS9Kc2Q3MzJvcDRkWkYvVWIzWGtqSUI5Vi9wVFJiTnpoWEo3TC9lZ2NaaE5jc05wZzdHNlQvSlN3WHdCRDVBcndIdVVTcnNqQjBFYVcwY3hyeFlwZnIrWVRVaVE2OE9tNTBBU1lzU0FGOWY0b05OczdXVUYrTTFJdysrZFdpaklqZjZUeGpTWlY0S2FjS1dsak5CMG5YcFBuOTJtazkzVW4ybmdYeHphWVhvVkE2VytmcWhVZGFkUXY3YlVUUEVYQWZYSVl4MzdOOEpvem93Zz0_0">
+				<gx:ImageUrl>https://doc-00-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/t7ekjk7l3kv46gv98jkji863rc/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9naNYGf5rtxocsDk0WH-I2hEs7UmHt6jZ9ANX4CP-lWMZV4C9FUYbzYnHzK7j9kHoqSqJLa05dSETdm71D4aIYFvaXCukKNbapSedAU08Ai4NizvR0e5zk5tRTHGhTqE11djZy8efU0zH0R74aFvbi4hx_JU722SlkmbSZYYI2uEK3JmjqZULifa7XpQgaUdRPL?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUtnQis5a3BGM09ncjJkMzNrcnA1TUc4aktLTUFMK2lBVXpwS25aRk5BV3VTNS9kMmJkQzlCaVBBY2dGMEtMTkU1Sitvc1NmanA2b1cyc25EbGJRQlFzNHZmeGsxbXBTbDdxUi9FTDhnOHl1VGdZU1p4Z1pPa2UyUDkwQldYNjd3cGdzK3l5bnBnazcwMmxOdHlDWUoyS0hCaUhLN2l4Z3VaVHdMWHF3TGZ1dGlmU0xoSkRVTUU1L1dMZ0dpclgxSTNZZVBGcDdMUEVPZjE4K0NnYWNFOUx4VWlwZTB1M0xBV05KMFE5WFZyU1NqRUhia1RHZnBBPT0">
+				<gx:ImageUrl>https://doc-00-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/onfav2ide7f5dkh0g486d0ohp0/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lLapJRe-eQnEhOnJtI_dHwrAl2lnL0gMd48MNDkOlCneaw7Kt9ujoqCS1Sa_uF7ChF9D-IFOT3cjFgzWg1VHRFv4x06YkeGVK5Gt_wRxUjo0LEKypzngr0rmB_twBH63Lsa-SCwoy6EHeqarNY6A17Nl2vYpWN7AQV_yYDZqWcWgLw7nsKFjL4dkj1o9vQS2M?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-41.33524667727082,-2.993963291097864,22.98287977540433 -41.36927745267038,-3.513093758550221,-217.0614843990992 -41.19391684526362,-4.07070167714339,677.3140621182015 -41.22398145220497,-4.670998104288473,-35.55042971402221 -41.05407445173867,-5.173209891130348,70.91101153061356 -40.91129033687177,-5.79573296353155,83.57110061428669 -40.81914212244593,-6.438428001939435,119.1227179829326 -40.50626202937391,-6.759619310033768,663.5464565195207 -40.47622014055244,-7.23650539110891,606.6592415494504 -40.22429241819491,-7.40873116564444,453.5297888226029 -39.72477734779862,-7.410691819049973,356.7243375120386 -39.45157334698168,-7.633299663243847,176.5284991183003 -39.12979863338237,-7.801035555976728,423.2164794705929 -38.53730740251918,-7.385225422619839,251.5588573182152 -38.58690457468504,-6.92573695738542,416.5014058118218 -38.60710441076743,-6.636264283909037,547.1590578453279 -38.49101477849895,-6.321253260570521,300.0472415686481 -38.40413717187528,-6.076603806320959,-259.843969431251 -38.11696459262049,-5.749881830201262,-48.91798408686507 -37.71999582254372,-5.261482466140919,272.6394298756207 -37.6344286284202,-4.926168569513285,326.9426278566099 -37.43198841391149,-4.772885096228245,381.2458258375991 -37.55799055859592,-4.582615057729864,-131.8388921540578 -37.90234346104473,-4.350846728667919,903.9490721337196 -38.18743298084648,-4.199679217487344,929.4323050817851 -38.41928616491449,-3.786142733893455,-45.62034998724662 -38.91732552501975,-3.510954913088877,-374.2162992572407 -39.29904163861407,-3.17558640760327,-242.5709912603284 -39.68676905510868,-3.012083657644263,-46.721478286066 -40.09492787215639,-2.798091195444627,618.3673259030372 -41.33524667727082,-2.993963291097864,22.98287977540433 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="050BFB23672615F831C2">
+		<name>Poesia Popular</name>
+		<description><![CDATA[<div><b><i>A poesia popular é representada pela literatura de cordel, recitada ou publicada </i></b><br></div><div><b><i>em folhetos. Esse tipo de poesia relata os costumes e as crenças do povo, no</i></b><br></div><div><b><i>qual os personagens podem ser reais ou fictícios.</i></b><br></div><div><br></div><div><b><i>Os repentistas são os cantadores que divulgam a poesia popular da cultura do</i></b><br></div><div><b><i>Nordeste.</i></b><br></div>]]></description>
+		<LookAt>
+			<longitude>-38.28986124535063</longitude>
+			<latitude>-6.057336691309821</latitude>
+			<altitude>476.6722174570152</altitude>
+			<heading>86.03918192031888</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1485792.244501859</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_09192FA663261CF03104</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5a3pZSGlWcjg2SW94WXJaK01YQXZzTXUxS1RwVllkRkx6NDRUNHBKY05hZzFoM2xwaHFRL3RnMTRqcEt1S29VdEZac0pkdk1EQkxTRWhnenRYanFvUlVUV1BCUmNuSXN1aGNzOWdoYmpKR2RDRU9zSk1PZm9UTFhoSjhzdlVCNStOb21LS3B0ZFRYZ05CVTE0LzZiSW5VaitHSVJqQXpvdVFlYlMxeDJvQmFuRjhPb1hrWjhlWEd0MFNIU3BxZ2F2OFZ5ejZRWEF3Tm9WczE4YjU3K3hLcWJQSVpSVVFpLzNtSWxQbFd1bmw3bkdPRWN3PT0">
+				<gx:ImageUrl>https://doc-10-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/4pnderebhtj1nva2s7c3q09dl4/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9n1nBBKqq1vSS5hwfRjIAR7AmtHPJg7i8G75ECNVvO62EnvQoMrEGhSjZDZCX1HtidJjS4l1UGlOZe5Hvp1qJjiQyQoVJ155AWsLz9-x9wjzr5466CxvNb5IaOHmacF1Zr-RbVtm2OJtv5lXuI28HYehFtrC9xXypLZEyhVcU6QM38nW2EBG_I2ZaGqgAUG8_w?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+	</Placemark>
+	<Placemark id="0B091ED5582615FB8E34">
+		<name>Capoeira e Frevo</name>
+		<description><![CDATA[<div>*Capoeira <br></div><div><br></div><div>A capoeira foi introduzida no Brasil pelos escravos africanos e é considerada<br></div><div>uma modalidade de luta e também de dança e é reconhecida como Patrimônio Cultural e Imaterial da<br></div><div>Humanidade.<br></div><div><br></div><div>Rapidamente adquiriu adeptos nos estados nordestinos, principalmente na Bahia e<br></div><div>Pernambuco. O instrumento utilizado durante as apresentações de capoeira é o<br></div><div>berimbau, constituído de arco, cabaça cortada, caxixi (cestinha com sementes),<br></div><div>vareta e dobrão (moeda).<br></div><div><br></div><div><br></div><div>*Frevo<br></div><div><br></div><div>O frevo surgiu através da capoeira, pois o capoeirista sai dançando o frevo à<br></div><div>frente dos cordões, das bandas de música.<br></div><div>É uma criação de compositores de música ligeira, especialmente para o carnaval.<br></div><div>Com o passar do tempo, o estilo ganhou<br></div><div>um gingado composto por passos soltos e acrobáticos.<br></div><div><br></div><div>O frevo é uma dança típica do carnaval pernambucano. Foi declarado Patrimônio Imaterial da Humanidade pela Organização<br></div><div>das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO).<br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>-40.43104936998338</longitude>
+			<latitude>-10.44727826694042</latitude>
+			<altitude>204.1280021342573</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3127024.384920001</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_09D570E931261CF0310E</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bjdYeXhsNHpaNHZCVHdUcElJMFVhRk1mU2k1cHlsQmFVZ2lUTnJMMTNCUDdxRWowL2JpTmlSTExweE5DdTY5cjREZlN3Qkxzc1VYTXF3OXRsMlN6eVh5bldYWVpjT3cyaXZqR25wbWZ6ZHdGcXFPOGdsY2JNRlBFQTVUZXBwN28rOHBWSklDT1kxMW5BbllmdHdDVDVGenozWmhKaEhXVlhPUnBTUlE4a2liRFc4ZzVzTXAvdVkyQmhDMEtmdGJyTVB3NXJwY1lvaWZRa3NkNFVJbTFEVUpYUVBhZXRwN01aM1lIclNTNW9YcGNnWXpBPT0_0">
+				<gx:ImageUrl>https://doc-04-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/423lft7eq375b50rr2gtrcnuro/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lRyIsC9gkEg6CapcrXzeL6uZHUDHzE55PlEFOvIjTLatuIMhmf2r--PwSuU6wcJ7DvoyS0mWolu4NwrjGa1a3j903dnRDM0Oo3LHDFl7Wwpq-cN5T-cua8_nWzZLxGIb6UvBfaS-4eVv518X3jidK1PoqGQDndBDsFJgTO7xwOCR2ClH7hUjybvMTrQlXwJTA?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUtnQis5a2JmbGoya2tzQ3lPZHF2b0c2SkxMZG5nTUFLNVFGQTY5QXN5ZnIwTUpxaElPOWdzWWVNWmdGczdSZ0NsL2JRRVBiWitlZlJkZkIxbm84alpjOTlUbis3M1dtWGdOQzlza1hOYzZiVDU2N2J0ek84aTdGQi9tUGU4cGI0VjB3b2RZR2o4SU5WUklkNXlKTW9nQ3hxUWZlY05LU1FxUXBpT0JoM250VngyaS9NTkNMMVlNVVlGdkNEeDF5WExDSkpNVEJ2dTBQUTYyZmc1MTR3cWJ1RllqMkVBQTJVV0RlOVYzczdOUmpRVjgzT3NmbmZBPT0">
+				<gx:ImageUrl>https://doc-0o-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/ejt51j6pqb16l22sist47o3fqc/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9k37b3wOLzIJgzKdNoyqKuyRMXb9lFqIbVBGpmHJs7v4U41Q4FJ9Y-2-T7VDldQffD6H6kj9fFcc8E5BexfWhHX6s8FyzJymPZwqLUjZxxQSCqzaJawRQu9HU9wsaXMevP9rVntAhQP2Nhl6fTQtpCsR9H2oBlqd_gNgruzVtv2N2z92BQhpV-XAf2bxWIlxGA?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUtnQis5bHlMclFpZGd1aFNxbFNWZEY4S0lDOTBZT0RoSTdMd1FSVDNwQ2tPQ1VQaEQranFFcW9acnN2ZkxRSGFaOFFCc0J6VEdUakNmMWV4UUNJZC9PK3IyekFlME5RTUlSZ1gwOGVmeWRrbFAxUmlPZDJpaXo1SzV6cWlENjlyT05iaEJmYnh2bkMwazN4WE9nalpKVHNyN1F4RWV6RDY5aDR2c1gxYTQyV2NqdDVGaE9QMmFjc1lyQlhGTmhPalh4dUlENHVmUnF4SngvSDB5SkZ4Sk1qRzFHU1lOREhHcXltdHppaG5XT0pvMXh4Z1htRDV3PT0_0">
+				<gx:ImageUrl>https://doc-0g-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/vu1nsmrppg2icld8l1b23m0rfk/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9mQX3FPty-bbmKnrtg8VeiZ0w_E02VJv-4VoYlvL_Jv5eiYNCPdDhDMbZsSh_TutkzheriGnABcJ2T_PM5JdeMIQfMVk0xJa9C1h65OGNFCwWse8d79DEcECy8GEOOnPyQzldZS1Lmov7v61BFaWj51jTVgryEsrfCN6nu62n1o4amunzNUtqWkRvRLLrLC8ho?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUtnQis5bWx5MGRHS3BzVU5rRENMMWRiM1VCUk9idmdzVnhmcXFkOXBKRWhGVGJEcGdaUkYvdG0zdHg0ZUZoV0NDTktadEtlcTZQdnJMNXVUaCtHanpXd1p4RWNrT0lsWnhVMzhUTkpwSHd4ak9tbjk2UXFrMXB1SWFLYU1sdHMyZmlWcEc3T1dKU3JocUo3S0VoNksyeHJxRy9TNmNjUU9vOVRCUCtrVkxqVVRWSnQ3NzdjaHA4b2lsTklEbHd6dGtpS1hJN1FWbHZqRnYvWlBzSGtLU25oR0l3L0JZdlJSc3Avb0RoMTNYQVNmMUhkMWtJdmhBPT0">
+				<gx:ImageUrl>https://doc-0c-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/6jh2ciju8mrubkdifukou4t9cg/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9kzjosl7NOUDgg7Z24rs7TntAtwW0woj2YIM3IOH1vCpUZwcuLc80nAg9w89NhsESq9dIDHaqqXkoqGSEbSmpAd5UsDwI5EzyjayMV8iG3ElwSD_8RqlmmvK4c99AJ8qASsVKVy0QHAHOL0BX28pVtXEJ7WlgpxXrb9DvFKRLlhpY7wnnJcVNtJ4pA_2QzFI8U?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-37.00162941789262,-7.369613663079741,1848.65642058421 -37.66628137932886,-7.523762439370218,2435.829258879385 -38.01073797521156,-7.784509958946757,2014.078457058 -38.67079142666441,-7.590367258674289,1221.401856894812 -40.5025145362607,-7.341235920918224,1346.521686134664 -40.58832992688032,-7.76869107982192,1055.239332326573 -40.81717897836837,-8.224318594852438,1627.459336242649 -41.3329119681118,-8.847486512662984,1920.138719846491 -41.93521771968145,-9.128386221057465,2594.600222736266 -42.39744819264038,-9.492885209174451,1349.61031368003 -43.11859836247588,-9.486560295631818,1069.435203700855 -43.43586595225253,-9.398158705177835,1217.634438118962 -43.8711892231702,-9.535026381146807,1496.480370775438 -43.7306442400795,-10.04745793698651,1432.033850223356 -43.96935834024368,-10.55550650040687,1049.83481425782 -44.55337447238616,-10.63391541180682,1656.452625010942 -44.90865163719116,-10.94202162607318,2356.110031275892 -45.40522229444982,-10.593895868775,1587.633744174683 -45.72517258791098,-10.10420109125018,432.8137261447737 -45.87713032293576,-10.35834985082606,554.9507391300032 -46.29985225632025,-10.77936812548855,1207.67784476449 -46.54581419958109,-11.20375607924491,2197.556128838366 -46.55438427218694,-11.48988842319229,1742.018456156165 -46.16930349760195,-11.69534249765638,2126.619831431005 -46.33461673628862,-12.23724373244719,1875.320912698945 -46.20460647655035,-12.95513290279742,2588.998343429558 -46.25127217123849,-13.44380743772003,2627.706347239046 -46.15944329796235,-14.19607882761693,2269.660811175473 -45.90013788329552,-14.51659785203146,2028.876116685086 -46.01518928519071,-15.12679629030714,2392.479886110625 -45.22260815059737,-14.98294971622104,2222.46379292412 -44.60101267014807,-14.31779868706204,2437.907583901189 -43.74055626889565,-14.35008017296257,1946.338654419316 -43.69258326792442,-14.78497931208413,1150.913910739505 -43.09557078637648,-14.640365345543,1682.359183870111 -42.42083523752926,-14.98692147754589,2158.121638839933 -41.83297622366197,-15.19162175564325,1407.425000928202 -41.45159647452383,-15.53933674346763,1703.708912595267 -41.18704625135174,-15.80276301221768,1173.589349833553 -40.65330987776319,-15.71778058354445,197.0103111184783 -40.05999282423232,-15.94976090645114,767.6982543698289 -39.88014175816816,-16.30183755117092,529.7162523302597 -40.26691764879246,-16.64918817045961,2385.674323019864 -40.35633558816084,-16.85320249571726,3177.024031729871 -40.56612352306679,-17.21517387100294,1123.204443339159 -40.35573616314407,-17.545807072467,238.4334990820468 -40.26474441522343,-17.87813651022511,-569.7388412673132 -39.93026123832178,-18.23937575909873,-460.8533885347415 -39.6564868879518,-18.30041528940521,-542.8466299539723 -39.29720644277524,-17.87552525331001,372.1666929029382 -39.1251301157528,-17.12955666728866,277.504543439479 -38.90161341227605,-15.92037374496447,891.7378663640943 -39.03021306811759,-15.0482721361521,752.51135933148 -38.91836716593996,-14.41495204429243,-156.4852785114095 -38.9248458929629,-13.8108719394724,414.2147870827523 -39.01638627609993,-13.32598777252106,-401.0747987480689 -38.63892157322076,-13.04036359794832,-963.3727392205253 -38.11660581735133,-12.72498553654667,-1035.925317870786 -37.51520650094294,-11.86749899596942,-466.6249435529694 -37.6962193248488,-11.38577133444053,-261.6001737007289 -38.13610723589204,-10.99154333263156,172.6800263889337 -38.19565148610585,-10.82188494473283,376.5287321415739 -37.87867133758824,-10.62133876725822,280.9652188905594 -37.82673783135952,-9.884067201810101,414.5856392922741 -38.2341358260916,-9.292135098190331,292.4883682847968 -37.45841690726727,-8.830461623760414,1153.141385739405 -37.08064142237036,-9.166935984350449,1469.496270437104 -36.54836934871105,-9.299248951555482,-3059.404258731577 -37.00162941789262,-7.369613663079741,1848.65642058421 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="01D8FBC008261600F1A2">
+		<name>Festa Junina, Bumba meu boi e coco.</name>
+		<description><![CDATA[<div><b><i>*Festas juninas</i></b><br></div><div><b><i></i></b><br></div><div><b><i>as principais festas representativas da cultura do Nordeste,</i></b><b><i></i></b><br></div><div><b><i>são comemoradas no mês de junho.</i></b><b><i></i></b><br></div><div><b><i></i></b><br></div><div><b><i>São festejadas com danças típicas como a quadrilha e o forró, bandeirolas,</i></b><b><i></i></b><br></div><div><b><i>balões e fogos de artifício. As festas juninas fazem homenagem aos seguintes</i></b><b><i></i></b><br></div><div><b><i>santos católicos:</i></b><b><i></i></b><br></div><div><b><i>Santo Antônio (13/06), São João (24/06) e São Pedro (29/06).</i></b><b><i></i></b><br></div><div><b><i></i></b><br></div><div><b><i>*Coco </i></b><b><i></i></b><br></div><div><b><i></i></b><br></div><div><b><i>Também é conhecido por bambelô ou zamba. É um estilo de dança muito praticado nos estados de Alagoas, Paraíba,</i></b><b><i></i></b><br></div><div><b><i>Pernambuco e Rio Grande do Norte. A dança é uma expressão do desabafo da alma popular, da gente mais sofrida do Nordeste</i></b><b><i></i></b><br></div><div><b><i>brasileiro. É uma dança de roda ou de fileiras mistas, de conjunto, de pares, que vão ao centro e desenvolvem movimentos</i></b><b><i></i></b><br></div><div><b><i>ritmados.</i></b><b><i></i></b><br></div><div><b><i></i></b><br></div><div><b><i></i></b><br></div><div><b><i>*Bumba meu boi</i></b><b><i></i></b><br></div><div><b><i></i></b><br></div><div><b><i>É&nbsp; um festejo que apresenta um pequeno drama. O dono do boi,</i></b><b><i></i></b><br></div><div><b><i>um homem branco, presencia um homem negro roubando o seu animal para alimentar</i></b><b><i></i></b><br></div><div><b><i>a esposa grávida que estava com vontade de comer língua de boi. Matam o boi,</i></b><b><i></i></b><br></div><div><b><i>mas depois é preciso ressuscitá-lo. O espetáculo é representado por um boi construído em uma armação de madeira coberta</i></b><b><i></i></b><br></div><div><b><i>de pano colorido. Ao final, o boi é morto e em seguida ressuscitado.</i></b><b><i></i></b><br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>-36.65197435079794</longitude>
+			<latitude>-8.268645106114013</latitude>
+			<altitude>425.1354741131018</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1208097.422966659</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_056DFBFDE0261CF03111</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bFpkOGV1RlVhTDlmN1dYcFZBYjRsQWxHbXRNc0FXYmR2ZmozTVBPMFZBb1RqRGxQYTNiNnA1OUpSaXFpSVZweDk4bUl6RTE4dCt2Mjl0bnR4QkR6SUx2eUtXb3IzY0llSmdva0VPaVc5K08zZ3JQNmo3ZWdkd0F0b1Q1UHdZREVFS2hyZTVzSXZLVHZZR0Fpc1NnK3ZXTHlMdU5tYktkR2xqSTljV0VxT2VUeFYvOGdWS2l4NlhrZm12c2FiVC9ML1JpZmFzTU8zNGJEcUpaYWdsRFZ4TlZNM2JMSXFWS3pjQUxVellOZDRiTG43MVdnPT0_0">
+				<gx:ImageUrl>https://doc-0k-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/jpf26dseqm69ajah74p19p4pug/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9n8mgfDoiUH870n0ev-MS9qo8gSdldH5G6s4y-mehy53d33NhQYcKBP-MlnBoFarHxyejUcxxdikPuz1im_mL6_fCHzsLaXqAzyQyw_xytMyd8Fbr5yIL7TYhQKr_bhIq-mKo34EO1748j4vROa4GXzSWpDDp075GxWqoY4sJ78ZW_Vh4pI8qmE9k1WVCLwnas?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUtnQis5bnMxQXpWbDNGTmVJRUkyN1NEdXVlZjFMR0RKRWthK2h5RnlLNlJSKzRUcTR2b1pQN2dRNGsyalNnUHVOT2Y0OSt2U01yeWt6VHZ4MVFBc0J4SjllVDhSMnN0dzVCOEZsZmxEZENPVlBvaFdzVm1CVnFka3BtNkFERmJzeVRwS1p6VlVHYlZkZGxScHNKenNhOC81Z1JrbGJsbUpMMHlPVWt3bTNZdnQwY2M4cjFxOVVJamc2UlA5b1l6c3dCR1hzVTYwNzRyckppU1B4dlhkejdTZllXU0VZZk9XWTVaem9IbUhnYldOVHRVajJxQzFnPT0">
+				<gx:ImageUrl>https://doc-0g-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/etn3vfqkk34pcabv17tubng6ng/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lSentb8IsAnjsgaHadt8fpjSFeNtC21BGrSki4ptKtW7CcUoP4nLcesM5ktfLp670AD1XE_Fv_bNgjwIe5xQbxGP6Duq3iDHp2qtcLOtcL8UJVYKKJ1IA9YlpZsa_xqmN6NJFhfLjNT8F49EmTIHayqOKDNgb8HcV5kKpPgXt8JVRt9uaaLv35bqstLdu5aGs?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUtnQis5bm55Mzd2WVp0TkNwTERTeEFPc1F3NVdxQ1ZuV3BmSnNLQzE3TlJ2aVR3QklVc0toaDRIZ3k1MTI5MmZEZnpxZ0JDbjhBcWxwRDN2MWw2T2h0dzFaeS9TcUtUV1RsVDhWQ25kYkxFb0VIb3p5aHNFU0xNcnVET2RXemxWbG16ZEVnWXVEYTRzemQySnpBcGR2Y1orUTN6YWJKUVBPTllPN3FWVUpoWjhySUc4L3pRK2I1M0piVkhLM1ZWWStyOFhCWnlRYW10L3YzdDlCa1hOMjc1WUs1eXZiUHdmMzZra3pOSmcrK0t6b1J3Zy91UUhnPT0_0">
+				<gx:ImageUrl>https://doc-0g-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/vf8f08loff8bne3pjiranclo34/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9nz0nmTRwjxhmWYABVwSxosxwGgNMelGtNX7-DahT_ITtHjZUmdmXCOswrvV_FpFqBBjikhgcs_EZx7aP-OW5uYxOy0I0hcfHNT8eHkXdnvaFx0c3yms3CAIYaQ5x6-5T_9FliJKyy0PiimFflMbRozYH3AaLxh8mgwf8r5SGgDN3ivBKvyLk2Y6NuywpMzfac?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUtnQis5bEdmeXEyeWFTU2ZISCtsaUE3NVQzcTBPRzN4akQ5RVZoeVBaMTcvSFZpY2lmaVV2cjlLUE1nRDlwUWtaZ09yakpZdENEc2RkWnRLalVINWtvNzFRQUM1T3NyZjk5dExGUW1QejRJbmdzNUV6TjV6dDA2UnVTWmcxSkhkU0dTeTlWa2ovU1A4TjREYnV3aFZqK0o0YU5JLzVWWENQbU9vN0EybU0xSVExaGt6c00xZWFmb3ZvVUtFU2NXUVlQa0hxR0VyRXN1WmdlZmJSN2M2RmFlU3N5djdtc0hOTWQ4Tm9NdWRUMWMvRWZNVitKdm93PT0">
+				<gx:ImageUrl>https://doc-10-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/hc9utpteobojs9lehjae2hs85k/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9mO6yv2cnFCHVU1xaakHrCzH5abeoF6s4NR0ThTfdUsnpYg8gG0fTNw9h98mvpA-Y_AVGToQgpEk-l0fC4pkHpicmLMf_GSE0dZtdKKlBEke7X9nksDDNhYtQIak5lTaAj9S1fhnNScF3XNv4u-jOfNai2ij33wNa66IVDdBD7_8oOrgjxFXGVNMyuhlpoyGvc?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUtnQis5bDhuelVvcy9DYkxaTVlGTk1nbHRFR1ZHdUNTaHFGN2s1eXVOcTY0UjNPZTZMa1NJYlBVUVlUNXk1aTJ0VnNaZHgzMGFjM1lTbTdPOGZUYlVUemd5Um53OVZOYXhDaGxueTgzeU9ZNmZWRjRiYk4vOWdJQnhjRTFXOUVGeUdPWkhoQWlidXR0RlVQcFZhcVpMOUZ0MnI4ZXpuRytPNEZKZ0FEWVYzanNSTHZ3QnMrMWh4T0llUTgzTEpVbExBckptRElYZlBjRHlNZS9lKzNEU3lMU2g5SHU2MUtlZnNTQllqdmQrZC9zd1Z5NEZGRnlnPT0_0">
+				<gx:ImageUrl>https://doc-0o-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/nmg0gcmluopi7rn7f6av5no7o8/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9kZ6mIhUa4EaX8FFzTE6mqQ46vq-5i3U8iNdVf6NJSYka6oJwV3oObX7pzB_cSkI1FvovY0wlvtq2cBgq-owwoXumy_Qk4ZRq6NJI2N60OqM41JUnMk-muquF4jspStsl3mRIfzvQwhK3WlQtFmei-w32aAgkA863sCqAWUUfmSlPPbv4niwyokR-KvjirBp2k?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUtnQis5bThVWGkxbC90Qm9uWjUvSUZYWXRUUXp5OFhSbS9keTdLQmJPdW8zM2ZBWW0wb2hmVHJGNjU3SUZmcVlpVjI4d0VaWFcvSEZiWXdYUkI5TGQxTnRPV0NmM3JZVlFiZWJMS3BQZUMxeHZMamdnSEpNRjJaWWVBeWxSeXFwRTBNQS9QMVhmdnh5a3pZOTJkVGt6MzdNV3NKS1FVZ1VPUDZFWC9KYlljenlWRGpRZ3ptM29FNm1hTlNxT1oyYXp3bXlEeTJodldhMzdyYW4vVzdhZGtkQlJQclFRSjM1MHNKS0YrdE5pY2N2bWlPTEtPdkJRPT0">
+				<gx:ImageUrl>https://doc-0s-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/m0or3obm04r5f4srsgkq0arspk/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9mNaPupxNMJq_fSeGs4TMpAf0WmERv2_eIPE9ptPXpFL2ufnvhQ-o5srcoa-DYKsgI32L5LtwPcGGRp4dEHPwIHDa1fscf_HSzBcCS6gRq95LCUxTXczmCwPqN_ZLqFjkfIpgJMTsnKem9_9DZP7FS0IoDzz8z6rL3BSkeZK6H20gpQCKam-ayifJL-6WpgcZE?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-36.01218946937661,-9.950601695825624,8.1739864324595 -35.70202933121851,-9.58769581062565,-86.34770403729084 -35.33647874654084,-9.268964779109695,-79.78482551461236 -35.19430457492141,-8.939397462489417,364.1552564523073 -35.47235451570891,-8.819625979087855,88.21597597907922 -35.86028092891053,-8.885955300330078,17.76546442227893 -36.09272632256253,-8.984725326090848,-11.28787170589795 -36.52465377260763,-9.115842111813876,544.2459540859116 -36.64645041002498,-8.547254548987771,530.6602776271269 -36.20483472199019,-8.164576194383836,389.7071683577036 -35.67544240803444,-7.627684399314531,611.4985016810397 -35.71966460550048,-7.145415028629258,216.5690214576118 -35.81583894369477,-7.02017055190504,-3782.064144206315 -36.19426606983411,-7.080778913128155,14.04575369180243 -36.93323388057342,-7.48661795805315,108.8388668577477 -37.58420907177538,-7.299106729956621,381.2284198452642 -37.9832400869281,-7.658798152963664,98.30768770984484 -38.23821644111981,-7.657558094491477,167.9851845548442 -38.56036794737669,-7.732523414159485,389.6722481453582 -38.71605467734643,-7.59977453412177,333.4067839220847 -39.11841984930204,-7.750481441007518,470.8586916796542 -39.52248551318169,-7.515570309691236,211.4554384322676 -39.92781289597952,-7.422939197075567,498.9721378352112 -40.53155047825661,-7.381417227873417,379.7411395488074 -40.58018908217878,-7.779236674102309,152.3051580715901 -40.60344629977523,-8.122094944813792,744.1785914740367 -40.80322005399171,-8.274947349618802,75.46183164124733 -41.08380660484195,-8.549481198893169,187.3955292648563 -41.15689986774881,-8.759901747061436,138.7668559878904 -40.86977341994604,-8.906289380706758,-3.42122274770595 -40.79426338903999,-9.250648911561484,115.9710588401066 -40.66844740445266,-9.472297982694275,844.9460367007266 -40.33257727911764,-9.263047505994383,470.1935968882302 -40.09043397530345,-9.109189589536202,379.3684280244561 -39.74395778012023,-8.713637842492053,587.7670626748002 -39.46931693467467,-8.661330970097747,604.896711313265 -38.59782772727954,-8.872664799974098,1167.672448529696 -37.91014105876849,-9.616977068739402,354.7053408522398 -37.13278213145325,-9.962265427835172,787.4594993571345 -36.38642457201335,-10.44659984766395,676.3792974407781 -36.01218946937661,-9.950601695825624,8.1739864324595 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="057C7643492618BBA5CD">
+		<name>Mitos do Nordeste.</name>
+		<description><![CDATA[<div><b><i>Em algumas regiões algo muito comum no estado Ceará por exemplo é o ato de cobrir espelhos nos dias chuvosos, porque se acredita que</i></b><b><i><br></i></b></div><div><b><i>assim se evita raio de&nbsp; descarregar para dentro de casa.</i></b><b><i><br></i></b></div><div><b><i><br></i></b></div><div><b><i>Outra tradição é jogar os primeiros dentes que começam a cair no telhado pois</i></b><b><i><br></i></b></div><div><b><i>assim a pessoa terá sorte atrair a coisas boas.</i></b><b><i><br></i></b></div><div><b><i><br></i></b></div><div><b><i>Alguns têm costume de evitar de aquecer bebidas e alimentos pois segundo o costume</i></b><b><i><br></i></b></div><div><b><i>deles isso poderá fazer mal a saúde.</i></b><br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>-42.15205488059278</longitude>
+			<latitude>-9.683830641631488</latitude>
+			<altitude>534.8730420067493</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00071849431874</gx:fovy>
+			<range>3240847.428944708</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0D5846555A261CF03115</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5a2NJN0ljcDdGbHRFeCs2TXNKZWZJZUtGTllObjd3dWFSQk5MeEpXUEpsTDBPdG80N21HU0g1enJkMnk5bTViREJZWk5MMzhaYVFYNCt1T0Y4QmJWUWhuSWhucWx6alQ1TVFFZVY3YnVoYldmdzdtMG9FUmtGRVpkektwNFVmM29WUzdGSXc2em1NaE9mN1N6bVNkWktTbDFSY29JMzN3cEoyQ0Y3SGJhbFduOVVFMktWdG5pRUVJUkFhSUpVUzcxcnNMVVBiZWlzYUZNS0V3UUlieTUyM1JCbmtER2dsUFVVeGZYQzN1VUgvaHI3dDBRPT0">
+				<gx:ImageUrl>https://doc-0k-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/nn61g8o7piicnhr1jjusf9p0r8/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9nnymO9VeWw1_ffsstypQigTYBBYhL67Pm-FC_LmUbtCQR0yelwM3pCuYmoh5NdKOvRUsd980kPe03x70MU2KcXgJJfifftAL8CuG8kTQqQ4IEB2Anr9kfwIGdXgArFAmtyzwyNFXnqv1JmsHP1qovugxUPwGrcryz3Gx9NneR4EloqW4LKoe_yoVURVS6I0m8?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>-41.50954956262459,-8.77431230615108,2059.568618642807</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E7CACAEA62617CD4425">
+		<name>Gírias do Nordeste.</name>
+		<description><![CDATA[<div><span style="line-height: 107%;"><span class="size" style="font-size: 10pt;"><i><b>As gírias&nbsp;possuem o intuito de substituir termos formais da língua, ou seja, não podem
+ser interpretadas de maneira literal mas sim no sentido conotativo, podendo ser
+incompreendidas. No nordeste a principal influência foi portuguesa,francesa,
+dos povos indígenas e povos africanos.</b></i></span></span><i><b></b></i><br></div><div><span style="line-height: 107%;"><span class="size" style="font-size: 10pt;"><i><b>Exemplos:</b></i></span></span><i><b></b></i><br></div><div><span style="line-height: 107%;"><span class="size" style="font-size: 10pt;"><i><b>Arrudiar: volta,
+circulo, contornar</b></i></span></span><i><b></b></i><br></div><div><span style="line-height: 107%;"><span class="size" style="font-size: 10pt;"><i><b>Exemplo: não fique arrudiando na mesa(não fique dando
+volta na mesa)</b></i></span></span><i><b></b></i><br></div><div><span style="line-height: 107%;"><span class="size" style="font-size: 10pt;"><i><b>Fuleiro:Coisa ou
+pessoa de baixa qualidade</b></i></span></span><i><b></b></i><br></div><div><span style="line-height: 107%;"><span class="size" style="font-size: 10pt;"><i><b>Exemplo: Você só tem
+esta mesa&nbsp;fuleira&nbsp;ou tem
+outra?</b></i></span></span><i><b></b></i><br></div><div><span style="line-height: 107%;"><span class="size" style="font-size: 10pt;"><i><b>Caixa-prego:&nbsp;Referência
+a lugar distante</b></i></span></span><i><b></b></i><br></div><div><span style="line-height: 107%;"><span class="size" style="font-size: 10pt;"><i><b>Exemplo:</b></i><i><b>"Ele
+não me ouviu agora ele foi parar lá em caixa prego."</b></i></span></span><i><b></b></i><br></div><div><span style="line-height: 107%;"><span class="size" style="font-size: 10pt;"><i><b>Percebe-se que algumas palavras não parecem reais isso
+se deve aos dialetos.</b></i></span></span><br></div><div><span style="line-height: 107%;"><span class="size" style="font-size: 10pt;"><i><b></b></i></span></span><br></div><div><span style="line-height: 107%;"><span class="size" style="font-size: 10pt;"><b>Não confunda dialeto com sotaque. O dialeto possui
+estrutura de linguagem própria de um grupo, sejam as palavras diferentes, a
+forma de construir as frases, e etc. O sotaque é a pronúncia, a forma como se
+fala.</b></span></span><b></b><br></div><p class="MsoNormal" style="margin: 0.1pt 0cm;"><span style="line-height: 107%;"><span class="size" style="font-size: 10pt;"><b>Apesar&nbsp;de cada estado ter suas próprias gírias e
+dialetos, todos compartilham características semelhantes, onde as diferenças se
+notam porque nestes há introdução de fonemas alófones, diferença na eloquência
+e no contato cultural.</b></span></span><i><b></b></i><br></p><div><br></div>]]></description>
+		<LookAt>
+			<longitude>-35.33800814470435</longitude>
+			<latitude>-10.49978326660607</latitude>
+			<altitude>-2151.703744713896</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00002474140936</gx:fovy>
+			<range>3253206.505174041</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_01818B63BE261CF03119</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bnU1VWs3MjJCaExjTWRoSC9KUTN3SjhyN2NIS3ZSd1FMQUtlQ1N6aDhVOElzaUQ4SWJoM1ovRWpRaGdyK2poMEJQOE1xSEJjSzFINXc3KzhJQXpxZHZIcWNJMUNHVnVyRDFScE03aVR5eWx1QUZtSCtnS2xQZHZkMHZ3ZUlKSUM2YW9UaWlrTXoxZ2tYb2huUU5SRDZOQjd1bGlKRHZJZnBISEd1LzZ1Zm1Ed2FjVnJMd3RuaXlGcUdmMCtOU0lVQ3NkMDlIaGt1eGVlMVRSekNDbW44VGJFZXROWlZ6ZndKQUFYZXZiU3YzZURLcXFRPT0">
+				<gx:ImageUrl>https://doc-0k-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/0avigp868rlthkj90umt1bt9p0/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9l0aqeBwKUwex3-s6BdI90pk5c0WDBvogAZuJoTVdMjL0AaktL2xbtZpaKefxGOvSjIgo-QzFnT6T9pf91axR_M-J4HckCmrPiPjfhSqmjU0JS1JLaYS7-7PYghChIrHcFb2vcBjgYofmMIUWfXMH4pqN2FPSKRtzV54Gd5djv9_vLzNWaEp0s8M1D-4XWbijU?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-46.11114251108646,-1.067016880717602,-3.277463295112049 -46.19785372086864,-1.634656644849617,199.6797640398815 -46.30408240502577,-2.088856035755921,50.21501267238367 -46.42898504653063,-2.360518291396389,290.5665003301207 -46.62666768477625,-2.648386989399293,239.2880783349962 -46.69758731462394,-3.135404332641655,95.28460015564909 -46.96831838354179,-3.67317483231984,-127.4721063336263 -47.27580288382678,-4.0483813284012,177.3124439129008 -47.53074795702585,-4.441354500232052,73.15349155046468 -47.694668504205,-4.691536699607798,321.2531200101733 -48.24442979033012,-4.920285347169737,89.17680363215095 -48.59475171397259,-5.241082949271343,296.7336814677028 -47.89843128508755,-5.264412846905447,-31.51251875879107 -47.51546656573323,-5.464281295692413,389.5599386275869 -47.33850824678291,-6.236026311189651,418.0272079234942 -47.56370825079955,-6.881774925641104,355.4537917464714 -47.69643892807001,-7.223697671767336,113.2313495350415 -47.28119186935514,-7.65654024142643,-13.04757335331806 -47.08540154772212,-8.089447040854761,172.027572517887 -46.51758136112381,-7.92619328776397,328.1220137748714 -46.57664174408189,-8.305645709890245,205.0635242696044 -46.85411289494007,-8.577674879319682,273.0202573411031 -46.93623430116984,-9.159759996409722,288.5035057058873 -46.57567670720228,-9.614609318306821,526.9020929446488 -46.47039495446409,-9.944172636309121,586.984851446933 -46.08802077991071,-10.20042841418723,470.6181917997761 -46.06570746592077,-10.51751356596743,726.9286216857691 -46.50189026501137,-11.16507686758875,2107.33072529999 -46.58164254491023,-11.51496107296263,1647.292746148307 -46.17449074887359,-11.86679218805395,2159.040333486431 -46.23068391751536,-12.54287271732013,2307.77950598793 -46.2379268730664,-13.39695604872256,2613.030214542984 -46.16853632685053,-14.20570811055588,2270.024156176972 -45.91384563201336,-14.68852648351799,2050.638360578284 -46.09982644869331,-15.0951380942918,2401.962585566296 -45.2393797878384,-14.84104173416043,2338.157037539444 -44.69382871897449,-14.30783322363055,2504.130455818455 -43.73617877882666,-14.33367999467912,1983.391472950374 -43.65464332959287,-14.84334396704818,1079.508659709506 -43.00813022181683,-14.53602488593915,1853.2792234758 -42.29913177241746,-14.96671243633481,2347.40026967559 -41.74087060403488,-15.32563727198408,1527.332321783194 -41.13567080301635,-15.68139966205416,1249.279247574193 -40.4565812817458,-15.71200661553254,779.549659299027 -40.01719516652165,-16.06663613751885,705.647557315943 -39.83656758949768,-16.24411176685457,347.4646492322489 -40.38981288233008,-16.64162221934512,2834.92804691526 -40.42412212299388,-17.04791072364294,1499.464389546273 -40.27615829252439,-17.58387056227428,115.1120969583208 -39.86190548075471,-18.17277087982823,-444.6118502185764 -39.35379287523644,-17.81462754306526,565.8979794885023 -38.94730390890835,-16.04507947326949,783.1026471517807 -39.01953995376963,-14.86644628961204,425.8798863148889 -39.11623809066973,-13.26589113689156,-371.3078916360876 -38.39673575677801,-12.9925230853085,-1020.67477780665 -37.67984541715598,-11.96595275266407,-552.2179371138193 -36.86503064153848,-10.73189154066684,645.2400650175929 -35.58936301085357,-9.399455260447786,920.8146884382985 -34.81706970336081,-8.123979883558135,134.0503592550989 -35.04311667194246,-6.121945428510404,-963.6405619315004 -35.5258413239744,-4.99500812993174,-420.5709303406217 -36.71060308480831,-4.977390392820432,105.3555111934404 -37.4144836535859,-4.600719400795176,-328.8276676690115 -38.42048214731871,-3.639157524466947,104.9264118009037 -39.65821744436088,-2.789186615042745,-173.1568620971774 -40.39358689376719,-2.728304137138436,-522.925859174208 -41.49010332916734,-2.810552742176159,-1503.030623020057 -42.12907472624654,-2.646668399790912,304.0404452398838 -42.59295762636758,-2.635438300738045,307.414301783514 -43.22108558550822,-2.177688692446048,133.6185181947457 -43.71509968223471,-2.240996124569215,497.6800736279264 -44.87010323671055,-1.254409978353132,395.5656894789622 -46.11114251108646,-1.067016880717602,-3.277463295112049 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0F059084F326184BDC77">
+		<name>Bioma Nordestino</name>
+		<description><![CDATA[<div>Vemos aqui a linda paisagem do bioma nordestino.</div>]]></description>
+		<styleUrl>#__managed_style_09192FA663261CF03104</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bnl3cWswb1NBVXFZdkt0ODRQQ0dHVExBb0MwT2tHbWQ3N2tXUjNxSXhWUERnemZ3TGs2dndSMXoxRmNhdS9OOWNQc2hxT3lKYzM1NFA3Wm5uQlBkRXFlVS9Od01tazJvSFpzUjVpMllsdWFpMmtCTVBKMkJLVUp4UUtKdGpzK2VGbFNLeE8vL0FSbkRwTnRjeWVkS3ovTlVvQTJVN1FmdDU1eEY1NjFmNlJlS1REdlVCMmZkQTdDaUFvY0tJT242MlVERFFlYlNnUGRVT1FNVlVFMCtxc2ZCeXlsMm9IbWpIR1d6UzhSeXRnanRja2dRPT0">
+				<gx:ImageUrl>https://doc-14-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/3u9lf1u3i0gb2qhvicg4gofdc0/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9klPZNdxNd_2aocUa6NaqbhyEyx1bB5jgj3QDrtghjPMArgFFDZsiMi7caGNgSHu5LxVfVBQN4c-KzeOBETBmomDYdd7pigzeoIs2FYj31nKwUhm3WXxM2ZNPlmFp_hxgwTXLgFyX-NT2To7GxLNMZeyQJY9x3rhsLH4fCqG0qy9uwHomYvE7mUjhe4eqvB-CA?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+	</Placemark>
+	<Placemark id="0A2B60F5DD2618503BBC">
+		<name>Caatinga</name>
+		<description><![CDATA[<p class="MsoNormal">A Caatinga é o bioma que ocupa a maior extensão geográfica
+do Nordeste ocupando cerca de 70% da região. Como é de conhecimento geral, o
+ambiente afeta diretamente a cultura dos povos ao seu redor e não seria
+diferente se tratando da Caatinga, as festas por exemplo são um exemplo claro
+quando citamos a Festa Junina por exemplo, que tinha seu principal objetivo em
+seu começo de agradecer a fertilidade das colheitas nas épocas depois da seca. <br></p><p class="MsoNormal"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Além de
+festas, a representatividade do Nordeste está na televisão, como na novela
+Velho Chico, situada em Alagoas e com a visível influência do bioma.<br></p><div><br></div>]]></description>
+		<gx:mid>/g/12lt4mzrw</gx:mid>
+		<gx:fid>0x76bfdf19f5a700f:0xfc44324d08f6d66c</gx:fid>
+		<LookAt>
+			<longitude>-41.2730556</longitude>
+			<latitude>-11.49611085</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>5590.992382341628</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0D7A640276261CF0311C</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bmt4ZUxvOFBnQjlLV3gwQ2xUdUlwS2lIakp4UnN5SVFNRk1YUys1UVhWTWJDZmJSdzluUGhMWStYK0FwL3NhSzZoQUE4NHp3THM1OStUdHQ3d1d0bGxsbXFQd2pKUmhVMThHNDhjYm9LcWlxVFJoTTFjdHRvQ2VZT0pVYnJERDhLN0ZaODg2c2lvNGJTSjZYdzk5OEZJMWFSVXRXTGhJOWo4ZU1hSENINXNpZ1F4RWhTa2Z1bVJhYzNOK3lqbUh3Q05HOUdUd2w0QnhGZnlqK1c1MnJNV0VDWC9WS0xhMlhZdWRHODV2RTUvZGhINWhUST0">
+				<gx:ImageUrl>https://doc-08-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/mk7fqrofegjl49k7135cdm5mi0/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lOFzEt6PHXSzmUDCIIRLSuiI8clbBTdjLv4ukIFumnMMCY864wG1aoyWnE9hSL6Ot3ovacwnOwPnBpHTIDuCzXxB6x0GLd2-njW3nGSSBvSwfA6ZEsHBbJVkg9Z0PzqpeAHgy1RwWSjXYynAodVtLFOjcbDiD-YttdY0K3AI4hpJNaMGA3yZgbCz0CjWpSZe9K?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-41.2730556,-11.4961111,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B11EA4371261852864D">
+		<name>Fauna da Caatinga</name>
+		<description><![CDATA[<p class="MsoNormal">A fauna da Caatinga é muito diversa, mas em sua diversidade
+existem espécies que se destacam mais e que, infelizmente, algumas correm risco
+de extinção como a Arara Azul, Tamanduá-Bandeira, Cachorro do Mato, Lobo-Guará
+entre outros.<br></p><div><br></div>]]></description>
+		<gx:mid>/g/11f7988f6m</gx:mid>
+		<gx:fid>0x796f5db06070eb5:0x7577d5b10ec1d166</gx:fid>
+		<LookAt>
+			<longitude>-40.866776</longitude>
+			<latitude>-5.13743</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1051.791183494762</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0D7A640276261CF0311C</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5a3FmOE1QUGZ0S01uS1pBWHVCMHI1QU0zYjhDZ3NlUFJJVzdGdUNKQVZpRlRyRVFvMFpIM2xUWHRhNWhEeHVJNE1xdHh6Smk3OHo3aWQvclR1Rm1YMWNVQmV3ZnowaUF6enNkK1AxaFhxdUVLdEJ6dXdtT09jZnZnYU5WMXloMDJSL0dja2FXbndTSlJnMDZ2QWlKWUk1c1JhQWxhMWlTWDduRUJIUndnb0w5dFdmekVzTGlVVEtsL3c2dUpKYldpcVNNMjVJUWRZaWdLNU9pZjgwa29aS2ZVUk05OGZOVHNKbGNVTnBJSXo3QTFQVWZ3PT0">
+				<gx:ImageUrl>https://doc-08-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/2cp2egefk2olo4uo7g190d9rm0/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lyE2b5WCsazxXsnmFGqgAA1HwfdHsIxQXwfGknTq1-j66b7ZdkFPWp9kGkd09npRxtOMLqo4H_EqjegqwAmTScZvZXoBCJEOdmcZwWKMBP7hzgAHg9i5vU4TWGGvnUgg-L61qYS9B7gSJST8yfpdg7_SPgpuvJMtrn4y63sGISwnmHjMWiUCKK3jFyt5M6n5w?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-40.866776,-5.13743,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C63CC66F3261853C409">
+		<name>Flora da Caatinga</name>
+		<description><![CDATA[<p class="MsoNormal">Devido a um solo mais árido e com menos quantidade de água,
+as plantas são adaptadas para esse tipo de escassez como arbustos e plantas
+mais baixas, porém, nas áreas com maior concentração de água ficam localizado
+os Juazeiros ou a Baraúna.<br></p><div><br></div>]]></description>
+		<gx:mid>/g/120qk_z6</gx:mid>
+		<gx:fid>0x70c1d9b863fee69:0x5d0409af4fcadc1c</gx:fid>
+		<LookAt>
+			<longitude>-38.66666670000001</longitude>
+			<latitude>-9.66666655</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>5636.157338379963</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0D7A640276261CF0311C</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5a2dsM040eUpzWk1zWkhuZFZaZnpuVHZTOVRxdkMwYkE1dmJVZ3cyMWJINE50OGEybks5MHNPdHVySUtRMnJhdFI1OEpOVmo2WFk0V3EwZ2FkR0gxekRnOXo5OHFvdHEvWXpsSitaRWh0OHl6bXRhYzhQNW5HUko0K3BjVHdBU1pRMDNCb2ZYbzVYUnRaVkFlQWRZeUVqWS9nYnpjTWZ4MmZSSkpFUWZ2TmQ3SFlqV0FsS1FpNlZDYlFjN1B6dEUvOW1Lb0U0N0NaU3FsNVZqTWZlN3Z4aGJ5YjlPbHBNODlySmo5UlpJa245OFhPVGtHOD0">
+				<gx:ImageUrl>https://doc-0o-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/2ifmoi30r3ub7liva314ng17nc/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9nlJhMszLgtE1s_YvTKd9Qb456bWOMYisXYjaz-lAEAtjSEYvVoV1v7e63hmmE_PElpcKpD6JNffjXjn59at8uJeZ51hqucQy1CCbR2B3QnbZdhVPT9QeuPN3XWBjCLd9rDweylxBI4Fz3HwYlHQl4UY9UGgcyme5fT_kMkvTwOgO34fNaU7IdHx2ZB6_YOKton?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-38.6666667,-9.6666667,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A37D08EB2261857D221">
+		<name>Cerrado</name>
+		<description><![CDATA[<p class="MsoNormal">Muitas
+pessoas conhecem a fama da Caatinga, mas pouco sabem do Cerrado, o segundo
+maior bioma da América do Sul e ocupa cerca de 25% do território Brasileiro
+que, infelizmente, também é um dos biomas mais ameaçados do Brasil.<br></p><div><br></div>]]></description>
+		<gx:mid>/g/11qjn43xbx</gx:mid>
+		<gx:fid>0x935a3b7748a636a7:0x822e622845392b99</gx:fid>
+		<LookAt>
+			<longitude>-49.4872647</longitude>
+			<latitude>-12.558442</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>5808850.541601155</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0D7A640276261CF0311C</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5a2RwSWRlODR5L01NbEhWaXE1ZVlVcE9SdnNXbXpZMCt1cXlDdGdEdWhIdU13YUgzWkJ6NHdJcDBacEFpYmhsODdCOHlzbXhHaGxjZ2svbW5vTzJ6UzJUZ2lNUEF5UWdyaGlvb29XRndEL2t6NkxQYWt4SnowRUl0WmZXMjhJVGNocWtBYmRaZ0ZDa1ZQc0NZS0MvbEloVW9BQWtNUENQRWg3V1crZ2pUbXQxYTZzRUJNMFE0eS96L3d2Ymgya0ZYMzRYNXVTTXgzQi9XMURWQ2hEbVQrbk9ROWh1bUpEVWVoWGpZLzRiWEUzYVlKRkVNRT0">
+				<gx:ImageUrl>https://doc-04-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/mjhmlhkrrbrd2k45rm5pdves98/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lf9kdNlZBBoz-7cwISAL3OpHwuooOCTp_FrkS1h5qJKykX2EdM4XO1fbJ95khWC1IM54cyMxl1O9uWKmAFhTV2wRZzrkDNLpZMesPk3-JmNXlSD1807kH7_k9YySoBDyCkLA4O-30_dsNAkbO4mfax3ORMzTDameAwq5JjSRQJ5_mzGMYR0IkS2y2ocilLKTwI?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-49.4872647,-12.558442,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04A3D10BDC26185B58B2">
+		<name>Flora do Cerrado</name>
+		<description><![CDATA[<p class="MsoNormal">O Cerrado tem o grande título de a savana com maior
+biodiversidade do mundo e não é para pouco, com suas mais de 12 mil espécies de
+plantas catalogadas sendo mais de 4 mil nativas de lá. Sendo o Cerrado uma
+região com Verões chuvosos e Inversos de seca as plantas tiveram que se adaptar
+para sobreviver nessas adversas situações e segundo o ISPN esse é um dos
+principais motivos de existirem tantas espécies nativas de lá.<span>&nbsp; </span><br></p><div><br></div>]]></description>
+		<gx:mid>/g/121b1vlp</gx:mid>
+		<gx:fid>0x9331a562781713a3:0x49c720b984c5b924</gx:fid>
+		<LookAt>
+			<longitude>-46.7538882</longitude>
+			<latitude>-10.2984889</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1037.513493811664</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0D7A640276261CF0311C</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bFpURkRuaXZjK0ZYQVF1QWgxczZabjM0Y213VEFTSTduMzJtUm5nYUFXei8zMFZqQUpHTkdWWlA4UWNsRm1xZnlvYUV4OWVzb2tvZFc5TTBFSGwxREpaK3piVTl4TEk4UkN1TDZPaXM3RFhqaDZNeWlwY2ptUTlUUGk5bndCT25UNzdvVUQ1Z0Q3aVVyb0MrNnlsZWdTVW9VZEZpbEZGL0krUCt5ZFBPMEk1Umw2djdoYzNYQjlwTG5oc2w4eEtUSHZRamVTdTROTzhJRzdqNU1mbmcxMnRFT1JBOTRhcVYweWd4YVFvZit3cWV4cnZBPT0">
+				<gx:ImageUrl>https://doc-0o-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/ij625urv05a89dsjl618qtqk8c/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lw2Fod4c3XJrIr0ShwtIWI70rBREECfcj2aTmEPY1AodDIvhY7bccRjG1-NNBVkCLYFRLF1XE_UYbUSb7GnEt4TxfbzA9f3blivQATjCVhq0_fANuSG4G1plaTZkBd3X8mdtI0ZFikM7ibhgNYk8TShYeUsjzBODncjmQR4knmzqTMK-zDH1zisgmRsvbHRJk?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-46.75388820000001,-10.2984889,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="043364F5E626186097E8">
+		<name>Fauna do Cerrado</name>
+		<description><![CDATA[<p class="MsoNormal">A fauna do Cerrado é composta pelas mais diversas espécies
+de animais, porém o que se destaca é a grande variedade de insetos presentes no
+bioma além das mais de 150 espécies de invertebrados nativos do Cerrado.<br></p><div><br></div>]]></description>
+		<gx:mid>/g/122vkwpz</gx:mid>
+		<gx:fid>0x94a732dde41fa151:0x928997308f84544a</gx:fid>
+		<LookAt>
+			<longitude>-48.7</longitude>
+			<latitude>-17.80833265</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>5378.334074538383</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0D7A640276261CF0311C</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5blU3NXI4b1dSNFJkL3RsQmxPMmtGem9LY1owK1lTZUFtaHhtbzBadFoxWXVMeG1lVlArNTllMXRHQytSdGpmYTJJRzRqaWgvSXVwSjhmMllmd04xV0dCcThhelovT1ZHMTJzNEsvZlpNdFRYVUE4TE5aRTFXTEhobGNCVXdKTXRvRTR3R1Ricm5JVXlkZXZCbEV1YVhGdGNaMXdjcG8zQi9tZTlyckRSVFNJelBpTURMSWJjV1QzdTV5T0FpWmVuK1czVmc1SUdOMHhJajc2TEhGK3krSk9OaGlrZ3BmL1UrdFM3cGNGZ3A5eFROZ0tRPT0">
+				<gx:ImageUrl>https://doc-08-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/73ppsnrljjdtp63q87bkns4in0/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9mk8GIRWdffHeJeOkP_fhbWjvXe4KffgRdUWUZTw1Hn03hoB8GzHB5aRsWulWW8sEyeQuGbd83jrHE0Y8Om2ba_9AArM31-RaPQfKJMd5xUwR750GOoeiRDM7dSylppYFaf-AnkEUL9QQz-QvYa-J8KYWqnPIHKROWjiqOp9v0KSq1QEs6E6njnfA-duv9iWi4?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-48.7,-17.808333,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E2F9A60352619C17BAB">
+		<name>Pontos Turísticos</name>
+		<description><![CDATA[<div><i>A Região do Nordeste, possuí várias características únicas
+que a faz possuir lugares distintos, devido ao clima ou acontecimentos
+históricos.</i><i><br></i></div><div><i>Sendo uma das principais para sua arquitetura, é por essa
+ser a região de colonização mais antiga do País, que contribuiu para os
+diversos pontos turísticos urbanos que são preservados</i><span><i>&nbsp; </i></span><i><br></i></div><div><i>Todos os 9 Estados dessa Região como Bahia, Pernambuco,
+Maranhão, Ceará etc. Possuem uma parte litorânea, sendo assim todos eles possuem
+Praias, que abrangem todos os tipos por haver aquelas mais agitadas e menos
+agitadas.</i><i><br></i></div><div><br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>-44.09910301610628</longitude>
+			<latitude>-9.725447443321542</latitude>
+			<altitude>1754.001679357142</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3876515.055592061</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_04B2132F2B261CF03127</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bGxFL2JXVWFmZVUyVXBOQ0ZJRTVhQU9BeUFMK2hFdFFzb2tWYkxnZ1RlZktZTFFvSm1JS201TXFROWxDRUtWNDhFN0FvOVVMZS9HUGxDTjUwaGlCWTRYVWM5MFVpMFdjU0JURmZZR1ZkZEVCcVg1dXNXa0ExbHgyckRIZm9XWHlMRU0rdGMzSEEvNTZhbnhMWWc0VzRrYmpyQ014YWtiUXVjVVNsUCt4N052cW1OdWJhcjRoc3hUa1czVVo0aHI3Qng1TXJWYTdpdFBBeXpWZVdXQlNSbXFxQmYybGJSRXlzMnQ3NmNuTUxtN2JPMS93PT0">
+				<gx:ImageUrl>https://doc-0o-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/gtmcm0sc70e8cffifaqc0lnju4/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9k-Zut89P79q-dRo7VRZ0zyWDGCNjzU1mSRTI1DrluY71b_pjZ0vI9A2MMOYtt2lDW-0AkkSjEW6LuuS-i3HSrMphrOLHoINMU_paxrcS825YkVTuHu6NsZNmlFv4t5S1rPIqyb9O8_3UtxKpw5iM3pgiVrZHLi6E7zpnDh9kFjPzClWNU9QEw9xO1fwBy4clQ?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-46.08980410674343,-1.029854850951622,99.07373546501705 -46.36558552337438,-2.124231987845433,804.9229409340549 -46.67565999381338,-2.585934377328435,86.84781180379716 -46.69948317116555,-3.141529325035686,986.0408121300204 -47.0936533426127,-3.798913244303924,561.0040948606882 -47.63010170190122,-4.564501075048641,544.7016557194809 -48.22836765668534,-4.865780185354383,74.39203217061578 -48.59736880357466,-5.116520114377724,1129.614780309475 -47.804076981408,-5.239827863670146,-2979.944194583821 -47.59883269829137,-5.421245883754814,766.2096705866302 -47.28614246134579,-6.304240683598614,684.9547913593566 -47.8018253154768,-7.168325128441935,-841.4525073816794 -47.12053110441223,-7.964826296758508,628.8348855581426 -46.55270766630467,-7.915186543637638,1257.297011723061 -46.52540375647623,-8.279320759918898,1733.757527635746 -46.83850113261484,-8.499876849311661,1462.74498661743 -46.92887093171355,-9.141282972521857,483.8168132080938 -46.56217170727066,-9.535205469593281,501.4790108677039 -46.59329923351674,-9.925741397936941,702.6594678858531 -46.08400968517817,-10.23586959999722,462.8876642347151 -46.11453768772285,-10.57050931111265,805.5086543659347 -46.60287284513926,-11.12588991036945,2032.998048297552 -46.60603953673636,-11.40555185912653,1855.246497537342 -46.2375849271754,-11.74272782579752,2176.007908462257 -46.26319087006861,-13.96387236265713,3220.127018039008 -45.92405384280217,-14.5344605667274,2034.369522205447 -46.13402861360026,-15.01854949804654,2347.381029363848 -45.2300351808035,-14.79064289215904,2386.438705310891 -44.73508326971331,-14.39209766842741,2589.961702229545 -43.78132494312167,-14.27946488645743,2161.233393041754 -43.72229410193145,-14.70778231140151,1257.670730271948 -42.94098869143217,-14.53534395837387,1882.558569749584 -41.20146555576304,-15.70921706828344,1477.944066601026 -40.46361657353524,-15.71096490733937,756.1046540155303 -39.8230214458264,-16.23397616151698,301.2070467039572 -40.37848118719116,-16.66285579612319,2886.245890618813 -40.40331694093412,-16.83666522847208,3345.799025920158 -40.45119437312982,-17.10618814589215,1386.30866114621 -40.34430750658561,-17.55202301853003,217.1101077531086 -39.90409731805688,-18.00070297733603,-397.1590274682054 -39.4288799108318,-17.82127488417852,483.2037367698096 -38.96564485738047,-16.02983082624572,792.036837955957 -39.18053150041343,-13.25115251954988,-309.8597649764218 -38.36727488761139,-12.84968450338108,-1101.363698157576 -36.75785683006171,-10.45211530554124,799.2345002382475 -35.61790592148809,-9.436737028033667,854.5931881386558 -34.94395034577926,-8.251405924738361,-15.54511407198617 -34.80596692621356,-7.447748693425511,650.4155248247139 -35.11061943870122,-6.88603973775054,-167.3891995901164 -34.98930151717386,-6.047365715086661,-965.9142771581085 -35.6495318137507,-4.893064408889563,-423.7848347613274 -36.48813076766243,-4.988346288705487,675.8498490898465 -37.33736715507894,-4.672916541814649,-266.8568795267651 -39.92478159565616,-2.753758094929463,-421.025535425046 -41.12595390989126,-2.898122334050508,-484.755501037261 -42.91168421622418,-2.573869773238173,33.93445258657578 -43.61835205490323,-2.315527794123725,333.4000092076856 -44.32535217628917,-2.257999417965444,478.6307884261929 -44.92181598486622,-1.399894010259194,269.2625177084257 -46.08980410674343,-1.029854850951622,99.07373546501705 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0EBD8E24E12619C43927">
+		<name>Praia do Sancho</name>
+		<description><![CDATA[<div><i>Entre as várias Praias que temos na Região, a que mais se destaca entre todas elas é a:</i><i><br></i></div><div><i>Baía de Sancho que é uma praia localizada no Arquipélago
+(Conjunto de Ilhas) de Fernando de Noronha, no Pernambuco que foi considerada 5
+Vezes a Praia mais Bonita do Mundo pela Travellers’ Choice, além dessas
+nomeações o Arquipélago de Fernando de Noronha junto com o Atol das Rocas (Rio
+Grande do Norte) é considerado Patrimônio Cultural do Brasil.</i><i><br></i></div><div><i>Uma característica que exalta a beleza desse lugar, é que no
+inverno devido as chuvas ocorrem uma “Cachoeira”.</i><i><br></i></div><div><i>Sendo essa uma das Viagens mais requisitadas pelas pessoas,
+tanto nacionalmente e mundialmente.</i><i><br></i></div><div><br></div><div><br></div>]]></description>
+		<gx:mid>/g/120r9hs4</gx:mid>
+		<gx:fid>0x6364dff104530a3:0x258f9c83f7471d2</gx:fid>
+		<LookAt>
+			<longitude>-32.44411840000001</longitude>
+			<latitude>-3.854124699999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>495.4111506428471</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0634F83114261CF0312A</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bFI5Ykd5MUREZGxFVGh6a2h0RDlwMXRPbi9ZR1JpakJjWS9mallxWHBNTXUxN2ZrajBMZDZDd1lXeDZZdmdiY3c3SmFROTZzOXpYUkZOdXRhT0JmSUZyMnR3aDNDcE9iZWhySmsxWmlLZnFEdWg1WXJoWi9vaHp5czAxWDBQS09CcFplcjR0RUJ1L2c5NWJLNmhUei9qcUhTNDdFOWgrSGQvcFJteFdEdFNQaHJFN0dsdkVIWlJGY29oWGJjeUZCZ05ma3k0WEtmSWp0eGRQNDRUbDY2YXE4YmxxRDdINjZXV2VZSGpLSVNBOGhuVXdwND0">
+				<gx:ImageUrl>https://doc-04-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/n80e25casjqi1g869pgar6ikm8/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9mH8VriBTzG0CZ848yNyb0dW0CCfWq-UhvsWAFxQo8JZH1HssqVOm2-ZcGjKde6V9XB_tTSEteh1XEFuzO3lm3NsvZwDMQV8BBk-UJ89qXvuKdmdxkcMViSWM_kHpQ1nEIOPGD8ZIpa6mkjf8G5jDS79bzqsmdDC8pD9wZxR4zuVN_YSzJBeKBktebQzdEBGh0p?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-32.4436958,-3.8546893,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02FAD869572619C88054">
+		<name>Chapada Diamantina</name>
+		<description><![CDATA[<div><i>É uma região de Serras, possuindo mais de 360 cachoeiras
+catalogadas sendo as mais famosas a Cachoeira da Fumaça, Cachoeira do Buracão e
+a Cachoeira do Sossego.</i><br></div><div><i>E para chegar as Cachoeiras, é necessário passar por trilhas
+sendo elas variadas em questão de tempo. Dentre as Trilhas a que mais se
+destaca é a trilha do Vale do Pati.</i><i></i><br></div><div><span><i>&nbsp;</i></span><i></i><br></div><div><span><i>&nbsp;</i></span><i></i><br></div><div><span><i>&nbsp;</i></span><i></i><br></div><div><span><i>&nbsp;</i></span><i></i><br></div><div><span><i>&nbsp;</i></span><i></i><br></div><div><i>Além das Trilhas e Cachoeiras, existem os Poços dentro das
+Grutas, que é um dos maiores destaques da Região, que com o efeito dos fachos
+de luz proporcionam cenas fantásticas. Também a gruta permite práticas de
+Escalada, Rappel ou Boulder que ajudam a enriquecer o ambiente.</i><i></i><br></div><div><br></div>]]></description>
+		<gx:mid>/m/0ds1l0p</gx:mid>
+		<gx:fid>0x742223abc4785eb:0xdf9586310ce5dcfa</gx:fid>
+		<LookAt>
+			<longitude>-41.37218530000001</longitude>
+			<latitude>-12.88016655</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>5551.820413492488</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0634F83114261CF0312A</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5a3k1K1N6RFNLaWs5c1JtNG82Z25yaG1PQjBLOUZzN2NkZXBjcHloOWEzcDJrc2JHcEpjVTNMSi8yV0RkajhFcE9zekJidXlTYndHUmVQTllNdEI5NHFJSWtvSU1CS3FGQjhlcjZyRFVVTFlheHIyWlFOS0t3WFlxb1VhUjJmVjUxMTNJUjZOSG1FOG5DZ052YkdNdDVKb0VGZDdHWERkTndaMTZrQlZJTm54TDFXUFljdzkwZ2VCMkFlTkUvM2JMUDlkQmE4YldkUEllbklrR25KTDdRdHJURzhOTnU1N0RHbll4ZTgrMXdjL1BGU254dz0_0">
+				<gx:ImageUrl>https://doc-0c-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/04v6seo77viv4vrciccvi7r6c8/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9norGMBECjEQttNghNPwOep9l6aVZC0J3S9-eFdnGiVz-PArTahb9IXoazikgsrfkS9lcfbgCdzjyIIHvbOCcThSxu4fAcN0y6UAoKB5wuV1EG-LoiJSIrVFgp-7TjzY-GW1Kc3O07gBqTf73CAl3qYTn_yyJHf9f-lhdrj6-ycHsGnjkQpJAgeFwCYUs7Zepum?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUtnQis5bUZnckxpR3V5SkxqL2ZJK1hSV2VQQjgzOXo2a2NLVkpNTE9DRHRNeEdyNWRYNHgrbmxwY2djemVCMkEzRVRUT2JqTjlucGFLeERMMUlPVUhTMUpDbkNxTU5UclIrQWZoT0lEaGF0Q1ZGQ2hNbFZOOWVyU2FLQVBqYjlBTmRyVzVZNENsNG5qU0xzTjF3UE96MCsvdHFrWFdIYVF0M2ZDWUdkNWd3WGlJQmJYcmFmeVQ1VjhQQWJWK01sNDJnNDhmdWJzV1Z1ZFgvQW1YYUhHMEY0d01scTZBY0k2cmRZS2hna2lKaGZoK2NhM3QzVWptMD0">
+				<gx:ImageUrl>https://doc-04-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/j854p48ql15fufve37lkmmhsp8/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9nI0QxCk0we4r-fwFW-G9MDvj_cYnWJUJ0zNsF2rMITzn_de8Y9r5D7qlKCpzKCX413Rvpu4YNmEsEzwAIA4-gVbkF0SaF6FV_7WhVdke4rfojS5OKFRMyKinRRWkoQEF0D25CtRJpXVAd3VJxQeivB2iEL_ac31WPbWPSNz94q375ehHkI8HEg-Fv6N5S2IzMV?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-41.3721853,-12.8801668,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AF44CDF872619CC0775">
+		<name>Centro Histórico de São Luís</name>
+		<description><![CDATA[<div><i>Localizado em São Luís, Maranhão esse Centro Histórico
+abrange uma parte da Cidade, que é um espaço que possuí arquitetura totalmente
+europeia, sendo fundada pelos Franceses e ocupada pelos Holandeses antes da
+retomada Portuguesa.</i><br></div><div><i>Essa região é composta por um emaranhado de ruas estreitas,
+vielas e becos, os casarões dos séculos 18 e 19, muitos cobertos por belos
+azulejos lusitanos, estão por todo lado. </i><i></i><br></div><div><i>Além delas, o Centro Histórico possuí a Catedral de São Luís
+(Patrimônio da Humanidade pela Unesco), Igrejas e as Sedes do Governo do
+Estado, e a da Prefeitura que são nomeados respectivamente de Palácio dos Leões
+e Palácio de La Ravardiére.</i><i></i><br></div><div><i>Curiosidade: O seu nome vêm devido ao rei da França Luís IX.</i><i></i><br></div><div><br></div><div><br></div>]]></description>
+		<gx:mid>/g/1226mbbn</gx:mid>
+		<gx:fid>0x7f68f5458c78093:0xffdd33b4361f0408</gx:fid>
+		<LookAt>
+			<longitude>-44.3042464</longitude>
+			<latitude>-2.5293779</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1055.389684126451</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0634F83114261CF0312A</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5a2lRR0VoVzdKMDJRRjBxa1NUVmZLT1lMcjQ2TWxPVFZHejlNOTRRYUtGZXptZmdsaGJXbEkrYUVhTDlqZWxDZWxGNHpxTFVzZDUyRk1SWTlpVndMU2pBL2o2VXRLRzlabTMzNkI5UVNrelpLMmNMQ2wrWDVCVjlQd0RyNkJJbk5tTHA5djcvUW9qTWxieFVxcUsybXB2TmtVQXd6OVNWUklVdVU0Q0dFN3kwNjFYMW9LWk1vZEowSUlkY0ZFNDhyK2NUb1NpVkJtYWJZNGwvMk43TGVlZE9kLzhIRFpmOFdWUnlCWWRCb1QwTWcvZDBRPT0">
+				<gx:ImageUrl>https://doc-00-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/gn8fogjkln9mgfcvs9qv9flc20/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lcsInBAcOGmVmo7xpTvx1yu3C1ejd1L6XSoUN60qyO0RdXfPr9QqecQ2-6N_2XVqTmjfNtAVE2CPqWPr9OW853rBLpj-UHbLqn0Gz_IVLLGP3cYURbcuLuCQ1ksEcTTJOty9jTBWLOLrFe3KtKTeY-ms73OU030qG6-bg49-rKrxunw4qv_qTaL6wrQdnDGeQ?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUtnQis5bnV2SjB4VzllWU5vd1c5S3ZMYy9FRWtiZTJFWm81c2lmdEtlTXlzdmFNTW5PUUVpaXlKbnBDVDhjK2tqTHBJTnhrRUtxTCswVGlyVHdRY3hSUWYzSzBySDU3ck5rUlA2dlZYTlhlMERQQ25LVmRGZHlHQUEzVVpXV1dwa2pFSXY5RUZ0V1VTUTJ6V0haa3JUUllUNU1oY2xxNThWM25OUnIvWStVaVNWREx0ZEZlSUhnYzBZallNZU5uQjc2Vm5UOTI4c0w4d2ZOc2RIc0VZZmtmUHVkaVcxeUtnbGtGWmpIYjFrRnFsNm1temhzRXh3PT0_0">
+				<gx:ImageUrl>https://doc-08-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/cbqrlr4dl3sm76ut7ovlmknud0/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lMy7p1vl3VdQpZYc73E_Icf66_KcYQtA8QHMhWFnH42Xhth4hf1j6Sw6HYMr-2AmN_2vepC4-i34IABQO-SESt-8HSoEDwYmgE0fXsgZgMzd--itFtaAKDP-jb6msuCvKNy_jgqeem0cabO_h2xvEMAwAo22fNmdGB45Bmsobguqg2XykiYmeU7zGk-9SrmAU?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUtnQis5bUJqc08vTjlMbVFmU25NQ2lQT3NKMnczN29DQ0dsVXJBb2pTLzFJaXVyOFdGZXJHVlptZ05FbElTOTZybXptRHZLM1hVTFYwL2NRMVJQb3Era1piL2tlcUJwZ0lOZ0JkRW05SFM1SmZ6cFJZeldLVXY5b0l5QkVzT2dnVHZDK0VObXdhaCttNGVPMWhMckZDNXEraHB4V2hCcnNXY09JanNRNkczb1RvbnkvNlB6ekk1bjN6dCtQcEZhL2pCMVM4WWZJSER0N256a0YveWNLcitHMHNSOVRWblpsRHZkb0JHZmZTL3dyODA3LzAvVjVnPT0">
+				<gx:ImageUrl>https://doc-0s-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/vkqimj1enea64q65v7jinkhst4/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lnrif7OGFK-xCO0IDHnSQLSYfImlfcs8oeOu42gvTSfto20ipi6xR__QU4Zb23nh86bxhVUMO--gCO6Y9NErRW5iRTmlsxLTEjc5eXXxEXesCLDIsG7-wqgfbR92tnNVNXDWjq3zPMtcPIc0cIsUvhNPu7g-e2ul680mO5dRonV9LXM35uvAdaQuhPEJJ_Ff0?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-44.3042464,-2.5293779,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08D267C9292619E115E5">
+		<name>Culinária Nordestina</name>
+		<description><![CDATA[<p class="MsoNormal"><span style="line-height: 107%;"><span class="size" style="font-size: 12pt;"><b><i>A culinária
+nordestina foi moldada como conhecemos hoje a partir de vários processos
+históricos e influências da era da colonização europeia no Brasil. Os pratos
+possuem características portuguesas, africanas e indígenas, essas duas últimas
+em decorrência da escravidão, que acabaram se fundindo com costumes culinários
+portugueses e ajudando a montar a tradicional culinária nordestina como
+conhecemos hoje. Os pratos são conhecidos por seus sabores marcantes e temperos
+fortes como a pimenta do reino, molho de pimenta, colorau, coentro e etc.</i></b></span></span><b><i></i></b><br></p><p class="MsoNormal"><span style="line-height: 107%;"><span class="size" style="font-size: 12pt;"><b><i>A exemplo de
+comidas que foram originadas a partir de influências europeias e africanas,
+podemos citar a tapioca, que surgiu como uma “adaptação” de um doce feito pelas
+senhoras portuguesas usando a goma de mandioca como substituta dos ingredientes
+originais. Também temos o conhecido cuscuz, que é uma comida proveniente do sul
+da África e que veio com os escravizados para o que hoje é o litoral
+nordestino, servindo de alimento para eles mesmos e para os bandeirantes.</i></b></span></span><b><i></i></b><br></p><p class="MsoNormal"><span style="line-height: 107%;"><span class="size" style="font-size: 12pt;"><b><i>A culinária
+nordestina é principalmente valorizada, é claro, na época das festas juninas. Época
+do pé de moleque, pamonha, canjica, milho cozido ou assado, e tantos outros. As
+comidas típicas da região são fatores importantes que ajudaram a registrar e
+caracterizar a cultura do nordeste junto com as festas típicas, tornando-se uma
+das culinárias mais conhecidas e admiradas do Brasil.</i></b><span><b><i>&nbsp;</i></b><i> </i><b><i></i></b></span></span></span><i></i><br></p><div><br></div>]]></description>
+		<styleUrl>#__managed_style_0ADDD63EB9261CF0312F</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bUp0b2ZDVkZJQWJlL2NDMXBIRDRSY1NBcDhjdWU1bEliQW8ydkJVWmFtdUZPelBYM3R0YW1MRXdURVczTXo1MU9wQkxKOXE5T0MrOWpDd1VhSHpaOXcyNFl0cGFIMEpRL0dFV25TSWZXaE9oa3BPNzhKZGloK3d4WmtDOENFcFYxSTc4V045NGxVQitPdWtQVjRBaEFlYUFMZG0vQ3h6Qi9qeENsSkdybVUxUjFJS2FWZEp0MlozSTdoNUJHMkFqbEwyZGZ1VE1FODVLQmZKNTRJR3Q0MEIzMU1hTHV1Nm5jZVZJREFWeXoyYVJyUm53PT0">
+				<gx:ImageUrl>https://doc-0o-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/cppqnktdkodqi47atltraqqh0k/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lJyQ5GHqzX0pUJ9t7ow5kS2lG1cTEOyLL41TFLfnynzSC5Xjw8nDr_d90Y5BziO7Q7pl730nNbQviZ9uckHK8uLDeVnPSkrumu56Ta4tIfIbOezVeglcpRoVLkW4uvZfp2OaKsvmR4WBoKphVDJzi_6izFZnfkFYIKPWrQMvstkUOo9LS8Vv4PbX5UAtTzUNA?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-46.3591765535141,-2.106165072971268,-26.87107586009163 -46.68113370340718,-2.502608379740787,358.3455583612649 -46.69244881670883,-3.109381229229017,164.2769526917206 -47.66419269568955,-4.53535044689578,606.8993889498748 -48.58286263122736,-5.066914775589741,677.1034972594204 -48.54890041531558,-5.204112507393625,726.9669745976246 -47.87002637592358,-5.267554890856106,498.4681361202552 -47.50190179938045,-5.456396830218008,361.590928531855 -47.386548796632,-6.344264767728031,502.7362302987692 -47.73422501249905,-7.212815148919557,645.0776077093808 -47.06534391952466,-8.062355431427559,781.7706487457341 -46.56755468696485,-7.938578105286644,570.81708882791 -46.56498031351298,-8.306222353508931,376.7688917419261 -46.86502765091773,-8.512375043527776,625.6395456730532 -46.91249691000147,-9.177314187430694,862.2961354766363 -46.59758034217545,-9.521964752837102,497.5164727462421 -46.61372844946614,-9.932231854632786,338.9657217761236 -46.0799304751288,-10.20561636287637,916.0637600476446 -46.10574047271109,-10.51782255631513,395.1828680184641 -46.58262275259799,-11.10261768531311,994.925660805824 -46.58775311845247,-11.47831078051645,974.7445699113536 -46.29182464397125,-11.8427162067843,1165.826111462503 -46.30285771577566,-12.26216920461913,805.879228976172 -46.21159264793411,-14.13527458286877,1417.039211195967 -45.96128921274283,-14.53782057990649,951.5844701115933 -46.03235890156645,-15.03613202377652,1009.855574624349 -45.19984739909082,-14.93296318700502,1007.974611635532 -44.60461413661036,-14.32961815945615,479.7261231039363 -43.8033782702918,-14.29852243685751,515.2124661311615 -43.61114745109904,-14.75968954304278,-1137.965078557067 -43.10683416548922,-14.62844110273489,595.0060226746139 -42.32313448007567,-14.9401068778607,1162.233702095129 -41.23327576936425,-15.72572703960827,1094.784138956846 -40.48895603110089,-15.73024072772994,547.3735464351513 -39.90571209432495,-16.22971204260814,797.2495005091997 -40.46797726355025,-16.7592638524145,843.7279733325838 -40.43606941320593,-17.50850795463841,531.0499808074436 -40.05024705175332,-18.04009548922616,257.4603771274021 -39.7956316490346,-18.11842510142653,523.1768826893031 -39.40576210459167,-17.82976316957109,285.6082463383446 -39.19577630271487,-17.01937995942803,118.6060490959691 -38.9698726378784,-16.2554924390309,292.9999087855571 -39.01777726956934,-13.26070892912687,317.1790240684156 -38.61882364992922,-12.99301007430391,213.4852814262662 -38.10214448443404,-12.5087748257027,-36.34712778108304 -36.93607975838725,-10.70566409436906,316.062946780332 -36.44102156743303,-10.45318246209394,-6.701277860466231 -35.81440978247326,-9.66232658746924,-68.91000596455652 -35.15666054917826,-8.777369332186337,-68.8536890607934 -35.04521776673848,-8.330028053900913,-86.25112033041491 -34.8493279504915,-7.452155248436791,-167.4643551996728 -34.89675925521722,-6.822068607326478,-33.60633558883998 -35.06108998599332,-6.033885733125473,-20.30936216244104 -35.68527882854998,-4.954651978356345,206.7594547802845 -36.17246761028848,-4.926964502514963,92.4562369715739 -37.12083964767644,-4.754676779209264,549.0694730329141 -39.4801154463707,-2.95459651173831,151.7744899513942 -40.14083322261531,-2.67716812313331,247.1490138607493 -41.52457002317318,-2.771281750919175,626.1058821692773 -43.32875734295831,-2.296561685776957,389.8316390857509 -43.79585396221777,-2.183078622486061,87.8435365241518 -44.79650058037146,-1.127198097052556,1598.808689600157 -46.1190310824678,-1.033923425555584,-1419.522559830875 -46.3591765535141,-2.106165072971268,-26.87107586009163 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="04DDFE646D261C483EF3">
+		<name>Xaxado</name>
+		<description><![CDATA[<div><span class="selectable-text copyable-text">Esse ritmo tem suas origens no sertão nordestino e remonta à marcante época do cangaço. O xaxado é sinônimo de alegria, mas também de guerra, pois era dançado sempre que os cangaceiros conquistavam alguma vitória. O nome pra lá de sugestivo vem do barulho que as sandálias faziam ao tocarem no piso sertanejo.</span><br></div>]]></description>
+		<gx:mid>/g/1tfjqx8r</gx:mid>
+		<gx:fid>0x70812e2b2c03ae3:0x8d6a21522f3fbdf8</gx:fid>
+		<LookAt>
+			<longitude>-37.5161964</longitude>
+			<latitude>-8.72276795</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>5656.480553480073</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_033F4F818C261CF03131</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bHNhQndmRXF3S1M3NmhnZFY5bFp6UXR3OEErRWZZRXVnUEJKVStodWVMTUliVVRCNGtFSVEyL2JzcFhjUmU2elhUOG02TWcyQzk0RDVPWTAwYUs2cDZETDBmaVBzTURheVNDWjdMQWlxeld4d2tGRmlLOTJYa2FCZTFCejRLYlFlOGpLV25rVlgybk1jQ2Y1emtNVlN3Y3k5T3grZ25yQzU3bUg3VG5PbDZTenZ6UFdVaGMxcjdvazlzUDBtNkdXNFNnSlNWWitBZGVXS3JhMWFhZ0J6YkZydEZpaCtUSWFqTi9rWis0S3l3N2ZINm5BPT0">
+				<gx:ImageUrl>https://doc-04-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/465epk3h8279upri5js3gl4j14/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lmxVKUGSdWZOtEI3XL6PdhI7gV3ZK1xnCcL0z_pgJHgCM1MrsIkuIGVkHim6FN3mbIYFNOd84o6WP4X_-SAWvEKWrXSkCpV0ZYu63YYZrDlVYM7k3UCAJ_LH4Jiu8VmbLjIkrs2QJZ7vkvl7dB5M-0kTKNftRRMr4u0wHrhJL8lw5gdeKPc068ySauvbRUK9s?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-37.5161964,-8.7227681,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D2EB97443261C4DE094">
+		<name>Samba de Roda</name>
+		<description><![CDATA[<div><span class="selectable-text copyable-text">O samba de roda nasceu no recôncavo baiano e é resultado da mistura entre diferentes ritmos africanos. Ele mescla festa, poesia, dança, música, ludicidade e religiosidade, o que torna esse ritmo muito especial. Hoje o samba de roda é um de nossos maiores patrimônios culturais e não é à toa que ele se transformou em um símbolo inconfundível de brasilidade.</span><br></div>]]></description>
+		<gx:mid>/m/03lcm_</gx:mid>
+		<gx:fid>0x7160a3f210ea585:0x12002e9065ae5740</gx:fid>
+		<LookAt>
+			<longitude>-38.6329052</longitude>
+			<latitude>-12.80553915</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>90675.24876340767</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_033F4F818C261CF03131</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bmx0b0ZreGJtaTJKcGg3ZGFJK2Jqd2pnSGdQcjRZMG51cE1HM0N4UlZKcFlsU3NoRlorak02UHhGRTFVZVJkVnAzVTdFWXFTcmEwWWhOK0RyUTNmZTJoWVF0SGI3c2tpOVBHd0psNEpubkQ2c1Z4cnJ5TkJWYlM1ZXVIKzNLU0tjYzFtbUM1NWtBY2RBRGNuQ2hTd01GUWRRc01HamwrVHdibTRFZzZXZVJ0MVFHeU01bk1pckNWeGpxNHhTRmpxU2NtM3lDR0JTa2JLazBSY0dQbjdzbkdyTUtackhmNStNaElwL3M5K21MYmdrSEJBPT0">
+				<gx:ImageUrl>https://doc-0o-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/qssqf723m2ou7ehlol5e1455q4/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9mQg4vOqORYjrEycwBf21uWPvShOn2LpzsKOEEA7ORRotQZySOKpokfngXOmrEm1xvTKBJVCJqS0ctLY4J7LTgi2gGof3qvPhCEZw5kMNBDVU1blMkmzqM2yLrEgiJtwKC9qCg5lDAhFIHRo2E8G7o_O7kQmQus54uu5XBvODSJj568Bav4koZjI0XlXyAzIyk?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-38.6320086,-12.847793,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AE5B93215261C51D45C">
+		<name>Forró</name>
+		<description><![CDATA[<div><span class="selectable-text copyable-text">Forró engloba a quadrilha, o xote, o baião, dentre outras variantes, podendo ser dançado mais colado ou separado do par.</span><br></div>]]></description>
+		<gx:mid>/m/01hdpp</gx:mid>
+		<gx:fid>0x7007c9d931c86c5:0x1de0196a93401726</gx:fid>
+		<LookAt>
+			<longitude>-36.8682613</longitude>
+			<latitude>-6.64375985</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1477817.770181692</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_033F4F818C261CF03131</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5a0ZFRVV2Z1FBc0xYeVZVRHcxRk9xUFBleUsvamZWYWhPQ1FhVit2eUdmSXhLaWlXUW45QVRjU0JYUDAzeVFBNDJ6QnNtRXdUWVFJUU85WDRCYnlrQmJ0eTMxM1JFSlhNdUFSOUV2QXNlYXROcldka1JCVUlid1JITmxvMktBVitySXZjdU1sZWJLTjU1bDFMaEhUaUFBZUVnWVhSb2w1MHJISHNpeHpuRWpLMTdNZWdVNGxiL0FPWE1rNGwwUnhPaHJRY2poSVQxaEZkUVVvLzZ3OHBsUm10bnhPbzI0OG5GQWVqSmR2QmFHSjJ3aHVRPT0">
+				<gx:ImageUrl>https://doc-00-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/c42ioht01ktuh6ee34cu8g9vl8/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9mAYqMrNCM9-4HhjBuDWTmgkKk7E5oSMOeepPhX2VTFUPiI2g21D81yxaBiyvyVxM4L66BsVjlxIfa3XlWUw63iI6BrcO4h7-_mX6pLXSNis2rWBr1OtXt-b4378i0UB771FMZQc5PWUoiheGV0BvN2oNuyRCvwJOYsZzDFKV2LN6Fe2MDndZm6Tdut7tcWEes?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-36.954107,-8.8137173,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05DC245182261C55B714">
+		<name>Axé</name>
+		<description><![CDATA[<div><span class="selectable-text copyable-text">Esse ritmo contagiante mistura referências do reggae, forró, merengue, maracatu, frevo e ritmos africanos. Além disso, a percussão é uma presença marcante no axé e a positividade, como o próprio nome sugere, é um dos principais traços desse ritmo tão famoso no país inteiro.</span><br></div>]]></description>
+		<gx:mid>/m/01c8c6</gx:mid>
+		<gx:fid>0x716037ca23ca5b3:0x7e926f5fb491ed05</gx:fid>
+		<LookAt>
+			<longitude>-41.9592156</longitude>
+			<latitude>-13.4406904</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2894118.683544035</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_033F4F818C261CF03131</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bS9wNTJKRlFlZmdaSEI0QmVlOU9LSjlEOUgzQWVOTjhkMTNoUWVKemhsQzdkdXRHZXJGTXhPbFRYd011QnBObmR3QmJuMUgvUmJEY09vTlhTaDE4cHduZ1JsanBVU3BrSUJQSVMveHhIQ3VrQ3hSbVJCQnpucVFKNFJvUTc5RUpzNm9wY1RHRWNoZ252Z3RQbDV0L2dUL2ZUaklxenpWNk9SbTVubFdnai9hYWpiMjV0MG5CSml5MWpyNW9oVXJRS1VaUXlwK1VTaFp1c2txakVLUHQ2ajFaeTIvMlZHa1NaMnF5aEt1YS9wNlhRU0V3PT0">
+				<gx:ImageUrl>https://doc-0s-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/35ona5c8s32a59ag3g6vbp30hk/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9krftCHYuqKT2bbi5acFH6lLbP-107X8tBIS61VZxQ_l7TuEaWgYw1wtlZPdl79rXHUouRHZtTfb4BDFRr2rI0SmVGVATbLMnAaLEIDhYaqtPiBbGb2eR99gNwfb2-yKbVffWFxszNdE_kBDBHRPrbrpO0w3lqKawqZY3wusYqfdVh0rRQXOq3hUdSsSKUVcY0?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-41.2808577,-11.4098737,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01E71C15232618442A1D">
+		<name>Curiosidades</name>
+		<description><![CDATA[<h3><b><i><i><b><i><i><b><b></b></b></i></i></b></i></i></b><br></h3><h3>O Nordeste é a região mais antiga do Brasil,<br></h3><h3> sendo a primeira região que foi vista pelos portugueses em 1500,<br></h3><h3> além de ser a região mais antiga, ela também possui <br></h3><h3>muitas curiosidades<b></b>&nbsp;&nbsp;<br></h3><div><br></div>]]></description>
+		<styleUrl>#__managed_style_09192FA663261CF03104</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5a3Y4VU03N3JLbmhtWWFsRkR1Ulp1OG9wYnpUVEN3RDRVVWgycTdWUEY3Nm1Zbnc0YlFPck1GdE1rM0N0L3lmWStUMVBWUWt4eXN5SmxZVU9hVEF1MHhpZGpvOHRpdjFLOHdKakoycitqUVkwNjYxbDJCZFdNTEhreFZ2VUZkR0NmSzlPWG5JTlh0ZTdLWVJIZzFVSGxlenF4dFlqYkl1Y3lLQ2doSnJGVlNOWkNOSHBXV2pDK0kySzZ1WTNBem95WVhNa0ZiNk9zMGhqa2FYVnFoemY1czdnaFllbXRqSGlKVnhzWE1xQm9zUjZuVXlpUT0">
+				<gx:ImageUrl>https://doc-0o-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/damr7ja21pli46erelcpb4qjtk/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9lVL-xk_hoZsI4MMcyz0UXXoO8bD2fBArTFVaEMMQDtH2EMdwEVbXDZ-x_NaAYKnUNi6in5YTNewR71H3ujtrWHMXsUpICNdJfmqtUPGoHqayPrOR2Qw-6pFXvjAhzGAlk8m4RmgAVBCwZ8C5q5tHG08r0tSuM5Fcd_50Q-xcXqVt8VslQv6WAj6gl2mgDzRoYS?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+	</Placemark>
+	<Placemark id="0639BA14522618614C93">
+		<name>João Pessoa é a cidade em que o sol nasce primeiro</name>
+		<description><![CDATA[<p class="MsoNormal" style="background: white;"><span style="color: rgb(33, 37, 41);"><span class="font" style="font-family:&quot;DM Sans&quot;">do Nordeste que poucas
+pessoas conhecem. O ponto mais oriental da América chama-se Ponta do Seixas e
+está localizado em João Pessoa.</span></span><br></p><div><br></div>]]></description>
+		<LookAt>
+			<longitude>-34.88860338931019</longitude>
+			<latitude>-7.136998022928177</latitude>
+			<altitude>47.34079811520141</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>48136.38647593092</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_02815BA550261CF030FC</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bExVWW43STFKTkRQUGFid0lhR0VJSmpmSmZTU2FCTnUxMmlzOStCZWE3SkVjSElZU1pmYUtrVURHRUM2R2RUSCtQN0JTbTRCeFhBUkVxSEI2ZlFWZVE4dEZITnpEdzBBb1ltZHRQQlhlRDJtNXcrSEVwb3BYcnIrQkdQRnJHK3pMaWNXZVQyeTRKQytwcml4Ty9HSDFDaWdmVHc2U1JUVmtkYUk1aUZzd3gyNlAvTnh0KzBGdm50QWJqaXlhZ1d2Q0FBOVRaQlRwem9sSmhpTk9NL2hWSld3WEI1bTVOVnBKTkVLbFRCV1YyR25BQk9BPT0">
+				<gx:ImageUrl>https://doc-0k-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/3n9v3unseoii3a1ifqjm03t3fk/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9kPzAMFu_fLDJQcGdLj12bnOPOpX0g0Vz2EaOn3Q0jhgV1VOj7kSk-RuTXF-jJsgdFPzoUjbV8abilZPIsWMGqteTI8qhA5g9lgLeBzGn1a5doZdPjpaTvrTw-sKVkIa4C5TdyLH4rMyWHESjy5iLRyfBjPMArcprNqrI1YOuq9HRy9jlTuw4XvmrNZi1IwLDM?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>-34.8804970386301,-7.123949168298321,41.58445304326907</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0218060E422618641C64">
+		<name>Pernambuco independente</name>
+		<description><![CDATA[<div><span style="line-height: 107%;"><span class="font" style="font-family: Calibri, sans-serif;"><span class="size" style="font-size: 11pt;">Por&nbsp;<b>75 dias</b>, Pernambuco foi um país.
+Uma nação criada pra ser independente do império português. O povo pernambucano
+se uniu na luta pela liberdade de pensamento, pelos direitos de cidadania e por
+uma imprensa livre. Comemorar a Revolução Pernambucana de 1817</span></span></span><br></div>]]></description>
+		<LookAt>
+			<longitude>-38.66063419214108</longitude>
+			<latitude>-8.040489068166217</latitude>
+			<altitude>452.9327091817246</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>2063354.915632904</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_02815BA550261CF030FC</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bk9lY0pyejF6MThMMTBtdjJoMTl5MlNQYkNEV3draWxERXFoRzM3cllwRVlwSFRkVWo2b0xOMzc1eG1mbm1SSHpoZlBTSWdUVFlTUnJ4Z01mcnZ0aEExOFlQZEQvYld2V2I5cTVtd2RIS25jWnNxZEx5ZlRtODBDaGRMRGRLaXlqaGQzRUxBRzFLUkU5dm5WaXRSa3ZROUdhcUozanBaOXN2aDlSMjdrU2RXbGtSaFkrRDNCbUFXOXFQQTRGYVJ5c3BydUdjUnRNeXZpL1ZxajJ2RGVjUUNGRVdBUldEUitJazdteC9iaUZ4NmgwU3JRPT0">
+				<gx:ImageUrl>https://doc-00-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/da78dblrnv4gnptom7p6r5infg/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9l_6oBX_1xG4Eg_9Lls-XVGP5ExtptBkfTofTjlFjTovv7Y_kaDbvO9diYuiIuZ1rG4vOkJRJXyRp5arhYAFDFzF99vI20TknehjNKlR6Ki9ifzKCawknvbQD1F_ly78Ca_7OS9yW2V_G3STHAS-MTGFMwnALuVCW2ZlT9d1bU6xpT1jivdWUz3dpW-nlTC9y4?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>-38.20367461261271,-8.339099226922757,167.5730860383437</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03446904CA261CE8DC44">
+		<name>Obrigado</name>
+		<description><![CDATA[<div>Participantes:<br></div><div>Endrigo, Alex, Andrei, Danilo, Pedro, Bruno, Igor, Nickolas Maia <br></div><div>1DS AMS<br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>-40.96548025</longitude>
+			<latitude>-9.665135070178415</latitude>
+			<altitude>465.9153122319777</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>3247573.513045724</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_09192FA663261CF03104</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5bWx3czF5UExmVForS00wd3hRTHdNZ3R0TGI1Qms2WTJGeThqdHVLQlk1K0d0amF4R0J4dDNMb2tQT0Z5U004Wk0wSE9LK0dsZ1NEOGdGdGxTVDM1Zk5KNUlzL09tVW9oK3kxZFAvUE5UTnBYRmVib0lhZk1ZdkFoVHhQMkxoRlpzNVFBNjZXT0JWenNDd0xacGRNWGxUd0pGblFoSTNjOVVxVzZzU0hMRlpyL2hueFkrSkRWdnRWWm02MHVoV0lJaUtBYk1oci9HZDhheWs1OXZnWGRTSExOK1NMOC9FVzQ5OHlHZnNySzZSK2xQWUtKaz0">
+				<gx:ImageUrl>https://doc-0o-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/pu8o8ds6slfjic2td8pu1nhb0c/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9mO5NWhOuqUiSpiKfIL3o7yrVbUQxmaUWTp0q8EU9u6BL7_rB8OeQ4P8On25y66Zp09Ps2sUdAwVech5EBMT_y8Iohd4eWrqw-4Igp7tli2gX-eM7lHRduHE-oeSrBv0SwsZjwNjhfKc6JpBdzK1h2KgB1ti84vtZ4C6f17YtZOgLkCVz7xy_dbdYR0wi0PzeIv?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+	</Placemark>
+	<Placemark id="0B8019B33726185416A3">
+		<name>Recife é a capital estadual mais antiga do país</name>
+		<description><![CDATA[<div>A capital Recife que foi fundada em 1537, é a capital mais antiga que o Brasil tem até os dias atuais</div>]]></description>
+		<LookAt>
+			<longitude>-34.86108871188687</longitude>
+			<latitude>-8.027789979321726</latitude>
+			<altitude>5.325902984636476</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>26935.47959194053</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_02815BA550261CF030FC</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUtnQis5azFsOCtIVGF1NTI4c3pmUTJUZG9HVjNYVS9XVmhza3p5eGp5S0tMMkZwSEZ3S0VoaWlLTTY2UlZadE1HcGcxTkNsV1VnVkZQaEo2NE42dHd4K1ozTGNUL1FXckJiTnd2SGE2OHdJVzA2WHJzZVZmNGkrV29udk1tMUhHQVRCbWdQNjZ3OFF3dm5BVmdZWllRenIzUy9TZDlrajVPUkQzYXhmL3QvaGUyUGVjRmVXNHRLNmsyRHIvc3RMYVBkZldCUTRaaGRZYjVKOTY0MjloTjFDcHI0amI2TzlsMVZlS0NHRk9qVW1scGt3cU93THF3PT0">
+				<gx:ImageUrl>https://doc-0o-88-mymaps.googleusercontent.com/untrusted/hostedimage/aag4mff82o5099nhoubdj2pomc/28ni20pvtr3ipqj6go96vgd98o/1670331731250/b2F-1eGokSABsbhsoJB3eaLVjqwRG5Uj/09958895416324855312/5AKgB-9kKgyC2CQ6DeSgKTPe92rz7dxiELIN-6Kz0wzg42jD448yqt5mmb6iUlmdLEN80Ad8gwY63-s0Oj_9fTVbwXxzw7uK-KGPz-toB_7CUMI4xRisTIyylKuyRSkRtbNoKwloPec-OFEVpwtJ0_qgdxheiO7cNF-RF8dyscZ5JmcN41nmbBarnxiP6bwOc-GRy8Ag?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>-34.84583839966339,-7.991684435820585,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
