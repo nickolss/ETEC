@@ -56,7 +56,7 @@ class Pessoa{
 
     public function getEstado(): String
     {
-        return $this->$estado;
+        return $this->estado;
     }
 
     public function setEstado($estado)
