@@ -1,0 +1,1 @@
+/home/nickolss/IdeaProjects/Notas/build/classes/kotlin/main/MainKt.class:/home/nickolss/IdeaProjects/Notas/build/classes/kotlin/main/Util.class

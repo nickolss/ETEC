@@ -1,0 +1,1 @@
+/home/nickolss/IdeaProjects/Celular/build/classes/kotlin/main/Celular.class:/home/nickolss/IdeaProjects/Celular/build/classes/kotlin/main/MainKt.class
