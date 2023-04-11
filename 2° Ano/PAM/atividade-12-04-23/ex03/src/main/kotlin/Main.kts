@@ -11,9 +11,12 @@ class Externa {
             println("x vale $x")
         }
     } //fim da classe interna
+
+    fun main(args: Array<String>) {
+        val ex = Externa() //instancia externa
+        ex.instanciaInterna() //invoca método da externa
+    }
 }
 
-fun main(args: Array<String>) {
-    val ex = Externa() //instancia externa
-    ex.instanciaInterna() //invoca método da externa
-}
+
+
