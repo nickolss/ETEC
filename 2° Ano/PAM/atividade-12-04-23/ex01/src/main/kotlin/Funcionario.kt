@@ -1,9 +1,9 @@
 class Funcionario {
-    var nome : String = ""
+    private var nome : String = ""
 
-    var nascimento : Int = 0
+    private var nascimento : Int = 0
 
-    var salario : Double = 0.0
+    private var salario : Double = 0.0
 
 
     fun informarSalario(){

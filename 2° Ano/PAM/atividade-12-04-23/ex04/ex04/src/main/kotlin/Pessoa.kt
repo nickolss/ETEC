@@ -1,39 +1,27 @@
 class Pessoa {
-    var nome : String = ""
-        private set
+    private var nome : String = ""
 
-    var rg : String = ""
-        private set
+    protected var rg : String = ""
 
-    var cpf : String = ""
-        private set
+    private var cpf : String = ""
 
     var idade : Int = 0
-        private set
 
     var endereco : String = ""
-        private set
 
     var foneResidencial : String = ""
-        private set
 
     var foneComercial : String = ""
-        private set
 
     var celular : String = ""
-        private set
 
-    var nomePai : String = ""
-        private set
+    protected var nomePai : String = ""
 
-    var nomeMae : String = ""
-        private set
+    protected var nomeMae : String = ""
 
-    var nomeConjuge : String = ""
-        private set
+    protected var nomeConjuge : String = ""
 
-    var sexo = ""
-        private set
+    private var sexo = ""
 
     fun cadastrarPessoa(){
         println("****************")
