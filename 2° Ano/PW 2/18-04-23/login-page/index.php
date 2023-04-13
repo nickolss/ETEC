@@ -12,7 +12,7 @@
     <main class="main">
         <div class="formulario">
             <div class="formulario__imagem">
-                
+                <img src="assets/img/computer.png" alt="" class="imagem">
             </div>
 
             <form class="formulario__perguntas">
