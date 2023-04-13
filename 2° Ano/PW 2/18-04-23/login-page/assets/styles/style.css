@@ -1,41 +1,5 @@
-main.main {
-  height: 100vh;
-  width: 100vw;
-  background-image: linear-gradient(to bottom left, #bc57bd, #475cc3);
-  display: grid;
-  place-items: center;
-}
-
-.formulario {
-  background-color: #fff;
-  max-width: 50vw;
-  padding: 5rem;
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.formulario .formulario__perguntas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-.formulario .formulario__perguntas .perguntas__titulo {
-  font-size: 1.4rem;
-  font-weight: 600;
-  margin: 0 0 1rem 0;
-}
-.formulario .formulario__perguntas .perguntas__input {
-  border: none;
-  background-color: #e7e7e7;
-  padding: 0.5rem;
-  border-radius: 15px;
-}
-.formulario .formulario__perguntas .perguntas__submit {
-  width: 100%;
-  background-color: #6fb553;
-  border: none;
-  color: #fff;
-  padding: 0.5rem;
-  border-radius: 15px;
-}/*# sourceMappingURL=style.css.map */
+t keskellä" "Plné oko køíovı støed" "Keresztirányú teljes hurok középen" "Pe³na pêtla na œrodku" "Ïåòëåâûå çàöåïû ïî öåíòğó â ğàçíûõ ïëîñêîñòÿõ" "Polna zanka v središèu" "‹tŠÛƒtƒbƒN" "µ¹·´Ô²¹³" "¸ó¤¤¤ß³æ°é°j¸ô" "Áß½É°ú ±³Â÷ÇÏ´Â ÀüÃ¼ ·çÇÁ" "Contorno inteiro de centro cruzado"
+;Tables
+407 "Extension Spring" "Zugfeder" "Trækfjeder" "Muelle de extensión" "Ressort de traction" "Molla a trazione" "Mola de extensão" "Dragfjäder" "Puristusjousi" "Taná pruina" "Húzórugó" "Sprê¿yna naci¹gowa" "Ïğóæèíà" "Natezna vzmet" "ˆø’£‚èƒRƒCƒ‹‚Î‚Ë" "À­Éìµ¯»É" "©Ô¦ù¼uÂ®" "ÀÎÀå ½ºÇÁ¸µ" "Mola de extensão"
+424 "Spring Wire" "Federdraht" "Fjedertråd" "Alambre de muelle" "Fil de ressort" "Filo della molla" "Arame para mola" "Fjädertråd" "Jousilanka" "Pruinovı drát" "Rugóhuzal" "Drut sprê¿ynowy" "Ïğóæèíà" "ica vzmeti" "‚Î‚ËŞ—¿" "µ¯»É¸ÖË¿" "¼uÂ®½u" "½ºÇÁ¸µ ¿ÍÀÌ¾î" "Fio de mola"
+448 "Music Wire" "Stahldraht" "Music wire" "Alambre de instrumentos music

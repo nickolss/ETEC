@@ -1,41 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.mycompany.tabuada;
+utodesk za jakýmkoliv ú&#269;elem.</span></p>
 
-/**
- *
- * @author nickolas
- */
-public class Tabuada {
-    
-    private int n1;
-    
-    public void mostrarTexto(){
-        System.out.println("********************************");
-        System.out.println("Programa de Cálculo de Tabuada");
-        System.out.println("********************************");
-        System.out.println("");
-        System.out.print("Digite um número: ");
-    }
-    
-    public void calculoTabuada(int n1){
-        for (int cont = 0; cont <= 10; cont++) {
-            int resultado = n1*cont;
-            
-            System.out.println(n1 +"X"+cont+" = "+ resultado);
-        }
-    }
+<p class=MsoNormal style='margin-top:5.0pt;margin-right:0cm;margin-bottom:5.0pt;
+margin-left:0cm;text-indent:35.45pt;line-height:normal;text-autospace:none'><span
+lang=CS style='font-size:9.0pt;font-family:"Helvetica",sans-serif'>2.1.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<u>Licencované materiály jako jediný produkt</u>. Držiteli licence byla
+poskytnuta licence na licencované materiály jako na jediný produkt a
+p&#345;íslušné komponenty nemohou být odd&#283;leny pro ú&#269;ely instalace
+nebo zp&#345;ístupn&#283;ní (a veškeré takové komponenty musejí být
+nainstalovány a zp&#345;ístupn&#283;ny na témže po&#269;íta&#269;i,
+s&nbsp;výjimkou p&#345;ípad&#367; písemn&#283; schválených spole&#269;ností
+Autodesk).</span></p>
 
-    public void setN1(int n1) {
-        this.n1 = n1;
-    }
-
-    public int getN1() {
-        return n1;
-    }
-    
-    
-   
-}
+<p class=MsoNormal style='margin-top:5.0pt;margin-right:0cm;margin-bottom:5.0pt;
+margin-left:0cm;text-indent:35.45pt;line-height:normal;text-autospace:none'><span
+lang=CS style='font-size:9.0pt;font-
