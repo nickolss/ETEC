@@ -1,0 +1,64 @@
+@import '../abstract/var';
+
+.login{
+    background-color: #fff;
+    padding: 4rem;
+    max-width: 50vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .login__titulo{
+        text-align: center;
+        font-size: $titleSize;
+        font-weight: 600;
+        color: $purple-font;
+        padding: 0.5rem 0;
+    }
+
+    .login__input{
+        border: none;
+        background-color: $gray;
+        padding: 0.8rem 2rem;
+        border-radius: 15px;
+    }
+
+    .login__input:focus{
+        outline: none;
+    }
+
+    .informacoes-extras{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .login__lembre{
+            display: flex;
+            align-items: center;
+            color: $purple-font;
+            font-size: 0.8rem;
+        }
+    
+        .login__link{
+            text-decoration: none;
+            color: $purple-font;
+            font-size: 0.8rem;
+            transition: all 1s;
+        }
+        .login__link:hover{
+            text-decoration: underline;
+            color: #4a3c68;
+        }
+    }
+
+    
+
+    .login__submit{
+        background-color: $purple-background;
+        border: none;
+        color: #fff;
+        padding: 0.5rem;
+        border-radius: 15px;
+    }
+}

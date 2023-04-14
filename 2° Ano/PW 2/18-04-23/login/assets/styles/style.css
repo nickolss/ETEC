@@ -1,0 +1,113 @@
+main.main {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom left, #bc57bd, #475cc3);
+  display: grid;
+  place-items: center;
+}
+
+.formulario {
+  background-color: #fff;
+  max-width: 50vw;
+  padding: 4rem;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.formulario .formulario__perguntas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.formulario .formulario__perguntas .perguntas__titulo {
+  color: #5b428e;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+}
+.formulario .formulario__perguntas .perguntas__input {
+  border: none;
+  background-color: #e7e7e7;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+.formulario .formulario__perguntas .perguntas__input:focus {
+  outline: none;
+}
+.formulario .formulario__perguntas .formulario__login {
+  color: #5b428e;
+  align-self: flex-start;
+  text-decoration: none;
+  transition: all 1s;
+}
+.formulario .formulario__perguntas .formulario__login:hover {
+  text-decoration: underline;
+  color: #4a3c68;
+}
+.formulario .formulario__perguntas .perguntas__submit {
+  width: 100%;
+  background-color: #755ac1;
+  border: none;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+.formulario .formulario__imagem {
+  display: grid;
+  place-items: center;
+}
+
+.login {
+  background-color: #fff;
+  padding: 4rem;
+  max-width: 50vw;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.login .login__titulo {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #5b428e;
+  padding: 0.5rem 0;
+}
+.login .login__input {
+  border: none;
+  background-color: #e7e7e7;
+  padding: 0.8rem 2rem;
+  border-radius: 15px;
+}
+.login .login__input:focus {
+  outline: none;
+}
+.login .informacoes-extras {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login .informacoes-extras .login__lembre {
+  display: flex;
+  align-items: center;
+  color: #5b428e;
+  font-size: 0.8rem;
+}
+.login .informacoes-extras .login__link {
+  text-decoration: none;
+  color: #5b428e;
+  font-size: 0.8rem;
+  transition: all 1s;
+}
+.login .informacoes-extras .login__link:hover {
+  text-decoration: underline;
+  color: #4a3c68;
+}
+.login .login__submit {
+  background-color: #755ac1;
+  border: none;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 15px;
+}/*# sourceMappingURL=style.css.map */
