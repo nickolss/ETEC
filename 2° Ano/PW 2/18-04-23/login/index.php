@@ -15,7 +15,7 @@
                 <img src="assets/img/computer.png" alt="" class="imagem">
             </div>
 
-            <form class="formulario__perguntas">
+            <form class="formulario__perguntas" action="processa-dados.php" method="POST">
                 <legend class="perguntas__titulo">Cadastro</legend>
                 <input type="email" name="email" id="email" placeholder="Email" class="perguntas__input" required>
                 <input type="password" name="senha" id="senha" placeholder="Senha" class="perguntas__input" required>

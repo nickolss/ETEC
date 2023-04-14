@@ -10,7 +10,7 @@
 </head>
 <body>
     <main class="main">
-        <form>
+        <form action="verifica-dados.php" method="POST">
             <div class="login">
                 <h2 class="login__titulo">Login</h2>
                 <input type="email" name="emailLogin" id="emailLogin" placeholder="Email" class="login__input" required>
