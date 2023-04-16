@@ -1,0 +1,83 @@
+body {
+  background-color: #fcf0e6;
+  padding: 0.5rem;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__titulo {
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  color: #A55C25;
+  font-weight: 600;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+.cards .card {
+  padding: 1rem;
+  background-color: #72544C;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.cards .card .card__imagem {
+  width: 100%;
+}
+.cards .card .card__titulo {
+  text-align: center;
+  padding: 0.5rem 0;
+  color: #FEBC1D;
+  font-size: 1.8rem;
+}
+.cards .card .card__descricao {
+  padding: 0.5rem 0;
+  font-size: 0.8rem;
+  color: #F1B33C;
+}
+.cards .card .card__link {
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: #FEBC1D;
+  color: #72544C;
+  width: 100%;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 720px) {
+  .main {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+  }
+  .main .cards {
+    flex-direction: row;
+  }
+  .main .card__moqueca {
+    order: 2;
+  }
+}
+.enviar {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.enviar .enviar__botao {
+  text-decoration: none;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  background-color: #FEBC1D;
+  color: #72544C;
+}/*# sourceMappingURL=style.css.map */

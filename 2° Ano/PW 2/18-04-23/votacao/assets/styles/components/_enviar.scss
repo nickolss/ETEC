@@ -1,0 +1,12 @@
+.enviar{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    .enviar__botao{
+        text-decoration: none;
+        padding: 1rem 3rem;
+        border-radius: 5px;
+        background-color: $yellow;
+        color: $dark-brown;
+    }
+}
