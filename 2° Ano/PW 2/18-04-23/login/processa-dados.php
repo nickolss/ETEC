@@ -4,7 +4,7 @@
         $senha = $_POST['senha'];
 
         $arquivo = fopen('registro.txt' , 'a');
-        fwrite($arquivo , "$email - $senha");
+        fwrite($arquivo , "$email-$senha\n");
     }
 
     processaDados();
@@ -31,7 +31,7 @@
                 <legend class="perguntas__titulo">Cadastro</legend>
                 <input type="email" name="email" id="email" placeholder="Email" class="perguntas__input" required>
                 <input type="password" name="senha" id="senha" placeholder="Senha" class="perguntas__input" required>
-                <p>Cadastro realizado!</p>
+                <p class="formulario__resultado">Cadastro realizado!</p>
                 <a href="login.php" class="formulario__login">Já é cadastrado?</a>
             </form>
         </div>

@@ -1,11 +1,22 @@
 <?php 
     function verificaDados($emailLogin, $senhaLogin){
-        $arquivo = fopen('registro.txt' , 'r');
+        $arquivo = 'registro.txt'; //Caminho do arquivo txt
+        if(file_exists($arquivo)){
+            $arq = fopen($arquivo , 'r');
 
-        if (strpos(file_get_contents($arquivo), $emailLogin) !== false && strpos(file_get_contents($arquivo) , $senhaLogin) !== false)  {
-            echo "Bem vindo/a ao site";
+            $texto = fread($arq , filesize($arquivo));
+
+            if(isset($emailLogin) && isset($senhaLogin)){
+                if(str_contains($texto , $emailLogin) && str_contains($texto , $senhaLogin)){
+                    echo "<p class='login__resposta'>Bem vindo/a ao site</p>";    
+                }else{
+                    echo "Registro não encontrado";
+                }
+            }else{
+                echo "Não conseguimos receber sua senha e/ou email cadastrado";
+            }
         }else{
-            echo "Registro não encontrado";
+            echo "Nenhum registro foi encontrado no sistema";
         }
     }
 ?>
