@@ -23,28 +23,31 @@ html {
   justify-content: center;
   gap: 3rem;
 }
-.cards .card {
+.cards form .card {
   padding: 1rem;
   background-color: #72544C;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  max-width: 500px;
+  min-height: 510px;
+  max-height: 510px;
 }
-.cards .card .card__imagem {
+.cards form .card .card__imagem {
   width: 100%;
 }
-.cards .card .card__titulo {
+.cards form .card .card__titulo {
   text-align: center;
   padding: 0.5rem 0;
   color: #FEBC1D;
   font-size: 1.8rem;
 }
-.cards .card .card__descricao {
+.cards form .card .card__descricao {
   padding: 0.5rem 0;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #F1B33C;
 }
-.cards .card .card__link {
+.cards form .card .card__link {
   padding: 0.5rem 0;
   text-align: center;
   background-color: #FEBC1D;
@@ -65,9 +68,6 @@ html {
   .main .cards {
     flex-direction: row;
   }
-  .main .card__moqueca {
-    order: 2;
-  }
 }
 .enviar {
   display: flex;
@@ -80,4 +80,8 @@ html {
   border-radius: 5px;
   background-color: #FEBC1D;
   color: #72544C;
+}
+.enviar .enviar__texto {
+  color: #A55C25;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */

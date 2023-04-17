@@ -4,36 +4,42 @@
     justify-content: center;
     gap: 3rem;
 
-    .card{
-        padding: 1rem;
-        background-color: $dark-brown;
-        border-radius: 5px;
-        display: flex;
-        flex-direction: column;
-        .card__imagem{
-            width: 100%;
-        }
-        .card__titulo{
-            text-align: center;
-            padding: 0.5rem 0;
-            color: $yellow;
-            font-size: $title-font;
-        }
-        .card__descricao{
-            padding: 0.5rem 0;
-            font-size: $description-font;
-            color: $dark-yellow;
-        }
-        .card__link{
-            padding: 0.5rem 0;
-            text-align: center;
-            background-color: $yellow;
-            color: $dark-brown;
-            width: 100%;
-            font-size: $vote-font;
-            text-decoration: none;
+    form{
+        .card{
+            padding: 1rem;
+            background-color: $dark-brown;
             border-radius: 5px;
-            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            min-height: 510px;
+            max-height: 510px;
+    
+            .card__imagem{
+                width: 100%;
+            }
+            .card__titulo{
+                text-align: center;
+                padding: 0.5rem 0;
+                color: $yellow;
+                font-size: $title-font;
+            }
+            .card__descricao{
+                padding: 0.5rem 0;
+                font-size: $description-font;
+                color: $dark-yellow;
+            }
+            .card__link{
+                padding: 0.5rem 0;
+                text-align: center;
+                background-color: $yellow;
+                color: $dark-brown;
+                width: 100%;
+                font-size: $vote-font;
+                text-decoration: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
         }
     }
 }
@@ -46,9 +52,6 @@
 
         .cards{
             flex-direction: row;
-        }
-        .card__moqueca{
-            order: 2;
         }
     }
     
