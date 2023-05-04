@@ -25,7 +25,8 @@ public class Janela extends JFrame{
         botaoSair.addActionListener(
                 new ActionListener(){
                     public void actionPerformed(ActionEvent e){
-                        System.exit(0);
+                        
+                        e.getWhen();
                     }
                 }
         );

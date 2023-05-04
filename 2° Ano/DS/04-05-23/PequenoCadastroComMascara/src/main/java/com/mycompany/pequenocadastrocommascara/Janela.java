@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.botaocommascara;
+package com.mycompany.pequenocadastrocommascara;
 import javax.swing.*;
 import java.awt.*;
 import java.text.*;
@@ -17,11 +17,12 @@ public class Janela extends JFrame{
     JLabel rotuloCep, rotuloTel, rotuloCPF, rotuloData; 
     JFormattedTextField cep, tel, cpf, data; //Criado um campo de dados que pode receber mascara 
     MaskFormatter mascaraCep, mascaraTel, mascaraCPF, mascaraData; //Criada as máscaras para os Fields
+    JButton cadastrar;
     
     Janela(){
         super("Exemplo de JFormattedTextField");
         Container tela = getContentPane();
-        setSize(400, 250);
+        setSize(400, 280);
         setLayout(null);
         
         rotuloCep = new JLabel("CEP: ");
@@ -29,13 +30,13 @@ public class Janela extends JFrame{
         rotuloCPF = new JLabel("CPF: ");
         rotuloData = new JLabel("Data: ");
         
-       
+        cadastrar = new JButton("Cadastrar");
         
         rotuloCep.setBounds(50,40,100,20); //
         rotuloTel.setBounds(50,80,100,20);
         rotuloCPF.setBounds(50,120,100,20);
         rotuloData.setBounds(50,160,100,20);
-        
+        cadastrar.setBounds(120, 200, 100, 20);
         
         try {
             mascaraCep = new MaskFormatter("#####-###"); //Adicionado a máscara para cada campo
@@ -60,7 +61,14 @@ public class Janela extends JFrame{
         cpf.setBounds(150,120,100,20);
         data.setBounds(150,160,100,20);
         
-       
+        cadastrar.addActionListener(
+                new ActionListener(){
+                    public void actionPerformed(ActionEvent e){
+                        JOptionPane.showMessageDialog(null, "Seu CEP é " + cep.getText() + "\n Seu telefone é " + tel.getText() + "\n Seu CPF é " + cpf.getText() + "\n A data é " + data.getText());
+                    }
+                }
+        );
+        
         tela.add(rotuloCep);
         tela.add(rotuloTel);
         tela.add(rotuloCPF);
@@ -69,6 +77,7 @@ public class Janela extends JFrame{
         tela.add(tel);
         tela.add(cpf);
         tela.add(data);
+        tela.add(cadastrar);
         
         setVisible(true);
      
