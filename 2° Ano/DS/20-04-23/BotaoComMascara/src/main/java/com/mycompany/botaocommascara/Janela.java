@@ -43,6 +43,15 @@ public class Janela extends JFrame{
             mascaraCPF = new MaskFormatter("###.###.###-##");
             mascaraData = new MaskFormatter("##/##/####");
             
+            /*
+                # - significa Número na mascara
+                ? - significa Letra na mascara
+                A - significa Letra ou Número
+                * - significa que pode digitar qualquer coisa
+                U - significa que pode digitar letras maiúsculas
+                L - significa que pode digitar letras minúsculas
+            */
+            
             mascaraCep.setPlaceholder("_"); //Esse é o placeholder de onde o usuário está digitando
             mascaraTel.setPlaceholder("_");
             mascaraCPF.setPlaceholder("_");
