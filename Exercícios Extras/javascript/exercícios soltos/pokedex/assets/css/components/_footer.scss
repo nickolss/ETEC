@@ -1,0 +1,11 @@
+.cabecalho{
+    .cabecalho__texto{
+        .cabecalho__link{
+            color: #000;
+            transition: .4s;
+            &:hover{
+                color: $dark-gray;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@import 'components/wrapper.css';
+*, html, body, button, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+body {
+  background-color: #F0F2F5;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  background-color: #E5E5E5;
+  border-radius: 4px;
+  text-align: center;
+  background-image: url();
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50px -30px;
+  cursor: pointer;
+}
+.card .sprite {
+  width: 100%;
+  image-rendering: pixelated;
+}
+.card .name {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+.pokedex-container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 24px;
+}
+
+.cabecalho .cabecalho__texto .cabecalho__link {
+  color: #000;
+  transition: 0.4s;
+}
+.cabecalho .cabecalho__texto .cabecalho__link:hover {
+  color: #332E30;
+}/*# sourceMappingURL=style.css.map */

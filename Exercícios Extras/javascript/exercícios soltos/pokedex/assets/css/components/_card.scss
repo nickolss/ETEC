@@ -1,0 +1,25 @@
+.card{
+    width: 250px;
+    height: 300px;
+
+    background-color: $gray;
+    border-radius: 4px;
+    text-align: center;
+
+    background-image: url();
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50px -30px;
+
+    cursor: pointer;
+
+    .sprite{
+        width: 100%;
+        image-rendering: pixelated; //Serve para, quando colocar imagens, deixá-las pixelizadas
+    }
+
+    .name{
+        text-transform: capitalize;
+        font-size: 1.2rem;
+    }
+}
