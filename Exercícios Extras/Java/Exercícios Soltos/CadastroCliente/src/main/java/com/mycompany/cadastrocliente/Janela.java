@@ -10,7 +10,7 @@ import javax.swing.*;
 import javax.swing.text.*;
 /**
  *
- * @author dti
+ * @author nickolas
  */
 public class Janela extends JFrame{
     JLabel titulo, rotuloNome, rotuloCPF, rotuloRG, rotuloEndereco, rotuloBairro, rotuloCEP, rotuloCidade, rotuloEstado, rotuloLogin, rotuloSenha, rotuloTelefone, rotuloCelular, rotuloEmail;
