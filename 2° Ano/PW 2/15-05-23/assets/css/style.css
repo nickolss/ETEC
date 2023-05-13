@@ -1,0 +1,41 @@
+:root{
+    --fundo: #cccccc;
+    --azul: #007bff;
+}
+
+body{
+    background-color: var(--fundo);
+}
+
+div.container{
+    background-color: #fff;
+}
+
+div.cabecalho{
+    background-color: var(--azul);
+}
+
+.cabecalho__titulo{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.cabecalho__menu{
+    color: #fff;
+}
+
+.ativo{
+    font-weight: 600;
+    color: #fff;
+}
+
+.descricao, .formulario{
+    padding: 1rem 1.5rem;
+}
+
+.formulario__enviar{
+    background-color: var(--azul);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 2rem;
+}
