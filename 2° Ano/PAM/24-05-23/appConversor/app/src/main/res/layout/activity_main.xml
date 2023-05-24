@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/valorTemp"
+        android:hint="Digite a Temperatura"
+        android:inputType="numberDecimal">
+    </EditText>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Celsius"
+            android:id="@+id/celsiusRadio"
+            android:checked="false">
+        </RadioButton>
+        
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fahreinheit"
+            android:id="@+id/fahreinheitRadio"
+            android:checked="true">
+        </RadioButton>
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/converterButton"
+            android:text="CONVERTER TEMPERATURA">
+
+        </Button>
+    </RadioGroup>
+
+</LinearLayout>
