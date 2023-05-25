@@ -28,16 +28,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun converter(){
-        var temp: Double = editText.text.toString().toDouble()
+        var numDigitado: Double = editText.text.toString().toDouble()
 
         if(celciusRadioButton.isChecked){
-            temp = (temp-32) * 5/9
+            var temp = (numDigitado-32) * 5/9
+            editText.setText(temp.toString())
+            resultado.setText("A conversão de ${numDigitado} Fahreinheit é igual a ${temp} Celsius")
         }else if(fahreinheitRadioButton.isChecked){
-            temp = temp*9/5+32
+            var temp = numDigitado*9/5+32
+            editText.setText(temp.toString())
+            resultado.setText("A conversão de ${numDigitado} Celsius é igual a ${temp} Fahreinheit")
         }
 
-        editText.setText(temp.toString())
-        resultado.setText(temp.toString())
+
     }
 
 }
