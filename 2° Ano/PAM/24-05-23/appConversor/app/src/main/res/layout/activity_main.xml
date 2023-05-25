@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,42 +8,47 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/valorTemp"
-        android:hint="Digite a Temperatura"
+        android:hint="Digite a temperatura"
         android:inputType="numberDecimal">
     </EditText>
 
     <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Celsius"
-            android:id="@+id/celsiusRadio"
-            android:checked="false">
+            android:id="@+id/celcius"
+            android:checked="true"
+            android:text="Celsius">
         </RadioButton>
-        
+
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/fahreinheit"
             android:text="Fahreinheit"
-            android:id="@+id/fahreinheitRadio"
-            android:checked="true">
+            android:checked="false">
         </RadioButton>
-        
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/converterButton"
             android:text="CONVERTER TEMPERATURA">
-
         </Button>
-    </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultado"
+            android:text="">
 
+        </TextView>
+    </RadioGroup>
 </LinearLayout>
