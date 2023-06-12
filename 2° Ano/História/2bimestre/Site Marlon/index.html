@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="assets/styles/reset.css" />
+		<link rel="stylesheet" href="assets/styles/style.css" />
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="scripts/index.js" type="module"></script>
+	</head>
+	<body>
+		<header class="cabecalho">
+			<nav class="navbar navbar-dark bg-dark fixed-top navbar-celular">
+				<div class="container-fluid">
+					<img src="assets/img/logo.png" alt="Logo do Projeto Planejar" />
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasDarkNavbar"
+						aria-controls="offcanvasDarkNavbar"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="offcanvas offcanvas-end text-bg-dark"
+						tabindex="-1"
+						id="offcanvasDarkNavbar"
+						aria-labelledby="offcanvasDarkNavbarLabel"
+					>
+						<div class="offcanvas-header">
+							<h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+								Projeto Planejar
+							</h5>
+							<button
+								type="button"
+								class="btn-close btn-close-white"
+								data-bs-dismiss="offcanvas"
+								aria-label="Close"
+							></button>
+						</div>
+						<div class="offcanvas-body">
+							<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#"
+										>Home</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#"
+										>Motivação do Trabalho</a
+									>
+								</li>
+								<li class="nav-item dropdown">
+									<a
+										class="nav-link dropdown-toggle"
+										href="#"
+										role="button"
+										data-bs-toggle="dropdown"
+										aria-expanded="false"
+									>
+										Créditos
+									</a>
+									<ul class="dropdown-menu dropdown-menu-dark">
+										<li><a class="dropdown-item" href="#">Desenvolvedor</a></li>
+										<li>
+											<a class="dropdown-item" href="#"
+												>Professor Responsável</a
+											>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main class="principal">
+			<section class="descricao">
+				<h2 class="descricao__titulo">
+					Veja se entraria na sua faculdade dos sonhos?
+				</h2>
+				<p class="descricao__texto">
+					Esse teste é realizado para medir a probabilidade de você entrar na
+					faculdade desejada com suas características atuais e elabora o quão
+					distante você está do seu objetivo.
+				</p>
+				<section class="formula">
+					<h2 class="formula__titulo">Essa será a formula usada</h2>
+					<code class="formula__codigo"
+						><abbr title="Tamanho da Chance">TC</abbr> = (<abbr
+							title="Resiliência"
+							>R</abbr
+						>
+						+ <abbr title="Inteligência">I</abbr> = X) _ (<abbr
+							title="Curso Desejado"
+							>C</abbr
+						>
+						+ <abbr title="Instituição desejada">I</abbr> = Y) != X/Y</code
+					>
+				</section>
+				<p class="descricao__texto">
+					Esse teste foi feito pelo professor Marlon Marques da Silva para a
+					turma de 2DS AMS tarde da Etec Zona Leste com o objetivo de direcionar
+					os alunos.
+				</p>
+			</section>
+
+			<section class="formulario">
+				<h2 class="formulario__titulo">Preencha os Campos</h2>
+				<div class="formulario__campo">
+					<p class="campo__descricao">
+						Digite qual você acredita ser sua resiliência com o mínimo de 30 e o
+						máximo de 150
+					</p>
+					<select name="resiliencia" id="resiliencia">
+						<option value="30" selected>30</option>
+						<option value="60">60</option>
+						<option value="90">90</option>
+						<option value="120">120</option>
+						<option value="150">150</option>
+					</select>
+				</div>
+
+				<div class="formulario__campo">
+					<p class="campo__descricao">
+						Digite qual você acredita ser sua inteligência com o mínimo de 30 e
+						o máximo de 150
+					</p>
+					<select name="inteligencia" id="inteligencia">
+						<option value="30" selected>30</option>
+						<option value="60">60</option>
+						<option value="90">90</option>
+						<option value="120">120</option>
+						<option value="150">150</option>
+					</select>
+				</div>
+
+				<div class="formulario__campo">
+					<p class="campo__descricao">
+						Digite qual curso você deseja dentro dos selecionados
+					</p>
+					<select name="curso" id="curso">
+						<option value="20" selected>Licenciaturas em Geral</option>
+						<option value="40">Letras/Pedagogia/História/GEO/ED. FÍSICA</option>
+						<option value="60">
+							MAT/Física/Química/Biologia/Ciências Sociais/Logística
+						</option>
+						<option value="80" >Áudio Visual/Rádio & TV/COMEX</option>
+						<option value="100">Publicidade/ADM/Design/Mkt/Gestão</option>
+						<option value="120">Economia/Contábeis</option>
+						<option value="140">
+							Farmácia/FISIO/Jornalismo/Computação/TI/ADS
+						</option>
+						<option value="160">Psicologia/RI/Direito/Arquitetura</option>
+						<option value="180">Biomed/VET/Engenharias/Odontologia</option>
+						<option value="200">Medicina</option>
+						<option value="100">Outro</option>
+					</select>
+				</div>
+
+				<div class="formulario__campo">
+					<p class="campo__descricao">
+						Digite qual faculdade você deseja dentro dos selecionados
+					</p>
+					<select name="faculdade" id="faculdade">
+						<option value="20" selected>
+							Instituições privadas pouco renomadas c/ bolsa de 50%
+						</option>
+						<option value="40">
+							Instituições privadas pouco renomadas c/ bolsa de 100%
+						</option>
+						<option value="60">
+							Instituições privadas médio renomadas c/ bolsa de 50%
+						</option>
+						<option value="80">
+							Instituições privadas médio renomadas c/ bolsa de 100%
+						</option>
+						<option value="100">
+							FATEC/Instituto Federal-SP/Demais institutos federais/UFABC
+						</option>
+						<option value="120">
+							PUC e Mackenzie 50%/FGV/demais instituições privadas renomadas
+						</option>
+						<option value="140">
+							UNIFESP/UNESP/UNB/UERJ e demais federais/PUC e Mackenzie 100%
+						</option>
+						<option value="160">UFMG/UFRGS/FEDERAL de Sergipe, PE, RJ</option>
+						<option value="180">Unicamp/ITA/IME</option>
+						<option value="200">USP</option>
+						<option value="100">Outra</option>
+					</select>
+				</div>
+
+				<button class="formulario__botao" onclick="verificarChance()">
+					Descubra sua chance
+				</button>
+			</section>
+		</main>
+
+		
+	</body>
+</html>

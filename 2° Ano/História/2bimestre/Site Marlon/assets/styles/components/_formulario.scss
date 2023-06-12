@@ -1,0 +1,25 @@
+.formulario{
+    color:$white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem;
+    .formulario__titulo{
+        font-size: $title;
+        font-weight: 600;
+    }
+
+    .formulario__campo{
+        margin: 1.5rem 0;
+        
+        select{
+            max-width: 80vw;
+            color: $white;
+        }
+    }
+
+    .formulario__botao{
+        color: $white;
+        align-self: center;
+        margin: 0.5rem 0;
+    }
+}

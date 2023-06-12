@@ -1,0 +1,17 @@
+.descricao {
+  height: 100vh;
+  padding: 0 0.5rem;
+  color: #fbfdff;
+}
+.descricao .descricao__titulo {
+  margin-top: 4rem;
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+  font-weight: 600;
+}
+.descricao .formula {
+  margin: 1rem 0;
+}
+.descricao .formula .formula__titulo {
+  font-size: 1.2rem;
+}/*# sourceMappingURL=descricao.css.map */
