@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 13/06/2023 às 15:26
+-- Tempo de geração: 14/06/2023 às 13:48
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -17,12 +17,12 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
-CREATE DATABASE `db_master`;
-
 --
 -- Banco de dados: `db_master`
 --
 
+CREATE DATABASE `db_master`;
+USE `db_master`;
 -- --------------------------------------------------------
 
 --
@@ -31,6 +31,9 @@ CREATE DATABASE `db_master`;
 
 CREATE TABLE `estudante` (
   `id` int(11) NOT NULL,
+  `nome` varchar(50) NOT NULL,
+  `email` varchar(140) NOT NULL,
+  `senha` varchar(50) NOT NULL 
   `resiliencia` int(11) NOT NULL,
   `inteligencia` int(11) NOT NULL,
   `curso` int(11) NOT NULL,
