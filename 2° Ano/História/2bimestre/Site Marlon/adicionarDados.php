@@ -37,7 +37,7 @@ if (isset($_SESSION['id'])) {
             var_dump($registros);
             $_SESSION['id'] = $registros[0]['id'];
             $_SESSION['user'] = $registros[0]['nome'];
-            header("Location: index.php");
+            header("Location: perfil.php");
         }
     }
 }

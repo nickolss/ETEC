@@ -170,9 +170,11 @@
 					acadêmico hoje mesmo!
 				</p>
 
-				<a href="cadastrar.html">
-					<buttton class="btn bg-black text-white">Descubra suas chances de ingresso!</buttton>
-				</a>
+				<div class="d-flex justify-content-center">
+					<a href="cadastrar.html">
+						<buttton class="btn bg-black text-white">Descubra suas chances de ingresso!</buttton>
+					</a>
+				</div>
 			</section>
 		</main>
 
