@@ -1,3 +1,9 @@
+<?php
+	if($_SERVER['HTTP_REFERER'] == 'http://localhost/Site%20Marlon/cadastrar.html' || $_SERVER['HTTP_REFERER'] == 'http://localhost/Site%20Marlon/verificarLogin.php'){
+		echo "<script>alert('Usuário já logado, saia da conta para cadastrar outra')</script>";
+	}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
@@ -52,7 +58,7 @@
 						<div class="offcanvas-body">
 							<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 								<li class="nav-item">
-									<a class="nav-link active" aria-current="page" href="index.html"
+									<a class="nav-link active" aria-current="page" href="index.php"
 										>Home</a
 									>
 								</li>
@@ -86,9 +92,15 @@
 									</ul>
 								</li>
 
-								<button class="btn bg-black text-white">
-									<a href="perfil.html" class="text-white text-decoration-none">
+								<button class="btn bg-black text-white my-2">
+									<a href="login.html" class="text-white text-decoration-none">
                                         <li class="nav-item">Login</li>
+                                    </a>
+								</button>
+
+								<button class="btn bg-black text-white my-2">
+									<a href="perfil.php" class="text-white text-decoration-none">
+                                        <li class="nav-item">Meu Perfil</li>
                                     </a>
 								</button>
 							</ul>

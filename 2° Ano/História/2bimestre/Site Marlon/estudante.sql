@@ -33,7 +33,7 @@ CREATE TABLE `estudante` (
   `id` int(11) NOT NULL,
   `nome` varchar(50) NOT NULL,
   `email` varchar(140) NOT NULL,
-  `senha` varchar(50) NOT NULL 
+  `senha` varchar(50) NOT NULL,
   `resiliencia` int(11) NOT NULL,
   `inteligencia` int(11) NOT NULL,
   `curso` int(11) NOT NULL,
