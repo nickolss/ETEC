@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Login</title>
+		<title>Motivação</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -52,20 +52,20 @@
 						<div class="offcanvas-body">
 							<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 								<li class="nav-item">
-									<a class="nav-link" aria-current="page" href="index.html"
+									<a
+										class="nav-link"
+										aria-current="page"
+										href="index.php"
 										>Home</a
 									>
 								</li>
 								<li class="nav-item">
-									<a
-										class="nav-link active"
-										aria-current="page"
-										href="cadastrar.html"
+									<a class="nav-link" aria-current="page" href="cadastrar.html"
 										>Inscrever-se</a
 									>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" aria-current="page" href="motivacao.html"
+									<a class="nav-link active" aria-current="page" href="motivacao.html"
 										>Motivação do Trabalho</a
 									>
 								</li>
@@ -86,14 +86,14 @@
 
 								<button class="btn bg-black text-white my-2">
 									<a href="login.html" class="text-white text-decoration-none">
-                                        <li class="nav-item active">Login</li>
-                                    </a>
+										<li class="nav-item">Login</li>
+									</a>
 								</button>
 
 								<button class="btn bg-black text-white my-2">
 									<a href="perfil.php" class="text-white text-decoration-none">
-                                        <li class="nav-item">Meu Perfil</li>
-                                    </a>
+										<li class="nav-item">Meu Perfil</li>
+									</a>
 								</button>
 							</ul>
 						</div>
@@ -102,48 +102,17 @@
 			</nav>
 		</header>
 
-		<main class="container py-3">
-			<section class="row pt-5">
-				<!-- <div class="col"> -->
-					<!-- <img src="assets/img/estudantes.jpg" class="img-fluid"/> -->
-				<!-- </div> -->
-				<div class="col d-flex justify-content-center">
-					<div class="card bg-dark text-white">
-						<div class="card-body">
-							<h3 class="card-title">Faça seu login</h3>
-							<form class="d-flex flex-column" method="POST" action="verificaLogin.php">
-								<div class="mb-3">
-									<label for="email" class="form-label"
-										>Email</label
-									>
-									<input
-										type="email"
-										class="form-control"
-										id="email"
-										aria-describedby="Digite seu Email"
-										name="email"
-										required
-									/>
-								</div>
-								<div class="mb-3">
-									<label for="senha" class="form-label"
-										>Senha</label
-									>
-									<input
-										type="password"
-										class="form-control"
-										id="senha"
-										name="senha"
-										required
-									/>
-								</div>
-								<button type="submit" class="btn bg-black text-white px-5 mx-auto">Entrar</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
+        <main class="container text-white mt-5 ">
+            <section class="row">
+                <div class="col motivacao">
+					<img src="assets/img/desenvolvedor.jpg" alt="" class="img-fluid my-4 rounded">
+					<h2 class="fs-1 text-sm-center">Motivação do Trabalho</h2>
+					<p class="motivacao__texto">
+						Este projeto foi minuciosamente elaborado com o objetivo de obter uma pontuação excepcional na ETEC da Zona Leste, sob a orientação do professor Marlon Marques da Silva. Além de cumprir com os requisitos estabelecidos, busquei utilizar a fórmula fornecida pelo professor como uma oportunidade para testar e aprimorar minhas habilidades em desenvolvimento Front-end e manipulação de bancos de dados inserindo, criando e modificando dados.
+					</p>
+                </div>
+            </section>
+        </main>
 
 		<footer class="rodape row text-center py-4">
 			<div class="col">

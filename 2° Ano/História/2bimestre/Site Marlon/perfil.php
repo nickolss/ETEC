@@ -6,7 +6,7 @@ if (!isset($_SESSION)) {
 }
 
 if (!isset($_SESSION['id'])) {
-	die("Você precisa fazer login para acessar o perfil");
+	die("<p>Você precisa fazer login para acessar o perfil</p>");
 }
 
 
@@ -25,9 +25,9 @@ $registros = $realizarConstulta->fetchAll();
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Home</title>
+	<title>Perfil</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-	
+
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script type="text/javascript">
 		//Carrega a API do google
@@ -48,7 +48,43 @@ $registros = $realizarConstulta->fetchAll();
 			]);
 
 			let options = {
-				title: 'Suas competências'
+				backgroundColor: 'transparent',
+
+				title: "Suas competências",
+
+				slices: {
+					0: {
+						color: '#7126dd'
+					}
+				},
+
+				pieSliceText: 'value',
+
+				titleTextStyle: {
+					color: 'white'
+				},
+
+				'tooltip.textStyle': {
+					color: 'white'
+				},
+
+				pieSliceTextStyle: {
+					color: 'white',
+					fontSize: 16
+				},
+
+				chartArea: {
+					width: '100%',
+					height: '100%',
+					left: 10,
+					top: 20
+				},
+				legend: {
+					textStyle: {
+						color: '#fff',
+						fontSize: 12
+					}
+				},
 			};
 
 			//Define onde será inserido o gráfico
@@ -65,7 +101,43 @@ $registros = $realizarConstulta->fetchAll();
 			]);
 
 			let opcoes = {
-				title: 'Seu objetivo'
+				backgroundColor: 'transparent',
+
+				title: "Seu objetivo",
+
+				slices: {
+					0: {
+						color: '#7126dd'
+					}
+				},
+
+				pieSliceText: 'value',
+
+				titleTextStyle: {
+					color: 'white'
+				},
+
+				'tooltip.textStyle': {
+					color: 'white'
+				},
+
+				pieSliceTextStyle: {
+					color: 'white',
+					fontSize: 16
+				},
+
+				chartArea: {
+					width: '100%',
+					height: '100%',
+					left: 10,
+					top: 20
+				},
+				legend: {
+					textStyle: {
+						color: '#fff',
+						fontSize: 12
+					}
+				},
 			};
 
 			let graficoY = new google.visualization.PieChart(document.getElementById('graficoY'));
@@ -98,17 +170,14 @@ $registros = $realizarConstulta->fetchAll();
 								<a class="nav-link" aria-current="page" href="cadastrar.html">Inscrever-se</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#">Motivação do Trabalho</a>
+								<a class="nav-link" aria-current="page" href="motivacao.html">Motivação do Trabalho</a>
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 									Créditos
 								</a>
 								<ul class="dropdown-menu dropdown-menu-dark">
-									<li><a class="dropdown-item" href="#">Desenvolvedor</a></li>
-									<li>
-										<a class="dropdown-item" href="#">Professor Responsável</a>
-									</li>
+									<li><a class="dropdown-item" href="desenvolvedor.html">Desenvolvedor</a></li>
 								</ul>
 							</li>
 
@@ -120,7 +189,7 @@ $registros = $realizarConstulta->fetchAll();
 
 							<button class="btn bg-black text-white my-2">
 								<a href="perfil.php" class="text-white text-decoration-none">
-									<li class="nav-item">Meu Perfil</li>
+									<li class="nav-item active">Meu Perfil</li>
 								</a>
 							</button>
 						</ul>
@@ -132,14 +201,23 @@ $registros = $realizarConstulta->fetchAll();
 
 	<main class="principal pt-5 container">
 		<section class="perfil row">
-			<div class="col">
-				<div class="graficos">
-					<div id="graficoX" style="width: 900px; height: 500px;"></div>
-					<div id="graficoY" style="width: 900px; height: 500px;"></div>
+			<div class="col text-white">
+				<div class="graficos py-4">
+					<div id="graficoX" class="img-fluid"></div>
+					<div id="graficoY" class="img-fluid"></div>
 				</div>
 			</div>
 		</section>
 	</main>
+
+	<footer class="rodape row text-center py-4">
+		<div class="col">
+			<p class="rodape__creditos">
+				Site desenvolvido por
+				<a href="https://github.com/nickolss" target="_blank">Nickolas Maia de Araujo</a>
+			</p>
+		</div>
+	</footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

@@ -68,7 +68,7 @@
 									>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" aria-current="page" href="#"
+									<a class="nav-link" aria-current="page" href="motivacao.html"
 										>Motivação do Trabalho</a
 									>
 								</li>
@@ -83,12 +83,7 @@
 										Créditos
 									</a>
 									<ul class="dropdown-menu dropdown-menu-dark">
-										<li><a class="dropdown-item" href="#">Desenvolvedor</a></li>
-										<li>
-											<a class="dropdown-item" href="#"
-												>Professor Responsável</a
-											>
-										</li>
+										<li><a class="dropdown-item" href="desenvolvedor.html">Desenvolvedor</a></li>
 									</ul>
 								</li>
 
