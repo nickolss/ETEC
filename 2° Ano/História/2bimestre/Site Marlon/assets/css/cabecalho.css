@@ -1,0 +1,40 @@
+.cabecalho-desktop {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.cabecalho-mobile {
+		display: none;
+	}
+
+	.cabecalho-desktop {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1.2rem;
+	}
+
+	.menu__lista {
+		display: flex;
+		gap: 10px;
+	}
+
+	.menu__link {
+		text-decoration: none;
+		color: #7b29f2;
+		transition: all 0.8s;
+	}
+
+	.menu__link:hover {
+		color: #512199;
+	}
+
+	.menu__item {
+		list-style: none;
+	}
+
+    /* GOOGLE FONTS ICON */
+	.material-symbols-outlined {
+		font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 90;
+	}
+}
