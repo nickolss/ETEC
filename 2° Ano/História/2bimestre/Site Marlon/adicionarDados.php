@@ -34,7 +34,6 @@ if (isset($_SESSION['id'])) {
             $sqlConsulta = "SELECT * FROM `estudante` WHERE email='$email' AND senha='$senha'";
             $realizarConsulta = $pdo->query($sqlConsulta);
             $registros = $realizarConsulta->fetchAll();
-            var_dump($registros);
             $_SESSION['id'] = $registros[0]['id'];
             $_SESSION['user'] = $registros[0]['nome'];
             header("Location: perfil.php");
