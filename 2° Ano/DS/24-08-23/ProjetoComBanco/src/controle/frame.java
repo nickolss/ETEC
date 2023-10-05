@@ -23,6 +23,7 @@ public class frame extends javax.swing.JFrame {
         con_cliente.conecta();
         con_cliente.executarSQL("SELECT * FROM tbclientes order by cod");
         preencherTabela();
+        posicionarRegistro();
     }
     
     public void preencherTabela(){
@@ -49,6 +50,27 @@ public class frame extends javax.swing.JFrame {
             
         } catch (SQLException erro) {
             JOptionPane.showMessageDialog(null, "Erro ao listar dados \n" + erro , "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+        }
+    }
+    
+    public void posicionarRegistro(){
+        try {
+            con_cliente.resultset.first();
+            mostrarDados();
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Não localizou dados: " + e, "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+        }
+    }
+    
+    public void mostrarDados(){
+        try {
+            txtCodigo.setText(con_cliente.resultset.getString("cod"));
+            txtNome.setText(con_cliente.resultset.getString("nome"));
+            txtDataNasc.setText(con_cliente.resultset.getString("dt_nasc"));
+            txtTelefone.setText(con_cliente.resultset.getString("telefone"));
+            txtEmail.setText(con_cliente.resultset.getString("email")); 
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Não localizou dados: " + e, "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
         }
     }
     
@@ -105,6 +127,14 @@ public class frame extends javax.swing.JFrame {
         txtCodigo = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         tbtClientes = new javax.swing.JTable();
+        btnÇast = new javax.swing.JButton();
+        btnLeft = new javax.swing.JButton();
+        btnRight = new javax.swing.JButton();
+        btnFirst = new javax.swing.JButton();
+        btnNovo = new javax.swing.JButton();
+        btnSalvar = new javax.swing.JButton();
+        btnAlterar = new javax.swing.JButton();
+        btnExcluir = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -149,7 +179,73 @@ public class frame extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
+        tbtClientes.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tbtClientesMouseClicked(evt);
+            }
+        });
+        tbtClientes.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                tbtClientesKeyPressed(evt);
+            }
+        });
         jScrollPane1.setViewportView(tbtClientes);
+
+        btnÇast.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/back.png"))); // NOI18N
+        btnÇast.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnÇastActionPerformed(evt);
+            }
+        });
+
+        btnLeft.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/left-arrow.png"))); // NOI18N
+        btnLeft.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLeftActionPerformed(evt);
+            }
+        });
+
+        btnRight.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/right-arrow.png"))); // NOI18N
+        btnRight.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRightActionPerformed(evt);
+            }
+        });
+
+        btnFirst.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/next.png"))); // NOI18N
+        btnFirst.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFirstActionPerformed(evt);
+            }
+        });
+
+        btnNovo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Add.png"))); // NOI18N
+        btnNovo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnNovoActionPerformed(evt);
+            }
+        });
+
+        btnSalvar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Save.png"))); // NOI18N
+        btnSalvar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSalvarActionPerformed(evt);
+            }
+        });
+
+        btnAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/edit.png"))); // NOI18N
+        btnAlterar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAlterarActionPerformed(evt);
+            }
+        });
+
+        btnExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/table_row_delete.png"))); // NOI18N
+        btnExcluir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnExcluirActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -171,46 +267,229 @@ public class frame extends javax.swing.JFrame {
                             .addComponent(txtNome)
                             .addComponent(txtDataNasc)
                             .addComponent(txtTelefone)
-                            .addComponent(txtEmail)))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 343, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(19, Short.MAX_VALUE))
+                            .addComponent(txtEmail))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addComponent(btnÇast)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnLeft)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnRight)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnFirst)
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 343, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(btnNovo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(btnSalvar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(btnAlterar, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                    .addComponent(btnExcluir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addGap(22, 22, 22))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(14, 14, 14)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblCodigo)
-                    .addComponent(txtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblNome)
-                    .addComponent(txtNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblDataNasc)
-                    .addComponent(txtDataNasc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblTelefone)
-                    .addComponent(txtTelefone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblEmail)
-                    .addComponent(txtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 219, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(27, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnFirst)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblCodigo)
+                            .addComponent(txtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNome)
+                            .addComponent(txtNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblDataNasc)
+                            .addComponent(txtDataNasc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblTelefone)
+                            .addComponent(txtTelefone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblEmail)
+                            .addComponent(txtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnNovo)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnSalvar)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnAlterar)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnExcluir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(btnÇast)
+                                .addComponent(btnLeft, javax.swing.GroupLayout.Alignment.TRAILING))
+                            .addComponent(btnRight))))
+                .addContainerGap(20, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void tbtClientesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tbtClientesMouseClicked
+        int linha_selecionada = tbtClientes.getSelectedRow();
+        
+        txtCodigo.setText(tbtClientes.getValueAt(linha_selecionada, 0).toString());
+        txtNome.setText(tbtClientes.getValueAt(linha_selecionada, 1).toString());
+        txtDataNasc.setText(tbtClientes.getValueAt(linha_selecionada, 2).toString());
+        txtTelefone.setText(tbtClientes.getValueAt(linha_selecionada, 3).toString());
+        txtEmail.setText(tbtClientes.getValueAt(linha_selecionada, 4).toString());
+    }//GEN-LAST:event_tbtClientesMouseClicked
+
+    private void tbtClientesKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_tbtClientesKeyPressed
+        int linha_selecionada = tbtClientes.getSelectedRow();
+        
+        txtCodigo.setText(tbtClientes.getValueAt(linha_selecionada, 0).toString());
+        txtNome.setText(tbtClientes.getValueAt(linha_selecionada, 1).toString());
+        txtDataNasc.setText(tbtClientes.getValueAt(linha_selecionada, 2).toString());
+        txtTelefone.setText(tbtClientes.getValueAt(linha_selecionada, 3).toString());
+        txtEmail.setText(tbtClientes.getValueAt(linha_selecionada, 4).toString());
+    }//GEN-LAST:event_tbtClientesKeyPressed
+
+    private void btnÇastActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnÇastActionPerformed
+        try {
+            con_cliente.resultset.first();
+            mostrarDados();
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Não foi possível acessar o primeiro registro: " + e, "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+        }
+    }//GEN-LAST:event_btnÇastActionPerformed
+
+    private void btnFirstActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFirstActionPerformed
+        try {
+            con_cliente.resultset.last();
+            mostrarDados();
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Não foi possível acessar o último registro: " + e, "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+        }
+    }//GEN-LAST:event_btnFirstActionPerformed
+
+    private void btnLeftActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLeftActionPerformed
+        try {
+            con_cliente.resultset.previous();
+            mostrarDados();
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Não foi possível posicionar no registro anterior: " + e, "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+        }
+    }//GEN-LAST:event_btnLeftActionPerformed
+
+    private void btnRightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRightActionPerformed
+        try {
+            con_cliente.resultset.next();
+            mostrarDados();
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Não foi possível posicionar no registro posterior: " + e, "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+        }
+    }//GEN-LAST:event_btnRightActionPerformed
+
+    private void btnNovoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNovoActionPerformed
+        txtCodigo.setText("");
+        txtNome.setText("");
+        txtDataNasc.setText("");
+        txtTelefone.setText("");
+        txtEmail.setText("");
+    }//GEN-LAST:event_btnNovoActionPerformed
+
+    private void btnSalvarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalvarActionPerformed
+        String nome = txtNome.getText();
+        String dataNasc = txtDataNasc.getText();
+        String telefone = txtTelefone.getText();
+        String email = txtEmail.getText();
+        
+        try {
+            String insert = "insert into tbclientes (nome, dt_nasc, telefone, email) values ('" + nome + "','" + dataNasc + "','" + telefone +  "','" + email + "')";
+            con_cliente.statement.executeUpdate(insert);
+            JOptionPane.showMessageDialog(null, "Gravação feita com sucesso" , "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+            con_cliente.executarSQL("select * from tbclientes order by cod");
+            con_cliente.resultset.first();
+            preencherTabela();
+            mostrarDados(); 
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Não foi possível posicionar no registro posterior: " + e, "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+        }
+    }//GEN-LAST:event_btnSalvarActionPerformed
+
+    private void btnAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAlterarActionPerformed
+
+        String nome = txtNome.getText();
+        String dataNasc = txtDataNasc.getText();
+        String telefone = txtTelefone.getText();
+        String email = txtEmail.getText();
+        String sql = "";
+        String msg = "";
+        
+        try {
+            if(txtCodigo.getText().equals("")){
+                sql = "insert into tbclientes (nome, dt_nasc, telefone, email) values ('" + nome + "','" + dataNasc + "','" + telefone +  "','" + email + "')";
+                msg = "Gravação de um novo registro!";
+            }else{
+                sql = "update tbclientes set nome='" + nome + "', dt_nasc='" + dataNasc + "', telefone='" + telefone + "', email='" + email + "' where cod = " + txtCodigo.getText();
+                msg = "Alteração de registro";
+            }
+            
+            con_cliente.statement.executeUpdate(sql);
+            JOptionPane.showMessageDialog(null, msg + " realizada com sucesso!" , "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+            
+            con_cliente.executarSQL("select * from tbclientes order by cod");
+            preencherTabela();
+            mostrarDados(); 
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "\n Erro na gravação: \n" + e , "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+        }   
+    }//GEN-LAST:event_btnAlterarActionPerformed
+
+    private void btnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExcluirActionPerformed
+        String sql = "";
+        
+        try {
+            int resposta = JOptionPane.showConfirmDialog(rootPane, "Deseja excluir o registro: " , "Confirmar exclusão" , JOptionPane.YES_NO_OPTION);
+            
+            if(resposta == 0){
+                sql = "delete from tbclientes where cod='" + txtCodigo.getText() + "'";
+                int excluir = con_cliente.statement.executeUpdate(sql);
+                
+                if(excluir == 1){
+                    JOptionPane.showMessageDialog(null, "Exclusão realizada com sucesso!!" , "Messagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+                    con_cliente.executarSQL("select * from tbclientes order by cod");
+                    con_cliente.resultset.first();
+                    preencherTabela();
+                    posicionarRegistro();
+                }else{
+                    JOptionPane.showMessageDialog(null, "Operação cancelada pelo usuário!" , "Messagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+                }
+            }
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Erro na Exclusão" + e , "Messagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+        }
+    }//GEN-LAST:event_btnExcluirActionPerformed
 
     /**
      * @param args the command line arguments
      */
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnAlterar;
+    private javax.swing.JButton btnExcluir;
+    private javax.swing.JButton btnFirst;
+    private javax.swing.JButton btnLeft;
+    private javax.swing.JButton btnNovo;
+    private javax.swing.JButton btnRight;
+    private javax.swing.JButton btnSalvar;
+    private javax.swing.JButton btnÇast;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblCodigo;
     private javax.swing.JLabel lblDataNasc;
