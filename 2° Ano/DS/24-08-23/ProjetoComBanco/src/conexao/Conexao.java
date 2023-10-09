@@ -1,57 +1,57 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package conexao;
 
 import javax.swing.JOptionPane;
 import java.sql.*;
-/**
- *
- * @author nicks
- */
+
+/*@author Pedro
+
+Essa classe será responsável pela execução com o MySQL
+
+Três métodos: Abertura conexão, fechamento conexão e execução de comandos SQL*/
+
+ 
 public class Conexao {
+    
     final private String driver = "com.mysql.jdbc.Driver"; //definição de driver MySQL para acesso aos dados
-    final private String url = "jdbc:mysql://localhost:3306/clientes?characterEncoding=utf8"; //acesso ao bd clientes no servidor
+    final private String url = "jdbc:mysql://localhost/clientes"; //acesso ao bd clientes no servidor
     final private String usuario = "root"; //usuario MySQL 
     final private String senha = ""; //senha do MySQL
     private Connection conexao; //variavel que armazenará a conexão aberta;
     public Statement statement; //variável para exsecução dos comandos SQL dentro do ambiete Java
     public ResultSet resultset; //variável que armazenará o resultado da execução de um comando SQL
     
+    //método para conetar com o banco de dados
     public boolean conecta(){
-        boolean resultado = true;
-        
-        try {
+        boolean result = true;
+        try{
             Class.forName(driver);
-            conexao = DriverManager.getConnection(url , usuario , senha);
-            JOptionPane.showMessageDialog(null, "Conexão estabelecida" , "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
-        } catch (ClassNotFoundException erro) {
-            JOptionPane.showMessageDialog(null, "Driver não localizado" + erro , "Mensagem do sistema" , JOptionPane.INFORMATION_MESSAGE);
-            resultado = false;
-        } catch (SQLException erro){
-            JOptionPane.showMessageDialog(null, "Fonte de dados não localizada" + erro , "Mensagem do programa" , JOptionPane.INFORMATION_MESSAGE);
-            resultado = false;
+            conexao = DriverManager.getConnection(url, usuario, senha);
+            JOptionPane.showMessageDialog(null, "Conexão estabelecida ", "Mensagem do Programa", JOptionPane.INFORMATION_MESSAGE);
+        }catch(ClassNotFoundException Driver){
+            JOptionPane.showMessageDialog(null, "Driver não localizado "+Driver, "Mensagem do Programa", JOptionPane.INFORMATION_MESSAGE);
+            result = false;
+        }catch(SQLException Fonte){
+            JOptionPane.showMessageDialog(null, "Fonte de dados não localizada "+Fonte, "Mensagem do Programa", JOptionPane.INFORMATION_MESSAGE);
+            result = false;
         }
-        
-        return resultado;
+        return result;
     }
     
-    public void desconecta(){
-        try {
+    //método para desconectar com o banco de dados
+    public void descontecta(){
+        try{
             conexao.close();
-            JOptionPane.showMessageDialog(null, "Conexão com BD terminada" , "Mensagem do programa" , JOptionPane.INFORMATION_MESSAGE);
-        } catch (SQLException erro) {
-            
-        }
+            JOptionPane.showMessageDialog(null, "Conexão com o banco fechada", "Mensagem do Programa", JOptionPane.INFORMATION_MESSAGE);
+        }catch(SQLException fecha){}//a conexão é encerrada
     }
     
-    public void executarSQL(String sql){
-        try {
+    //método para executar querys em SQL
+    public void executaSQL(String sql){
+        try{
             statement = conexao.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_READ_ONLY);
             resultset = statement.executeQuery(sql);
-        } catch (SQLException erro) {
-            JOptionPane.showMessageDialog(null, "Erro na execução do comando \n" + erro , "Mensagem do Programa" , JOptionPane.INFORMATION_MESSAGE);
+        }catch(SQLException excecao){
+             JOptionPane.showMessageDialog(null, "Erro no comando SQL \n ERRO:" +excecao, "Mensagem do Programa", JOptionPane.INFORMATION_MESSAGE);
         }
     }
     
