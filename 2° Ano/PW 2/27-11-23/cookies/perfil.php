@@ -1,15 +1,3 @@
-<?php
-if (!empty($_POST)) {
-	$user = $_POST['username'];
-	$senha = $_POST['pass'];
-
-	if (!isset($_COOKIE['user'])) {
-		setcookie("user", $user, time() + 3600, "/");
-		setcookie("senha", $senha, time() + 3600, "/");
-	}
-}
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -56,7 +44,7 @@ if (!empty($_POST)) {
 					</div>
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn" style="margin: 0 5px;" type="submit">
+						<button class="login100-form-btn" style="margin: 0 5px;" type="submit" formaction="./src/scripts/mudarInfo.php">
 							Mudar Informações
 						</button>
 						<button class="login100-form-btn" style="margin: 0 5px;" type="submit" formaction="./src/scripts/logout.php">

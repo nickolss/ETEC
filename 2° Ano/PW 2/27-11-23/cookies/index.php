@@ -11,8 +11,15 @@ if (!empty($_POST)) {
 			<script>
 				alert("Usuario ou senha incorreto");
 			</script>
-<?php
+		<?php
 		}
+	} else {
+		?>
+		<script>
+			alert("Usuario ou senha incorreto");
+		</script>
+
+<?php
 	}
 }
 ?>
@@ -51,8 +58,10 @@ if (!empty($_POST)) {
 					</span>
 
 					<span class="login100-form-title p-b-34 p-t-27">
-						Login
+						Login Unitário
+						<p style="color: #fff;">(Essa conta irá sumir, então use com cuidado)</p>
 					</span>
+
 
 					<div class="wrap-input100 validate-input" data-validate="Enter username">
 						<input class="input100" type="text" name="username" placeholder="Usuário">

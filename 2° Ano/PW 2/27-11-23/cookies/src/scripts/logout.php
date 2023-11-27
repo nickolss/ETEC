@@ -1,6 +1,5 @@
 <?php
-    setcookie("user" , "");
-    setcookie("senha" , "");
+setcookie("user", "", time() + 3600, "/");
+setcookie("senha", "", time() + 3600, "/");
 
-    header("Location: ../../index.php");
-?>
+header("Location: ../../index.php");
