@@ -59,10 +59,10 @@ fun Aula170524Theme(
 }
 
 @Composable
-fun Mb_Button() = ButtonDefaults.buttonColors(containerColor = DarkGreen)
+fun Mb_Button() = ButtonDefaults.buttonColors(containerColor = DarkBlue)
 
 @Composable
-fun B_Button() = ButtonDefaults.buttonColors(containerColor = DarkBlue)
+fun B_Button() = ButtonDefaults.buttonColors(containerColor = DarkGreen)
 
 @Composable
 fun R_Button() = ButtonDefaults.buttonColors(containerColor = DarkOrange)

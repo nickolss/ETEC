@@ -22,7 +22,12 @@ import androidx.compose.material3.ElevatedButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
@@ -41,7 +46,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Aula170524Theme {
-
+                App()
             }
         }
     }
@@ -84,6 +89,16 @@ fun App(){
                 Text(
                     text = "ETEC DA ZONA LESTE",
                     fontSize = 5.em
+                )
+            }
+            Row(
+                Modifier.padding(vertical = 10.dp)
+            ){
+                var nome by remember { mutableStateOf("") }
+                TextField(
+                    value = nome,
+                    onValueChange = {nome = it},
+                    label = { Text(text = "Digite o seu nome: ")}
                 )
             }
 
